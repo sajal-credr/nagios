@@ -179,3 +179,1644 @@
 [1456554026] wproc: Registry request: name=Core Worker 9218;pid=9218
 [1456554026] Warning: Duplicate definition found for service 'CPU Usage' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 76)
 [1456554026] Warning: Duplicate definition found for service 'Current Load' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 67)
+[1456555232] Caught SIGHUP, restarting...
+[1456555232] Event broker module 'NERD' deinitialized successfully.
+[1456555232] Nagios 4.1.1 starting... (PID=28927)
+[1456555232] Local time is Sat Feb 27 12:10:32 IST 2016
+[1456555232] LOG VERSION: 2.0
+[1456555232] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1456555232] qh: core query handler registered
+[1456555232] nerd: Channel hostchecks registered successfully
+[1456555232] nerd: Channel servicechecks registered successfully
+[1456555232] nerd: Channel opathchecks registered successfully
+[1456555232] nerd: Fully initialized and ready to rock!
+[1456555232] wproc: Successfully registered manager as @wproc with query handler
+[1456555232] wproc: Registry request: name=Core Worker 14721;pid=14721
+[1456555232] wproc: Registry request: name=Core Worker 14722;pid=14722
+[1456555232] wproc: Registry request: name=Core Worker 14720;pid=14720
+[1456555232] wproc: Registry request: name=Core Worker 14723;pid=14723
+[1456555232] Warning: Duplicate definition found for service 'CPU Usage' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 76)
+[1456555232] Warning: Duplicate definition found for service 'Current Load' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 67)
+[1456555263] SERVICE ALERT: offokplese_52.74.206.204;Zombie Process;UNKNOWN;SOFT;1;NRPE: Unable to read output
+[1456555292] SERVICE ALERT: offokplese_52.74.206.204;CPU Usage;UNKNOWN;SOFT;1;NRPE: Unable to read output
+[1456555307] SERVICE ALERT: offokplese_52.74.206.204;Current Load;UNKNOWN;SOFT;1;NRPE: Unable to read output
+[1456555322] SERVICE ALERT: offokplese_52.74.206.204;Current Users;UNKNOWN;SOFT;1;NRPE: Unable to read output
+[1456555323] SERVICE ALERT: offokplese_52.74.206.204;Zombie Process;UNKNOWN;SOFT;2;NRPE: Unable to read output
+[1456555337] SERVICE ALERT: offokplese_52.74.206.204;Memory;UNKNOWN;SOFT;1;NRPE: Unable to read output
+[1456555342] Caught SIGTERM, shutting down...
+[1456555342] Successfully shutdown... (PID=28927)
+[1456555342] Event broker module 'NERD' deinitialized successfully.
+[1456555343] Nagios 4.1.1 starting... (PID=14911)
+[1456555343] Local time is Sat Feb 27 12:12:23 IST 2016
+[1456555343] LOG VERSION: 2.0
+[1456555343] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1456555343] qh: core query handler registered
+[1456555343] nerd: Channel hostchecks registered successfully
+[1456555343] nerd: Channel servicechecks registered successfully
+[1456555343] nerd: Channel opathchecks registered successfully
+[1456555343] nerd: Fully initialized and ready to rock!
+[1456555343] wproc: Successfully registered manager as @wproc with query handler
+[1456555343] wproc: Registry request: name=Core Worker 14915;pid=14915
+[1456555343] wproc: Registry request: name=Core Worker 14914;pid=14914
+[1456555343] wproc: Registry request: name=Core Worker 14913;pid=14913
+[1456555343] wproc: Registry request: name=Core Worker 14912;pid=14912
+[1456555343] Warning: Duplicate definition found for service 'CPU Usage' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 76)
+[1456555343] Warning: Duplicate definition found for service 'Current Load' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 67)
+[1456555343] Successfully launched command file worker with pid 14916
+[1456555346] SERVICE ALERT: offokplese_52.74.206.204;Total Processes;UNKNOWN;SOFT;1;NRPE: Unable to read output
+[1456555352] SERVICE ALERT: offokplese_52.74.206.204;CPU Usage;UNKNOWN;SOFT;2;NRPE: Unable to read output
+[1456555367] SERVICE ALERT: offokplese_52.74.206.204;Current Load;UNKNOWN;SOFT;2;NRPE: Unable to read output
+[1456555368] SERVICE ALERT: offokplese_52.74.206.204;Ping Check;UNKNOWN;SOFT;1;NRPE: Unable to read output
+[1456555382] SERVICE ALERT: offokplese_52.74.206.204;Current Users;UNKNOWN;SOFT;2;NRPE: Unable to read output
+[1456555383] SERVICE ALERT: offokplese_52.74.206.204;Root Partition;UNKNOWN;SOFT;1;NRPE: Unable to read output
+[1456555383] SERVICE ALERT: offokplese_52.74.206.204;Zombie Process;UNKNOWN;HARD;3;NRPE: Unable to read output
+[1456555383] SERVICE NOTIFICATION: vivek;offokplese_52.74.206.204;Zombie Process;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555383] SERVICE NOTIFICATION: nagiosadmin;offokplese_52.74.206.204;Zombie Process;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555383] SERVICE NOTIFICATION: mohit;offokplese_52.74.206.204;Zombie Process;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555383] SERVICE NOTIFICATION: nagiosinfra;offokplese_52.74.206.204;Zombie Process;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555383] wproc: NOTIFY job 12 from worker Core Worker 14915 is a non-check helper but exited with return code 2
+[1456555383] wproc:   host=offokplese_52.74.206.204; service=Zombie Process; contact=nagiosinfra
+[1456555383] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555383] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555383] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555383] wproc: NOTIFY job 11 from worker Core Worker 14914 is a non-check helper but exited with return code 2
+[1456555383] wproc:   host=offokplese_52.74.206.204; service=Zombie Process; contact=vivek
+[1456555383] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555383] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555383] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555383] wproc: NOTIFY job 11 from worker Core Worker 14912 is a non-check helper but exited with return code 2
+[1456555383] wproc:   host=offokplese_52.74.206.204; service=Zombie Process; contact=mohit
+[1456555383] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555383] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555383] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555397] SERVICE ALERT: offokplese_52.74.206.204;Memory;UNKNOWN;SOFT;2;NRPE: Unable to read output
+[1456555406] SERVICE ALERT: offokplese_52.74.206.204;Total Processes;UNKNOWN;SOFT;2;NRPE: Unable to read output
+[1456555412] SERVICE ALERT: offokplese_52.74.206.204;CPU Usage;UNKNOWN;HARD;3;NRPE: Unable to read output
+[1456555412] SERVICE NOTIFICATION: vivek;offokplese_52.74.206.204;CPU Usage;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555412] SERVICE NOTIFICATION: nagiosadmin;offokplese_52.74.206.204;CPU Usage;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555412] SERVICE NOTIFICATION: mohit;offokplese_52.74.206.204;CPU Usage;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555412] SERVICE NOTIFICATION: nagiosinfra;offokplese_52.74.206.204;CPU Usage;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555412] wproc: NOTIFY job 19 from worker Core Worker 14914 is a non-check helper but exited with return code 2
+[1456555412] wproc:   host=offokplese_52.74.206.204; service=CPU Usage; contact=mohit
+[1456555412] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555412] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555412] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555412] wproc: NOTIFY job 18 from worker Core Worker 14912 is a non-check helper but exited with return code 2
+[1456555412] wproc:   host=offokplese_52.74.206.204; service=CPU Usage; contact=vivek
+[1456555412] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555412] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555412] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555412] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456555412] wproc: NOTIFY job 19 from worker Core Worker 14913 is a non-check helper but exited with return code 2
+[1456555412] wproc:   host=offokplese_52.74.206.204; service=CPU Usage; contact=nagiosinfra
+[1456555412] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555412] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555412] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555427] SERVICE ALERT: offokplese_52.74.206.204;Current Load;UNKNOWN;HARD;3;NRPE: Unable to read output
+[1456555427] SERVICE NOTIFICATION: vivek;offokplese_52.74.206.204;Current Load;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555427] SERVICE NOTIFICATION: nagiosadmin;offokplese_52.74.206.204;Current Load;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555427] SERVICE NOTIFICATION: mohit;offokplese_52.74.206.204;Current Load;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555427] SERVICE NOTIFICATION: nagiosinfra;offokplese_52.74.206.204;Current Load;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555427] wproc: NOTIFY job 20 from worker Core Worker 14912 is a non-check helper but exited with return code 2
+[1456555427] wproc:   host=offokplese_52.74.206.204; service=Current Load; contact=mohit
+[1456555427] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555427] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555427] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555427] wproc: NOTIFY job 21 from worker Core Worker 14915 is a non-check helper but exited with return code 2
+[1456555427] wproc:   host=offokplese_52.74.206.204; service=Current Load; contact=nagiosinfra
+[1456555427] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555427] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555427] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555427] wproc: NOTIFY job 20 from worker Core Worker 14914 is a non-check helper but exited with return code 2
+[1456555427] wproc:   host=offokplese_52.74.206.204; service=Current Load; contact=vivek
+[1456555427] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555427] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555427] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555427] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456555428] SERVICE ALERT: offokplese_52.74.206.204;Ping Check;UNKNOWN;SOFT;2;NRPE: Unable to read output
+[1456555442] SERVICE ALERT: offokplese_52.74.206.204;Current Users;UNKNOWN;HARD;3;NRPE: Unable to read output
+[1456555442] SERVICE NOTIFICATION: vivek;offokplese_52.74.206.204;Current Users;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555442] SERVICE NOTIFICATION: nagiosadmin;offokplese_52.74.206.204;Current Users;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555442] SERVICE NOTIFICATION: mohit;offokplese_52.74.206.204;Current Users;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555442] SERVICE NOTIFICATION: nagiosinfra;offokplese_52.74.206.204;Current Users;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555442] wproc: NOTIFY job 29 from worker Core Worker 14913 is a non-check helper but exited with return code 2
+[1456555442] wproc:   host=offokplese_52.74.206.204; service=Current Users; contact=mohit
+[1456555442] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555442] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555442] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555442] wproc: NOTIFY job 29 from worker Core Worker 14912 is a non-check helper but exited with return code 2
+[1456555442] wproc:   host=offokplese_52.74.206.204; service=Current Users; contact=nagiosinfra
+[1456555442] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555442] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555442] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555442] wproc: NOTIFY job 29 from worker Core Worker 14915 is a non-check helper but exited with return code 2
+[1456555442] wproc:   host=offokplese_52.74.206.204; service=Current Users; contact=vivek
+[1456555442] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555442] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555442] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555442] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456555443] SERVICE ALERT: offokplese_52.74.206.204;Root Partition;UNKNOWN;SOFT;2;NRPE: Unable to read output
+[1456555457] SERVICE ALERT: offokplese_52.74.206.204;Memory;UNKNOWN;HARD;3;NRPE: Unable to read output
+[1456555457] SERVICE NOTIFICATION: vivek;offokplese_52.74.206.204;Memory;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555457] SERVICE NOTIFICATION: nagiosadmin;offokplese_52.74.206.204;Memory;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555457] SERVICE NOTIFICATION: mohit;offokplese_52.74.206.204;Memory;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555457] SERVICE NOTIFICATION: nagiosinfra;offokplese_52.74.206.204;Memory;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555457] wproc: NOTIFY job 30 from worker Core Worker 14912 is a non-check helper but exited with return code 2
+[1456555457] wproc:   host=offokplese_52.74.206.204; service=Memory; contact=vivek
+[1456555457] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555457] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555457] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555457] wproc: NOTIFY job 31 from worker Core Worker 14914 is a non-check helper but exited with return code 2
+[1456555457] wproc:   host=offokplese_52.74.206.204; service=Memory; contact=mohit
+[1456555457] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555457] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555457] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555457] wproc: NOTIFY job 31 from worker Core Worker 14913 is a non-check helper but exited with return code 2
+[1456555457] wproc:   host=offokplese_52.74.206.204; service=Memory; contact=nagiosinfra
+[1456555457] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555457] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555457] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555466] SERVICE ALERT: offokplese_52.74.206.204;Total Processes;UNKNOWN;HARD;3;NRPE: Unable to read output
+[1456555466] SERVICE NOTIFICATION: vivek;offokplese_52.74.206.204;Total Processes;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555466] SERVICE NOTIFICATION: nagiosadmin;offokplese_52.74.206.204;Total Processes;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555466] SERVICE NOTIFICATION: mohit;offokplese_52.74.206.204;Total Processes;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555466] SERVICE NOTIFICATION: nagiosinfra;offokplese_52.74.206.204;Total Processes;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555466] wproc: NOTIFY job 32 from worker Core Worker 14912 is a non-check helper but exited with return code 2
+[1456555466] wproc:   host=offokplese_52.74.206.204; service=Total Processes; contact=vivek
+[1456555466] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555466] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555466] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555466] wproc: NOTIFY job 33 from worker Core Worker 14913 is a non-check helper but exited with return code 2
+[1456555466] wproc:   host=offokplese_52.74.206.204; service=Total Processes; contact=nagiosinfra
+[1456555466] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555466] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555466] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555466] wproc: NOTIFY job 33 from worker Core Worker 14914 is a non-check helper but exited with return code 2
+[1456555466] wproc:   host=offokplese_52.74.206.204; service=Total Processes; contact=mohit
+[1456555466] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555466] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555466] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555488] SERVICE ALERT: offokplese_52.74.206.204;Ping Check;UNKNOWN;HARD;3;NRPE: Unable to read output
+[1456555488] SERVICE NOTIFICATION: vivek;offokplese_52.74.206.204;Ping Check;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555488] SERVICE NOTIFICATION: nagiosadmin;offokplese_52.74.206.204;Ping Check;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555488] SERVICE NOTIFICATION: mohit;offokplese_52.74.206.204;Ping Check;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555488] SERVICE NOTIFICATION: nagiosinfra;offokplese_52.74.206.204;Ping Check;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555488] wproc: NOTIFY job 39 from worker Core Worker 14915 is a non-check helper but exited with return code 2
+[1456555488] wproc:   host=offokplese_52.74.206.204; service=Ping Check; contact=mohit
+[1456555488] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555488] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555488] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555488] wproc: NOTIFY job 38 from worker Core Worker 14913 is a non-check helper but exited with return code 2
+[1456555488] wproc:   host=offokplese_52.74.206.204; service=Ping Check; contact=vivek
+[1456555488] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555488] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555488] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555488] wproc: NOTIFY job 39 from worker Core Worker 14914 is a non-check helper but exited with return code 2
+[1456555488] wproc:   host=offokplese_52.74.206.204; service=Ping Check; contact=nagiosinfra
+[1456555488] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555488] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555488] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555503] SERVICE ALERT: offokplese_52.74.206.204;Root Partition;UNKNOWN;HARD;3;NRPE: Unable to read output
+[1456555503] SERVICE NOTIFICATION: vivek;offokplese_52.74.206.204;Root Partition;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555503] SERVICE NOTIFICATION: nagiosadmin;offokplese_52.74.206.204;Root Partition;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555503] SERVICE NOTIFICATION: mohit;offokplese_52.74.206.204;Root Partition;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555503] SERVICE NOTIFICATION: nagiosinfra;offokplese_52.74.206.204;Root Partition;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1456555503] wproc: NOTIFY job 43 from worker Core Worker 14913 is a non-check helper but exited with return code 2
+[1456555503] wproc:   host=offokplese_52.74.206.204; service=Root Partition; contact=mohit
+[1456555503] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555503] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555503] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555503] wproc: NOTIFY job 43 from worker Core Worker 14915 is a non-check helper but exited with return code 2
+[1456555503] wproc:   host=offokplese_52.74.206.204; service=Root Partition; contact=vivek
+[1456555503] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555503] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555503] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555503] wproc: NOTIFY job 43 from worker Core Worker 14912 is a non-check helper but exited with return code 2
+[1456555503] wproc:   host=offokplese_52.74.206.204; service=Root Partition; contact=nagiosinfra
+[1456555503] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555503] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555503] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555967] SERVICE ALERT: offokplese_52.74.206.204;Current Load;OK;HARD;3;OK - load average: 0.04, 0.03, 0.05
+[1456555967] SERVICE NOTIFICATION: vivek;offokplese_52.74.206.204;Current Load;OK;notify-service-by-email;OK - load average: 0.04, 0.03, 0.05
+[1456555967] SERVICE NOTIFICATION: nagiosadmin;offokplese_52.74.206.204;Current Load;OK;notify-service-by-email;OK - load average: 0.04, 0.03, 0.05
+[1456555967] SERVICE NOTIFICATION: mohit;offokplese_52.74.206.204;Current Load;OK;notify-service-by-email;OK - load average: 0.04, 0.03, 0.05
+[1456555967] SERVICE NOTIFICATION: nagiosinfra;offokplese_52.74.206.204;Current Load;OK;notify-service-by-email;OK - load average: 0.04, 0.03, 0.05
+[1456555967] wproc: NOTIFY job 127 from worker Core Worker 14914 is a non-check helper but exited with return code 2
+[1456555967] wproc:   host=offokplese_52.74.206.204; service=Current Load; contact=mohit
+[1456555967] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555967] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555967] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555967] wproc: NOTIFY job 126 from worker Core Worker 14912 is a non-check helper but exited with return code 2
+[1456555967] wproc:   host=offokplese_52.74.206.204; service=Current Load; contact=vivek
+[1456555967] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555967] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555967] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555967] wproc: NOTIFY job 127 from worker Core Worker 14913 is a non-check helper but exited with return code 2
+[1456555967] wproc:   host=offokplese_52.74.206.204; service=Current Load; contact=nagiosinfra
+[1456555967] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555967] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555967] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555982] SERVICE ALERT: offokplese_52.74.206.204;Current Users;OK;HARD;3;USERS OK - 1 users currently logged in
+[1456555982] SERVICE NOTIFICATION: vivek;offokplese_52.74.206.204;Current Users;OK;notify-service-by-email;USERS OK - 1 users currently logged in
+[1456555982] SERVICE NOTIFICATION: nagiosadmin;offokplese_52.74.206.204;Current Users;OK;notify-service-by-email;USERS OK - 1 users currently logged in
+[1456555982] SERVICE NOTIFICATION: mohit;offokplese_52.74.206.204;Current Users;OK;notify-service-by-email;USERS OK - 1 users currently logged in
+[1456555982] SERVICE NOTIFICATION: nagiosinfra;offokplese_52.74.206.204;Current Users;OK;notify-service-by-email;USERS OK - 1 users currently logged in
+[1456555982] wproc: NOTIFY job 135 from worker Core Worker 14914 is a non-check helper but exited with return code 2
+[1456555982] wproc:   host=offokplese_52.74.206.204; service=Current Users; contact=mohit
+[1456555982] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555982] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555982] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555982] wproc: NOTIFY job 134 from worker Core Worker 14912 is a non-check helper but exited with return code 2
+[1456555982] wproc:   host=offokplese_52.74.206.204; service=Current Users; contact=vivek
+[1456555982] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555982] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555982] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555982] wproc: NOTIFY job 135 from worker Core Worker 14913 is a non-check helper but exited with return code 2
+[1456555982] wproc:   host=offokplese_52.74.206.204; service=Current Users; contact=nagiosinfra
+[1456555982] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555982] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555982] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555997] SERVICE ALERT: offokplese_52.74.206.204;Memory;OK;HARD;3;[MEMORY] Total: 3952 MB - Used: 207 MB - 5% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1456555997] SERVICE NOTIFICATION: vivek;offokplese_52.74.206.204;Memory;OK;notify-service-by-email;[MEMORY] Total: 3952 MB - Used: 207 MB - 5% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1456555997] SERVICE NOTIFICATION: nagiosadmin;offokplese_52.74.206.204;Memory;OK;notify-service-by-email;[MEMORY] Total: 3952 MB - Used: 207 MB - 5% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1456555997] SERVICE NOTIFICATION: mohit;offokplese_52.74.206.204;Memory;OK;notify-service-by-email;[MEMORY] Total: 3952 MB - Used: 207 MB - 5% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1456555997] SERVICE NOTIFICATION: nagiosinfra;offokplese_52.74.206.204;Memory;OK;notify-service-by-email;[MEMORY] Total: 3952 MB - Used: 207 MB - 5% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1456555997] wproc: NOTIFY job 136 from worker Core Worker 14913 is a non-check helper but exited with return code 2
+[1456555997] wproc:   host=offokplese_52.74.206.204; service=Memory; contact=vivek
+[1456555997] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555997] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555997] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555997] wproc: NOTIFY job 137 from worker Core Worker 14915 is a non-check helper but exited with return code 2
+[1456555997] wproc:   host=offokplese_52.74.206.204; service=Memory; contact=mohit
+[1456555997] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555997] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555997] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456555997] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456555997] wproc: NOTIFY job 137 from worker Core Worker 14914 is a non-check helper but exited with return code 2
+[1456555997] wproc:   host=offokplese_52.74.206.204; service=Memory; contact=nagiosinfra
+[1456555997] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456555997] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456555997] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456556006] SERVICE ALERT: offokplese_52.74.206.204;Total Processes;OK;HARD;3;PROCS OK: 111 processes
+[1456556006] SERVICE NOTIFICATION: vivek;offokplese_52.74.206.204;Total Processes;OK;notify-service-by-email;PROCS OK: 111 processes
+[1456556006] SERVICE NOTIFICATION: nagiosadmin;offokplese_52.74.206.204;Total Processes;OK;notify-service-by-email;PROCS OK: 111 processes
+[1456556006] SERVICE NOTIFICATION: mohit;offokplese_52.74.206.204;Total Processes;OK;notify-service-by-email;PROCS OK: 111 processes
+[1456556006] SERVICE NOTIFICATION: nagiosinfra;offokplese_52.74.206.204;Total Processes;OK;notify-service-by-email;PROCS OK: 111 processes
+[1456556006] wproc: NOTIFY job 138 from worker Core Worker 14913 is a non-check helper but exited with return code 2
+[1456556006] wproc:   host=offokplese_52.74.206.204; service=Total Processes; contact=nagiosinfra
+[1456556006] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456556006] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456556006] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456556006] wproc: NOTIFY job 138 from worker Core Worker 14914 is a non-check helper but exited with return code 2
+[1456556006] wproc:   host=offokplese_52.74.206.204; service=Total Processes; contact=mohit
+[1456556006] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456556006] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456556006] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456556006] wproc: NOTIFY job 137 from worker Core Worker 14912 is a non-check helper but exited with return code 2
+[1456556006] wproc:   host=offokplese_52.74.206.204; service=Total Processes; contact=vivek
+[1456556006] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456556006] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456556006] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456556032] SERVICE ALERT: offokplese_52.74.206.204;Ping Check;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1456556032] SERVICE NOTIFICATION: vivek;offokplese_52.74.206.204;Ping Check;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1456556032] SERVICE NOTIFICATION: nagiosadmin;offokplese_52.74.206.204;Ping Check;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1456556032] SERVICE NOTIFICATION: mohit;offokplese_52.74.206.204;Ping Check;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1456556032] SERVICE NOTIFICATION: nagiosinfra;offokplese_52.74.206.204;Ping Check;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1456556032] wproc: NOTIFY job 144 from worker Core Worker 14914 is a non-check helper but exited with return code 2
+[1456556032] wproc:   host=offokplese_52.74.206.204; service=Ping Check; contact=mohit
+[1456556032] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456556032] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456556032] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456556032] wproc: NOTIFY job 144 from worker Core Worker 14913 is a non-check helper but exited with return code 2
+[1456556032] wproc:   host=offokplese_52.74.206.204; service=Ping Check; contact=nagiosinfra
+[1456556032] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456556032] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456556032] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456556032] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456556032] wproc: NOTIFY job 143 from worker Core Worker 14912 is a non-check helper but exited with return code 2
+[1456556032] wproc:   host=offokplese_52.74.206.204; service=Ping Check; contact=vivek
+[1456556032] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456556032] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456556032] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456556043] SERVICE ALERT: offokplese_52.74.206.204;Root Partition;OK;HARD;3;DISK OK - free space: / 17575 MB (92% inode=93%):
+[1456556043] SERVICE NOTIFICATION: vivek;offokplese_52.74.206.204;Root Partition;OK;notify-service-by-email;DISK OK - free space: / 17575 MB (92% inode=93%):
+[1456556043] SERVICE NOTIFICATION: nagiosadmin;offokplese_52.74.206.204;Root Partition;OK;notify-service-by-email;DISK OK - free space: / 17575 MB (92% inode=93%):
+[1456556043] SERVICE NOTIFICATION: mohit;offokplese_52.74.206.204;Root Partition;OK;notify-service-by-email;DISK OK - free space: / 17575 MB (92% inode=93%):
+[1456556043] SERVICE NOTIFICATION: nagiosinfra;offokplese_52.74.206.204;Root Partition;OK;notify-service-by-email;DISK OK - free space: / 17575 MB (92% inode=93%):
+[1456556043] wproc: NOTIFY job 148 from worker Core Worker 14915 is a non-check helper but exited with return code 2
+[1456556043] wproc:   host=offokplese_52.74.206.204; service=Root Partition; contact=vivek
+[1456556043] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456556043] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456556043] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456556043] wproc: NOTIFY job 148 from worker Core Worker 14913 is a non-check helper but exited with return code 2
+[1456556043] wproc:   host=offokplese_52.74.206.204; service=Root Partition; contact=mohit
+[1456556043] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456556043] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456556043] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456556043] wproc: NOTIFY job 148 from worker Core Worker 14912 is a non-check helper but exited with return code 2
+[1456556043] wproc:   host=offokplese_52.74.206.204; service=Root Partition; contact=nagiosinfra
+[1456556043] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456556043] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456556043] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456556103] SERVICE ALERT: offokplese_52.74.206.204;Zombie Process;OK;HARD;3;PROCS OK: 0 processes with STATE = Z
+[1456556103] SERVICE NOTIFICATION: vivek;offokplese_52.74.206.204;Zombie Process;OK;notify-service-by-email;PROCS OK: 0 processes with STATE = Z
+[1456556103] SERVICE NOTIFICATION: nagiosadmin;offokplese_52.74.206.204;Zombie Process;OK;notify-service-by-email;PROCS OK: 0 processes with STATE = Z
+[1456556103] SERVICE NOTIFICATION: mohit;offokplese_52.74.206.204;Zombie Process;OK;notify-service-by-email;PROCS OK: 0 processes with STATE = Z
+[1456556103] SERVICE NOTIFICATION: nagiosinfra;offokplese_52.74.206.204;Zombie Process;OK;notify-service-by-email;PROCS OK: 0 processes with STATE = Z
+[1456556103] wproc: NOTIFY job 158 from worker Core Worker 14915 is a non-check helper but exited with return code 2
+[1456556103] wproc:   host=offokplese_52.74.206.204; service=Zombie Process; contact=vivek
+[1456556103] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456556103] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456556103] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456556103] wproc: NOTIFY job 158 from worker Core Worker 14912 is a non-check helper but exited with return code 2
+[1456556103] wproc:   host=offokplese_52.74.206.204; service=Zombie Process; contact=nagiosinfra
+[1456556103] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456556103] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456556103] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456556103] wproc: NOTIFY job 158 from worker Core Worker 14913 is a non-check helper but exited with return code 2
+[1456556103] wproc:   host=offokplese_52.74.206.204; service=Zombie Process; contact=mohit
+[1456556103] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456556103] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456556103] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456556103] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456556134] SERVICE ALERT: offokplese_52.74.206.204;CPU Usage;OK;HARD;3;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1456556134] SERVICE NOTIFICATION: vivek;offokplese_52.74.206.204;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1456556134] SERVICE NOTIFICATION: nagiosadmin;offokplese_52.74.206.204;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1456556134] SERVICE NOTIFICATION: mohit;offokplese_52.74.206.204;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1456556134] SERVICE NOTIFICATION: nagiosinfra;offokplese_52.74.206.204;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1456556134] wproc: NOTIFY job 165 from worker Core Worker 14912 is a non-check helper but exited with return code 2
+[1456556134] wproc:   host=offokplese_52.74.206.204; service=CPU Usage; contact=mohit
+[1456556134] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456556134] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456556134] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456556134] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456556134] wproc: NOTIFY job 166 from worker Core Worker 14915 is a non-check helper but exited with return code 2
+[1456556134] wproc:   host=offokplese_52.74.206.204; service=CPU Usage; contact=nagiosinfra
+[1456556134] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456556134] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456556134] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456556134] wproc: NOTIFY job 165 from worker Core Worker 14914 is a non-check helper but exited with return code 2
+[1456556134] wproc:   host=offokplese_52.74.206.204; service=CPU Usage; contact=vivek
+[1456556134] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456556134] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456556134] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456556836] Caught SIGTERM, shutting down...
+[1456556836] Successfully shutdown... (PID=14911)
+[1456556836] Event broker module 'NERD' deinitialized successfully.
+[1456556837] Nagios 4.1.1 starting... (PID=17277)
+[1456556837] Local time is Sat Feb 27 12:37:17 IST 2016
+[1456556837] LOG VERSION: 2.0
+[1456556837] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1456556837] qh: core query handler registered
+[1456556837] nerd: Channel hostchecks registered successfully
+[1456556837] nerd: Channel servicechecks registered successfully
+[1456556837] nerd: Channel opathchecks registered successfully
+[1456556837] nerd: Fully initialized and ready to rock!
+[1456556837] wproc: Successfully registered manager as @wproc with query handler
+[1456556837] wproc: Registry request: name=Core Worker 17281;pid=17281
+[1456556837] wproc: Registry request: name=Core Worker 17280;pid=17280
+[1456556837] wproc: Registry request: name=Core Worker 17279;pid=17279
+[1456556837] wproc: Registry request: name=Core Worker 17278;pid=17278
+[1456556837] Warning: Duplicate definition found for service 'CPU Usage' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 76)
+[1456556837] Warning: Duplicate definition found for service 'Current Load' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 67)
+[1456556837] Successfully launched command file worker with pid 17282
+[1456556866] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;motoassist_52.76.71.31;CPU Usage;1456556865
+[1456556867] HOST ALERT: motoassist_52.76.71.31;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1456556874] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;motoassist_52.76.71.31;CPU Usage;1456556873
+[1456556904] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;motoassist_52.76.71.31;1456556903
+[1456556912] SERVICE ALERT: motoassist_52.76.71.31;CPU Usage;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456556926] SERVICE ALERT: motoassist_52.76.71.31;CPU Usage;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456556927] SERVICE ALERT: motoassist_52.76.71.31;Current Load;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456556934] HOST ALERT: motoassist_52.76.71.31;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1456556934] SERVICE ALERT: motoassist_52.76.71.31;CPU Usage;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456556942] SERVICE ALERT: motoassist_52.76.71.31;Current Users;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456556957] SERVICE ALERT: motoassist_52.76.71.31;Memory;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456556961] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;motoassist_52.76.71.31;1456556960
+[1456556964] HOST ALERT: motoassist_52.76.71.31;DOWN;SOFT;4;PING CRITICAL - Packet loss = 100%
+[1456556987] SERVICE ALERT: motoassist_52.76.71.31;Current Load;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456556988] wproc: Core Worker 17281: job 22 (pid=17461) timed out. Killing it
+[1456556988] wproc: CHECK job 22 from worker Core Worker 17281 timed out after 60.01s
+[1456556988] wproc:   host=motoassist_52.76.71.31; service=Ping Check;
+[1456556988] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1456556988] Warning: Check of service 'Ping Check' on host 'motoassist_52.76.71.31' timed out after 60.005s!
+[1456556988] SERVICE ALERT: motoassist_52.76.71.31;Ping Check;CRITICAL;SOFT;1;(Service check timed out after 60.01 seconds)
+[1456556988] wproc: Core Worker 17281: job 22 (pid=17461): Dormant child reaped
+[1456556991] HOST ALERT: motoassist_52.76.71.31;DOWN;SOFT;5;PING CRITICAL - Packet loss = 100%
+[1456557002] SERVICE ALERT: motoassist_52.76.71.31;Current Users;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456557002] HOST ALERT: motoassist_52.76.71.31;DOWN;SOFT;6;PING CRITICAL - Packet loss = 100%
+[1456557003] SERVICE ALERT: motoassist_52.76.71.31;Root Partition;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456557017] SERVICE ALERT: motoassist_52.76.71.31;Memory;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456557032] HOST ALERT: motoassist_52.76.71.31;DOWN;SOFT;7;PING CRITICAL - Packet loss = 100%
+[1456557033] HOST ALERT: motoassist_52.76.71.31;DOWN;SOFT;7;PING CRITICAL - Packet loss = 100%
+[1456557034] SERVICE ALERT: motoassist_52.76.71.31;Total Processes;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456557047] SERVICE ALERT: motoassist_52.76.71.31;Current Load;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456557048] SERVICE ALERT: motoassist_52.76.71.31;Ping Check;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456557062] SERVICE ALERT: motoassist_52.76.71.31;Current Users;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456557063] SERVICE ALERT: motoassist_52.76.71.31;Root Partition;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456557064] SERVICE ALERT: motoassist_52.76.71.31;Zombie Process;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456557064] HOST ALERT: motoassist_52.76.71.31;DOWN;SOFT;8;PING CRITICAL - Packet loss = 100%
+[1456557077] SERVICE ALERT: motoassist_52.76.71.31;Memory;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456557094] SERVICE ALERT: motoassist_52.76.71.31;Total Processes;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456557107] HOST ALERT: motoassist_52.76.71.31;DOWN;SOFT;9;PING CRITICAL - Packet loss = 100%
+[1456557108] SERVICE ALERT: motoassist_52.76.71.31;Ping Check;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456557109] Caught SIGTERM, shutting down...
+[1456557109] Successfully shutdown... (PID=17277)
+[1456557109] Event broker module 'NERD' deinitialized successfully.
+[1456557110] Nagios 4.1.1 starting... (PID=17804)
+[1456557110] Local time is Sat Feb 27 12:41:50 IST 2016
+[1456557110] LOG VERSION: 2.0
+[1456557110] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1456557110] qh: core query handler registered
+[1456557110] nerd: Channel hostchecks registered successfully
+[1456557110] nerd: Channel servicechecks registered successfully
+[1456557110] nerd: Channel opathchecks registered successfully
+[1456557110] nerd: Fully initialized and ready to rock!
+[1456557110] wproc: Successfully registered manager as @wproc with query handler
+[1456557110] wproc: Registry request: name=Core Worker 17805;pid=17805
+[1456557110] wproc: Registry request: name=Core Worker 17806;pid=17806
+[1456557110] wproc: Registry request: name=Core Worker 17807;pid=17807
+[1456557110] wproc: Registry request: name=Core Worker 17808;pid=17808
+[1456557110] Warning: Duplicate definition found for service 'CPU Usage' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 76)
+[1456557110] Warning: Duplicate definition found for service 'Current Load' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 67)
+[1456557110] Successfully launched command file worker with pid 17809
+[1456557140] HOST ALERT: motoassist_52.76.71.31;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1456557170] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;motoassist_52.76.71.31;1456557168
+[1456557181] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;motoassist_52.76.71.31;1456557180
+[1456557192] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;motoassist_52.76.71.31;1456557191
+[1456557199] HOST ALERT: motoassist_52.76.71.31;DOWN;SOFT;6;PING CRITICAL - Packet loss = 100%
+[1456557200] HOST ALERT: motoassist_52.76.71.31;DOWN;SOFT;6;PING CRITICAL - Packet loss = 100%
+[1456557200] SERVICE ALERT: motoassist_52.76.71.31;Root Partition;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456557211] HOST ALERT: motoassist_52.76.71.31;DOWN;SOFT;7;PING CRITICAL - Packet loss = 100%
+[1456557215] SERVICE ALERT: motoassist_52.76.71.31;Total Processes;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456557222] HOST ALERT: motoassist_52.76.71.31;DOWN;SOFT;8;PING CRITICAL - Packet loss = 100%
+[1456557230] SERVICE ALERT: motoassist_52.76.71.31;Zombie Process;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456557230] HOST ALERT: motoassist_52.76.71.31;DOWN;SOFT;9;PING CRITICAL - Packet loss = 100%
+[1456557245] HOST ALERT: motoassist_52.76.71.31;DOWN;HARD;10;PING CRITICAL - Packet loss = 100%
+[1456557290] SERVICE ALERT: motoassist_52.76.71.31;Zombie Process;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456557403] Caught SIGTERM, shutting down...
+[1456557403] Successfully shutdown... (PID=17804)
+[1456557403] Event broker module 'NERD' deinitialized successfully.
+[1456557404] Nagios 4.1.1 starting... (PID=18387)
+[1456557404] Local time is Sat Feb 27 12:46:44 IST 2016
+[1456557404] LOG VERSION: 2.0
+[1456557404] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1456557404] qh: core query handler registered
+[1456557404] nerd: Channel hostchecks registered successfully
+[1456557404] nerd: Channel servicechecks registered successfully
+[1456557404] nerd: Channel opathchecks registered successfully
+[1456557404] nerd: Fully initialized and ready to rock!
+[1456557404] wproc: Successfully registered manager as @wproc with query handler
+[1456557404] wproc: Registry request: name=Core Worker 18391;pid=18391
+[1456557404] wproc: Registry request: name=Core Worker 18390;pid=18390
+[1456557404] wproc: Registry request: name=Core Worker 18389;pid=18389
+[1456557404] wproc: Registry request: name=Core Worker 18388;pid=18388
+[1456557404] Warning: Duplicate definition found for service 'CPU Usage' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 76)
+[1456557404] Warning: Duplicate definition found for service 'Current Load' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 67)
+[1456557404] Successfully launched command file worker with pid 18392
+[1456557423] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;credr_jenkins_52.76.31.249;1456557422
+[1456557480] SERVICE ALERT: credr_jenkins_52.76.31.249;Nginx http;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 403 Forbidden - 1490 bytes in 0.003 second response time
+[1456557540] SERVICE ALERT: credr_jenkins_52.76.31.249;Nginx http;WARNING;SOFT;2;HTTP WARNING: HTTP/1.1 403 Forbidden - 1489 bytes in 0.002 second response time
+[1456557578] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;motoassist_52.76.71.31;1456557577
+[1456557600] SERVICE ALERT: credr_jenkins_52.76.31.249;Nginx http;WARNING;HARD;3;HTTP WARNING: HTTP/1.1 403 Forbidden - 1490 bytes in 0.002 second response time
+[1456557600] SERVICE NOTIFICATION: vivek;credr_jenkins_52.76.31.249;Nginx http;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 1490 bytes in 0.002 second response time
+[1456557600] SERVICE NOTIFICATION: nagiosadmin;credr_jenkins_52.76.31.249;Nginx http;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 1490 bytes in 0.002 second response time
+[1456557600] SERVICE NOTIFICATION: mohit;credr_jenkins_52.76.31.249;Nginx http;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 1490 bytes in 0.002 second response time
+[1456557600] SERVICE NOTIFICATION: nagiosinfra;credr_jenkins_52.76.31.249;Nginx http;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 1490 bytes in 0.002 second response time
+[1456557600] wproc: NOTIFY job 49 from worker Core Worker 18389 is a non-check helper but exited with return code 2
+[1456557600] wproc:   host=credr_jenkins_52.76.31.249; service=Nginx http; contact=nagiosinfra
+[1456557600] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456557600] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456557600] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456557600] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456557600] wproc: NOTIFY job 48 from worker Core Worker 18388 is a non-check helper but exited with return code 2
+[1456557600] wproc:   host=credr_jenkins_52.76.31.249; service=Nginx http; contact=vivek
+[1456557600] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456557600] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456557600] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456557600] wproc: NOTIFY job 49 from worker Core Worker 18390 is a non-check helper but exited with return code 2
+[1456557600] wproc:   host=credr_jenkins_52.76.31.249; service=Nginx http; contact=mohit
+[1456557600] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456557600] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456557600] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456557763] Caught SIGTERM, shutting down...
+[1456557763] Successfully shutdown... (PID=18387)
+[1456557763] Event broker module 'NERD' deinitialized successfully.
+[1456557764] Nagios 4.1.1 starting... (PID=19084)
+[1456557764] Local time is Sat Feb 27 12:52:44 IST 2016
+[1456557764] LOG VERSION: 2.0
+[1456557764] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1456557764] qh: core query handler registered
+[1456557764] nerd: Channel hostchecks registered successfully
+[1456557764] nerd: Channel servicechecks registered successfully
+[1456557764] nerd: Channel opathchecks registered successfully
+[1456557764] nerd: Fully initialized and ready to rock!
+[1456557764] wproc: Successfully registered manager as @wproc with query handler
+[1456557764] wproc: Registry request: name=Core Worker 19088;pid=19088
+[1456557764] wproc: Registry request: name=Core Worker 19087;pid=19087
+[1456557764] wproc: Registry request: name=Core Worker 19086;pid=19086
+[1456557764] wproc: Registry request: name=Core Worker 19085;pid=19085
+[1456557764] Warning: Duplicate definition found for service 'CPU Usage' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 76)
+[1456557764] Warning: Duplicate definition found for service 'Current Load' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 67)
+[1456557764] Successfully launched command file worker with pid 19089
+[1456557945] Caught SIGTERM, shutting down...
+[1456557945] Successfully shutdown... (PID=19084)
+[1456557945] Event broker module 'NERD' deinitialized successfully.
+[1456557946] Nagios 4.1.1 starting... (PID=19459)
+[1456557946] Local time is Sat Feb 27 12:55:46 IST 2016
+[1456557946] LOG VERSION: 2.0
+[1456557946] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1456557946] qh: core query handler registered
+[1456557946] nerd: Channel hostchecks registered successfully
+[1456557946] nerd: Channel servicechecks registered successfully
+[1456557946] nerd: Channel opathchecks registered successfully
+[1456557946] nerd: Fully initialized and ready to rock!
+[1456557946] wproc: Successfully registered manager as @wproc with query handler
+[1456557946] wproc: Registry request: name=Core Worker 19463;pid=19463
+[1456557946] wproc: Registry request: name=Core Worker 19462;pid=19462
+[1456557946] wproc: Registry request: name=Core Worker 19461;pid=19461
+[1456557946] wproc: Registry request: name=Core Worker 19460;pid=19460
+[1456557946] Warning: Duplicate definition found for service 'CPU Usage' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 76)
+[1456557946] Warning: Duplicate definition found for service 'Current Load' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 67)
+[1456557946] Successfully launched command file worker with pid 19464
+[1456557976] HOST ALERT: credr_wordpress_52.74.228.190;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1456558021] SERVICE ALERT: credr_wordpress_52.74.228.190;CPU Usage;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456558036] SERVICE ALERT: credr_wordpress_52.74.228.190;Current Load;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456558051] HOST ALERT: credr_wordpress_52.74.228.190;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1456558052] SERVICE ALERT: credr_wordpress_52.74.228.190;Current Users;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456558067] SERVICE ALERT: credr_wordpress_52.74.228.190;Memory;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456558081] SERVICE ALERT: credr_wordpress_52.74.228.190;CPU Usage;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456558082] HOST ALERT: credr_wordpress_52.74.228.190;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1456558086] SERVICE ALERT: credr_wordpress_52.74.228.190;CPU Usage;OK;SOFT;3;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1456558096] SERVICE ALERT: credr_wordpress_52.74.228.190;Current Load;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456558096] SERVICE ALERT: credr_wordpress_52.74.228.190;Current Load;OK;SOFT;3;OK - load average: 0.00, 0.02, 0.05
+[1456558098] SERVICE ALERT: credr_wordpress_52.74.228.190;Ping Check;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456558098] SERVICE ALERT: credr_wordpress_52.74.228.190;Memory;OK;SOFT;2;[MEMORY] Total: 3951 MB - Used: 518 MB - 13% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1456558102] SERVICE ALERT: credr_wordpress_52.74.228.190;Ping Check;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1456558112] SERVICE ALERT: credr_wordpress_52.74.228.190;Current Users;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456558112] SERVICE ALERT: credr_wordpress_52.74.228.190;Current Users;OK;SOFT;3;USERS OK - 1 users currently logged in
+[1456558114] HOST ALERT: credr_wordpress_52.74.228.190;DOWN;SOFT;4;PING CRITICAL - Packet loss = 100%
+[1456558130] SERVICE ALERT: motoassist_52.76.71.31;Zombie Process;OK;HARD;3;PROCS OK: 0 processes with STATE = Z
+[1456558130] HOST ALERT: motoassist_52.76.71.31;UP;HARD;10;PING WARNING - Packet loss = 90%, RTA = 1.47 ms
+[1456558132] SERVICE ALERT: motoassist_52.76.71.31;Ping Check;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1456558137] SERVICE ALERT: motoassist_52.76.71.31;Current Load;OK;HARD;3;OK - load average: 0.00, 0.01, 0.05
+[1456558140] SERVICE ALERT: motoassist_52.76.71.31;Current Users;OK;HARD;3;USERS OK - 0 users currently logged in
+[1456558145] HOST ALERT: credr_wordpress_52.74.228.190;DOWN;SOFT;5;PING CRITICAL - Packet loss = 100%
+[1456558155] SERVICE ALERT: motoassist_52.76.71.31;Memory;OK;HARD;3;[MEMORY] Total: 2000 MB - Used: 164 MB - 8% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1456558206] HOST ALERT: credr_wordpress_52.74.228.190;UP;SOFT;6;PING OK - Packet loss = 0%, RTA = 0.67 ms
+[1456558207] SERVICE ALERT: motoassist_52.76.71.31;CPU Usage;OK;HARD;3;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1456558220] SERVICE ALERT: motoassist_52.76.71.31;Root Partition;OK;HARD;3;DISK OK - free space: / 12725 MB (89% inode=90%):
+[1456558235] SERVICE ALERT: motoassist_52.76.71.31;Total Processes;OK;HARD;3;PROCS OK: 107 processes
+[1456558411] SERVICE ALERT: credr_db_prod_master_52.76.120.118;CPU Usage;WARNING;SOFT;1;CPU STATISTICS WARNING : user=54.50% system=0.50%, iowait=0.00%, idle=44.50%, nice=0.00%, steal=0.50%
+[1456558471] SERVICE ALERT: credr_db_prod_master_52.76.120.118;CPU Usage;OK;SOFT;2;CPU STATISTICS OK : user=3.48% system=0.50%, iowait=0.00%, idle=96.02%, nice=0.00%, steal=0.00%
+[1456559363] Caught SIGTERM, shutting down...
+[1456559363] Successfully shutdown... (PID=19459)
+[1456559363] Event broker module 'NERD' deinitialized successfully.
+[1456559365] Nagios 4.1.1 starting... (PID=22161)
+[1456559365] Local time is Sat Feb 27 13:19:25 IST 2016
+[1456559365] LOG VERSION: 2.0
+[1456559365] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1456559365] qh: core query handler registered
+[1456559365] nerd: Channel hostchecks registered successfully
+[1456559365] nerd: Channel servicechecks registered successfully
+[1456559365] nerd: Channel opathchecks registered successfully
+[1456559365] nerd: Fully initialized and ready to rock!
+[1456559365] wproc: Successfully registered manager as @wproc with query handler
+[1456559365] wproc: Registry request: name=Core Worker 22162;pid=22162
+[1456559365] wproc: Registry request: name=Core Worker 22163;pid=22163
+[1456559365] wproc: Registry request: name=Core Worker 22164;pid=22164
+[1456559365] wproc: Registry request: name=Core Worker 22165;pid=22165
+[1456559365] Warning: Duplicate definition found for service 'CPU Usage' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 76)
+[1456559365] Warning: Duplicate definition found for service 'Current Load' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 67)
+[1456559365] Successfully launched command file worker with pid 22166
+[1456559414] Caught SIGTERM, shutting down...
+[1456559414] Successfully shutdown... (PID=22161)
+[1456559414] Event broker module 'NERD' deinitialized successfully.
+[1456559415] Nagios 4.1.1 starting... (PID=22371)
+[1456559415] Local time is Sat Feb 27 13:20:15 IST 2016
+[1456559415] LOG VERSION: 2.0
+[1456559415] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1456559415] qh: core query handler registered
+[1456559415] nerd: Channel hostchecks registered successfully
+[1456559415] nerd: Channel servicechecks registered successfully
+[1456559415] nerd: Channel opathchecks registered successfully
+[1456559415] nerd: Fully initialized and ready to rock!
+[1456559415] wproc: Successfully registered manager as @wproc with query handler
+[1456559415] wproc: Registry request: name=Core Worker 22375;pid=22375
+[1456559415] wproc: Registry request: name=Core Worker 22374;pid=22374
+[1456559415] wproc: Registry request: name=Core Worker 22373;pid=22373
+[1456559415] wproc: Registry request: name=Core Worker 22372;pid=22372
+[1456559415] Warning: Duplicate definition found for service 'CPU Usage' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 76)
+[1456559415] Warning: Duplicate definition found for service 'Current Load' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 67)
+[1456559415] Successfully launched command file worker with pid 22376
+[1456559442] SERVICE ALERT: credr_mobile_52.77.29.14;Nginx http;CRITICAL;SOFT;1;connect to address 52.77.29.14 and port 80: Connection refused
+[1456559502] SERVICE ALERT: credr_mobile_52.77.29.14;Nginx http;CRITICAL;SOFT;2;connect to address 52.77.29.14 and port 80: Connection refused
+[1456559562] SERVICE ALERT: credr_mobile_52.77.29.14;Nginx http;CRITICAL;HARD;3;connect to address 52.77.29.14 and port 80: Connection refused
+[1456559562] SERVICE NOTIFICATION: vivek;credr_mobile_52.77.29.14;Nginx http;CRITICAL;notify-service-by-email;connect to address 52.77.29.14 and port 80: Connection refused
+[1456559562] SERVICE NOTIFICATION: nagiosadmin;credr_mobile_52.77.29.14;Nginx http;CRITICAL;notify-service-by-email;connect to address 52.77.29.14 and port 80: Connection refused
+[1456559562] SERVICE NOTIFICATION: mohit;credr_mobile_52.77.29.14;Nginx http;CRITICAL;notify-service-by-email;connect to address 52.77.29.14 and port 80: Connection refused
+[1456559562] SERVICE NOTIFICATION: nagiosinfra;credr_mobile_52.77.29.14;Nginx http;CRITICAL;notify-service-by-email;connect to address 52.77.29.14 and port 80: Connection refused
+[1456559562] wproc: NOTIFY job 35 from worker Core Worker 22375 is a non-check helper but exited with return code 2
+[1456559562] wproc:   host=credr_mobile_52.77.29.14; service=Nginx http; contact=nagiosinfra
+[1456559562] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559562] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559562] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559562] wproc: NOTIFY job 34 from worker Core Worker 22372 is a non-check helper but exited with return code 2
+[1456559562] wproc:   host=credr_mobile_52.77.29.14; service=Nginx http; contact=mohit
+[1456559562] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559562] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559562] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559562] wproc: NOTIFY job 34 from worker Core Worker 22374 is a non-check helper but exited with return code 2
+[1456559562] wproc:   host=credr_mobile_52.77.29.14; service=Nginx http; contact=vivek
+[1456559562] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559562] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559562] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559578] SERVICE NOTIFICATION: vivek;credr_jenkins_52.76.31.249;Nginx http;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 1490 bytes in 0.002 second response time
+[1456559578] SERVICE NOTIFICATION: nagiosadmin;credr_jenkins_52.76.31.249;Nginx http;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 1490 bytes in 0.002 second response time
+[1456559578] SERVICE NOTIFICATION: mohit;credr_jenkins_52.76.31.249;Nginx http;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 1490 bytes in 0.002 second response time
+[1456559578] SERVICE NOTIFICATION: nagiosinfra;credr_jenkins_52.76.31.249;Nginx http;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 1490 bytes in 0.002 second response time
+[1456559578] wproc: NOTIFY job 44 from worker Core Worker 22373 is a non-check helper but exited with return code 2
+[1456559578] wproc:   host=credr_jenkins_52.76.31.249; service=Nginx http; contact=vivek
+[1456559578] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559578] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559578] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559578] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456559578] wproc: NOTIFY job 45 from worker Core Worker 22374 is a non-check helper but exited with return code 2
+[1456559578] wproc:   host=credr_jenkins_52.76.31.249; service=Nginx http; contact=nagiosinfra
+[1456559578] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559578] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559578] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559578] wproc: NOTIFY job 45 from worker Core Worker 22375 is a non-check helper but exited with return code 2
+[1456559578] wproc:   host=credr_jenkins_52.76.31.249; service=Nginx http; contact=mohit
+[1456559578] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559578] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559578] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559669] Caught SIGTERM, shutting down...
+[1456559669] Successfully shutdown... (PID=22371)
+[1456559669] Event broker module 'NERD' deinitialized successfully.
+[1456559670] Nagios 4.1.1 starting... (PID=22919)
+[1456559670] Local time is Sat Feb 27 13:24:30 IST 2016
+[1456559670] LOG VERSION: 2.0
+[1456559670] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1456559670] qh: core query handler registered
+[1456559670] nerd: Channel hostchecks registered successfully
+[1456559670] nerd: Channel servicechecks registered successfully
+[1456559670] nerd: Channel opathchecks registered successfully
+[1456559670] nerd: Fully initialized and ready to rock!
+[1456559670] wproc: Successfully registered manager as @wproc with query handler
+[1456559670] wproc: Registry request: name=Core Worker 22920;pid=22920
+[1456559670] wproc: Registry request: name=Core Worker 22921;pid=22921
+[1456559670] wproc: Registry request: name=Core Worker 22922;pid=22922
+[1456559670] wproc: Registry request: name=Core Worker 22923;pid=22923
+[1456559670] Warning: Duplicate definition found for service 'CPU Usage' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 76)
+[1456559670] Warning: Duplicate definition found for service 'Current Load' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 67)
+[1456559670] Successfully launched command file worker with pid 22924
+[1456559761] SERVICE ALERT: credr_imageprocessing_52.76.65.82;CPU Usage;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559776] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Current Load;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559792] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Current Users;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559808] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Memory;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559821] SERVICE ALERT: credr_imageprocessing_52.76.65.82;CPU Usage;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559828] Caught SIGTERM, shutting down...
+[1456559828] Successfully shutdown... (PID=22919)
+[1456559828] Event broker module 'NERD' deinitialized successfully.
+[1456559829] Nagios 4.1.1 starting... (PID=23312)
+[1456559829] Local time is Sat Feb 27 13:27:09 IST 2016
+[1456559829] LOG VERSION: 2.0
+[1456559829] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1456559829] qh: core query handler registered
+[1456559829] nerd: Channel hostchecks registered successfully
+[1456559829] nerd: Channel servicechecks registered successfully
+[1456559829] nerd: Channel opathchecks registered successfully
+[1456559829] nerd: Fully initialized and ready to rock!
+[1456559829] wproc: Successfully registered manager as @wproc with query handler
+[1456559829] wproc: Registry request: name=Core Worker 23316;pid=23316
+[1456559829] wproc: Registry request: name=Core Worker 23315;pid=23315
+[1456559829] wproc: Registry request: name=Core Worker 23314;pid=23314
+[1456559829] wproc: Registry request: name=Core Worker 23313;pid=23313
+[1456559829] Warning: Duplicate definition found for service 'CPU Usage' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 76)
+[1456559829] Warning: Duplicate definition found for service 'Current Load' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 67)
+[1456559829] Successfully launched command file worker with pid 23317
+[1456559890] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Zombie Process;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559904] SERVICE ALERT: credr_imageprocessing_52.76.65.82;CPU Usage;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559904] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;CPU Usage;CRITICAL;notify-service-by-email;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559904] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;CPU Usage;CRITICAL;notify-service-by-email;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559904] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;CPU Usage;CRITICAL;notify-service-by-email;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559904] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;CPU Usage;CRITICAL;notify-service-by-email;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559904] wproc: NOTIFY job 18 from worker Core Worker 23316 is a non-check helper but exited with return code 2
+[1456559904] wproc:   host=credr_imageprocessing_52.76.65.82; service=CPU Usage; contact=mohit
+[1456559904] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559904] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559904] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559904] wproc: NOTIFY job 17 from worker Core Worker 23314 is a non-check helper but exited with return code 2
+[1456559904] wproc:   host=credr_imageprocessing_52.76.65.82; service=CPU Usage; contact=vivek
+[1456559904] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559904] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559904] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559904] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456559904] wproc: NOTIFY job 18 from worker Core Worker 23315 is a non-check helper but exited with return code 2
+[1456559904] wproc:   host=credr_imageprocessing_52.76.65.82; service=CPU Usage; contact=nagiosinfra
+[1456559904] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559904] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559904] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559920] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Current Load;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559935] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Current Users;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559938] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Memory;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559950] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Zombie Process;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559953] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456559953] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Zombie Process;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1456559953] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456559953] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456559953] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456559953] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456559953] wproc: NOTIFY job 38 from worker Core Worker 23314 is a non-check helper but exited with return code 2
+[1456559953] wproc:   host=credr_imageprocessing_52.76.65.82; service=Zombie Process; contact=vivek
+[1456559953] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559953] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559953] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559953] wproc: NOTIFY job 39 from worker Core Worker 23316 is a non-check helper but exited with return code 2
+[1456559953] wproc:   host=credr_imageprocessing_52.76.65.82; service=Zombie Process; contact=mohit
+[1456559953] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559953] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559953] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559953] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456559953] wproc: NOTIFY job 39 from worker Core Worker 23315 is a non-check helper but exited with return code 2
+[1456559953] wproc:   host=credr_imageprocessing_52.76.65.82; service=Zombie Process; contact=nagiosinfra
+[1456559953] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559953] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559953] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559953] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456559953] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Total Processes;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1456559953] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456559953] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Memory;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1456559953] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456559953] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456559953] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456559953] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456559953] wproc: NOTIFY job 40 from worker Core Worker 23316 is a non-check helper but exited with return code 2
+[1456559953] wproc:   host=credr_imageprocessing_52.76.65.82; service=Memory; contact=mohit
+[1456559953] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559953] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559953] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559953] wproc: NOTIFY job 40 from worker Core Worker 23315 is a non-check helper but exited with return code 2
+[1456559953] wproc:   host=credr_imageprocessing_52.76.65.82; service=Memory; contact=nagiosinfra
+[1456559953] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559953] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559953] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559953] wproc: NOTIFY job 39 from worker Core Worker 23314 is a non-check helper but exited with return code 2
+[1456559953] wproc:   host=credr_imageprocessing_52.76.65.82; service=Memory; contact=vivek
+[1456559953] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559953] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559953] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559953] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456559953] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Root Partition;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1456559966] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456559966] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Current Users;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1456559966] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456559966] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456559966] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456559966] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456559966] wproc: NOTIFY job 42 from worker Core Worker 23316 is a non-check helper but exited with return code 2
+[1456559966] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Users; contact=mohit
+[1456559966] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559966] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559966] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559966] wproc: NOTIFY job 42 from worker Core Worker 23315 is a non-check helper but exited with return code 2
+[1456559966] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Users; contact=nagiosinfra
+[1456559966] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559966] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559966] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559966] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456559966] wproc: NOTIFY job 41 from worker Core Worker 23314 is a non-check helper but exited with return code 2
+[1456559966] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Users; contact=vivek
+[1456559966] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559966] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559966] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559966] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456559967] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Ping Check;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559967] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456559967] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Ping Check;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1456559980] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Current Load;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559980] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Current Load;CRITICAL;notify-service-by-email;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559980] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Current Load;CRITICAL;notify-service-by-email;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559980] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Current Load;CRITICAL;notify-service-by-email;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559980] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Current Load;CRITICAL;notify-service-by-email;CHECK_NRPE: Socket timeout after 60 seconds.
+[1456559980] wproc: NOTIFY job 48 from worker Core Worker 23314 is a non-check helper but exited with return code 2
+[1456559980] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Load; contact=mohit
+[1456559980] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559980] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559980] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559980] wproc: NOTIFY job 48 from worker Core Worker 23316 is a non-check helper but exited with return code 2
+[1456559980] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Load; contact=vivek
+[1456559980] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559980] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559980] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559980] wproc: NOTIFY job 48 from worker Core Worker 23313 is a non-check helper but exited with return code 2
+[1456559980] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Load; contact=nagiosinfra
+[1456559980] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456559980] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456559980] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456559982] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456559982] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Root Partition;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1456559998] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456559998] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Total Processes;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1456560024] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560027] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560027] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Ping Check;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1456560027] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Ping Check;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456560027] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Ping Check;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456560027] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Ping Check;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456560027] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Ping Check;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456560027] wproc: NOTIFY job 59 from worker Core Worker 23316 is a non-check helper but exited with return code 2
+[1456560027] wproc:   host=credr_imageprocessing_52.76.65.82; service=Ping Check; contact=nagiosinfra
+[1456560027] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456560027] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456560027] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456560027] wproc: NOTIFY job 58 from worker Core Worker 23313 is a non-check helper but exited with return code 2
+[1456560027] wproc:   host=credr_imageprocessing_52.76.65.82; service=Ping Check; contact=mohit
+[1456560027] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456560027] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456560027] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456560027] wproc: NOTIFY job 58 from worker Core Worker 23315 is a non-check helper but exited with return code 2
+[1456560027] wproc:   host=credr_imageprocessing_52.76.65.82; service=Ping Check; contact=vivek
+[1456560027] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456560027] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456560027] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456560027] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456560042] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560042] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Root Partition;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1456560042] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Root Partition;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456560042] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Root Partition;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456560042] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Root Partition;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456560042] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Root Partition;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456560042] wproc: NOTIFY job 64 from worker Core Worker 23315 is a non-check helper but exited with return code 2
+[1456560042] wproc:   host=credr_imageprocessing_52.76.65.82; service=Root Partition; contact=nagiosinfra
+[1456560042] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456560042] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456560042] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456560042] wproc: NOTIFY job 64 from worker Core Worker 23316 is a non-check helper but exited with return code 2
+[1456560042] wproc:   host=credr_imageprocessing_52.76.65.82; service=Root Partition; contact=mohit
+[1456560042] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456560042] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456560042] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456560042] wproc: NOTIFY job 63 from worker Core Worker 23314 is a non-check helper but exited with return code 2
+[1456560042] wproc:   host=credr_imageprocessing_52.76.65.82; service=Root Partition; contact=vivek
+[1456560042] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456560042] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456560042] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456560058] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560058] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Total Processes;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1456560058] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Total Processes;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456560058] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Total Processes;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456560058] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Total Processes;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456560058] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Total Processes;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456560058] wproc: NOTIFY job 67 from worker Core Worker 23316 is a non-check helper but exited with return code 2
+[1456560058] wproc:   host=credr_imageprocessing_52.76.65.82; service=Total Processes; contact=vivek
+[1456560058] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456560058] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456560058] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456560058] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456560058] wproc: NOTIFY job 67 from worker Core Worker 23314 is a non-check helper but exited with return code 2
+[1456560058] wproc:   host=credr_imageprocessing_52.76.65.82; service=Total Processes; contact=mohit
+[1456560058] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456560058] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456560058] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456560058] wproc: NOTIFY job 67 from worker Core Worker 23313 is a non-check helper but exited with return code 2
+[1456560058] wproc:   host=credr_imageprocessing_52.76.65.82; service=Total Processes; contact=nagiosinfra
+[1456560058] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456560058] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456560058] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456560100] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560115] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560118] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560130] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560204] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560207] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560222] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560238] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560280] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560295] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560298] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560310] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560384] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560387] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560402] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560418] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560460] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560475] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560478] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560490] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560564] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560567] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560582] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560598] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560640] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560655] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560658] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560670] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560744] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560747] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560762] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560778] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560820] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560835] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560838] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560850] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560924] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560927] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560941] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456560958] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561000] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561015] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561018] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561030] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561104] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561107] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561121] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561138] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561180] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561195] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561198] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561210] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561284] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561287] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561301] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561317] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561360] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561375] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561378] SERVICE NOTIFICATION: vivek;credr_jenkins_52.76.31.249;Nginx http;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 1490 bytes in 0.002 second response time
+[1456561378] SERVICE NOTIFICATION: nagiosadmin;credr_jenkins_52.76.31.249;Nginx http;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 1490 bytes in 0.002 second response time
+[1456561378] SERVICE NOTIFICATION: mohit;credr_jenkins_52.76.31.249;Nginx http;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 1490 bytes in 0.002 second response time
+[1456561378] SERVICE NOTIFICATION: nagiosinfra;credr_jenkins_52.76.31.249;Nginx http;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 1490 bytes in 0.002 second response time
+[1456561378] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561378] wproc: NOTIFY job 428 from worker Core Worker 23316 is a non-check helper but exited with return code 2
+[1456561378] wproc:   host=credr_jenkins_52.76.31.249; service=Nginx http; contact=vivek
+[1456561378] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561378] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561378] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561378] wproc: NOTIFY job 428 from worker Core Worker 23314 is a non-check helper but exited with return code 2
+[1456561378] wproc:   host=credr_jenkins_52.76.31.249; service=Nginx http; contact=mohit
+[1456561378] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561378] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561378] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561378] wproc: NOTIFY job 428 from worker Core Worker 23313 is a non-check helper but exited with return code 2
+[1456561378] wproc:   host=credr_jenkins_52.76.31.249; service=Nginx http; contact=nagiosinfra
+[1456561378] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561378] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561378] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561390] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561463] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561466] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561481] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561496] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561539] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561541] SERVICE NOTIFICATION: vivek;credr_mobile_52.77.29.14;Nginx http;CRITICAL;notify-service-by-email;connect to address 52.77.29.14 and port 80: Connection refused
+[1456561541] SERVICE NOTIFICATION: nagiosadmin;credr_mobile_52.77.29.14;Nginx http;CRITICAL;notify-service-by-email;connect to address 52.77.29.14 and port 80: Connection refused
+[1456561541] SERVICE NOTIFICATION: mohit;credr_mobile_52.77.29.14;Nginx http;CRITICAL;notify-service-by-email;connect to address 52.77.29.14 and port 80: Connection refused
+[1456561541] SERVICE NOTIFICATION: nagiosinfra;credr_mobile_52.77.29.14;Nginx http;CRITICAL;notify-service-by-email;connect to address 52.77.29.14 and port 80: Connection refused
+[1456561541] wproc: NOTIFY job 467 from worker Core Worker 23314 is a non-check helper but exited with return code 2
+[1456561541] wproc:   host=credr_mobile_52.77.29.14; service=Nginx http; contact=vivek
+[1456561541] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561541] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561541] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561541] wproc: NOTIFY job 468 from worker Core Worker 23315 is a non-check helper but exited with return code 2
+[1456561541] wproc:   host=credr_mobile_52.77.29.14; service=Nginx http; contact=nagiosinfra
+[1456561541] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561541] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561541] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561541] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456561541] wproc: NOTIFY job 468 from worker Core Worker 23316 is a non-check helper but exited with return code 2
+[1456561541] wproc:   host=credr_mobile_52.77.29.14; service=Nginx http; contact=mohit
+[1456561541] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561541] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561541] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561555] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561557] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561569] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561643] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561646] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561661] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561676] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561719] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561734] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561737] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561749] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561823] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561823] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;CPU Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561823] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;CPU Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561823] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;CPU Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561823] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;CPU Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561823] wproc: NOTIFY job 540 from worker Core Worker 23313 is a non-check helper but exited with return code 2
+[1456561823] wproc:   host=credr_imageprocessing_52.76.65.82; service=CPU Usage; contact=vivek
+[1456561823] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561823] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561823] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561823] wproc: NOTIFY job 541 from worker Core Worker 23315 is a non-check helper but exited with return code 2
+[1456561823] wproc:   host=credr_imageprocessing_52.76.65.82; service=CPU Usage; contact=mohit
+[1456561823] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561823] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561823] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561823] wproc: NOTIFY job 541 from worker Core Worker 23314 is a non-check helper but exited with return code 2
+[1456561823] wproc:   host=credr_imageprocessing_52.76.65.82; service=CPU Usage; contact=nagiosinfra
+[1456561823] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561823] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561823] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561826] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561841] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561856] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561899] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561899] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Current Load;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561899] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Current Load;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561899] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Current Load;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561899] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Current Load;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561899] wproc: NOTIFY job 564 from worker Core Worker 23316 is a non-check helper but exited with return code 2
+[1456561899] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Load; contact=vivek
+[1456561899] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561899] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561899] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561899] wproc: NOTIFY job 564 from worker Core Worker 23314 is a non-check helper but exited with return code 2
+[1456561899] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Load; contact=mohit
+[1456561899] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561899] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561899] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561899] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456561899] wproc: NOTIFY job 564 from worker Core Worker 23313 is a non-check helper but exited with return code 2
+[1456561899] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Load; contact=nagiosinfra
+[1456561899] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561899] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561899] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561914] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561914] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561914] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561914] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561914] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561914] wproc: NOTIFY job 569 from worker Core Worker 23316 is a non-check helper but exited with return code 2
+[1456561914] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Users; contact=nagiosinfra
+[1456561914] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561914] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561914] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561914] wproc: NOTIFY job 568 from worker Core Worker 23313 is a non-check helper but exited with return code 2
+[1456561914] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Users; contact=mohit
+[1456561914] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561914] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561914] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561914] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456561914] wproc: NOTIFY job 568 from worker Core Worker 23315 is a non-check helper but exited with return code 2
+[1456561914] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Users; contact=vivek
+[1456561914] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561914] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561914] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561914] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456561917] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561917] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561917] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561917] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561917] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561917] wproc: NOTIFY job 577 from worker Core Worker 23314 is a non-check helper but exited with return code 2
+[1456561917] wproc:   host=credr_imageprocessing_52.76.65.82; service=Memory; contact=nagiosinfra
+[1456561917] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561917] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561917] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561917] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456561917] wproc: NOTIFY job 576 from worker Core Worker 23313 is a non-check helper but exited with return code 2
+[1456561917] wproc:   host=credr_imageprocessing_52.76.65.82; service=Memory; contact=vivek
+[1456561917] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561917] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561917] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561917] wproc: NOTIFY job 577 from worker Core Worker 23315 is a non-check helper but exited with return code 2
+[1456561917] wproc:   host=credr_imageprocessing_52.76.65.82; service=Memory; contact=mohit
+[1456561917] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561917] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561917] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561929] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456561929] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561929] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561929] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561929] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456561929] wproc: NOTIFY job 579 from worker Core Worker 23313 is a non-check helper but exited with return code 2
+[1456561929] wproc:   host=credr_imageprocessing_52.76.65.82; service=Zombie Process; contact=mohit
+[1456561929] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561929] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561929] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561929] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456561929] wproc: NOTIFY job 579 from worker Core Worker 23315 is a non-check helper but exited with return code 2
+[1456561929] wproc:   host=credr_imageprocessing_52.76.65.82; service=Zombie Process; contact=vivek
+[1456561929] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561929] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561929] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456561929] wproc: NOTIFY job 580 from worker Core Worker 23316 is a non-check helper but exited with return code 2
+[1456561929] wproc:   host=credr_imageprocessing_52.76.65.82; service=Zombie Process; contact=nagiosinfra
+[1456561929] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456561929] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456561929] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456562003] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562006] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562006] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Ping Check;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456562006] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Ping Check;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456562006] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Ping Check;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456562006] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Ping Check;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456562006] wproc: NOTIFY job 595 from worker Core Worker 23314 is a non-check helper but exited with return code 2
+[1456562006] wproc:   host=credr_imageprocessing_52.76.65.82; service=Ping Check; contact=mohit
+[1456562006] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456562006] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456562006] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456562006] wproc: NOTIFY job 595 from worker Core Worker 23313 is a non-check helper but exited with return code 2
+[1456562006] wproc:   host=credr_imageprocessing_52.76.65.82; service=Ping Check; contact=nagiosinfra
+[1456562006] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456562006] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456562006] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456562006] wproc: NOTIFY job 595 from worker Core Worker 23316 is a non-check helper but exited with return code 2
+[1456562006] wproc:   host=credr_imageprocessing_52.76.65.82; service=Ping Check; contact=vivek
+[1456562006] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456562006] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456562006] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456562021] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562021] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Root Partition;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456562021] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Root Partition;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456562021] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Root Partition;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456562021] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Root Partition;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456562021] wproc: NOTIFY job 599 from worker Core Worker 23313 is a non-check helper but exited with return code 2
+[1456562021] wproc:   host=credr_imageprocessing_52.76.65.82; service=Root Partition; contact=vivek
+[1456562021] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456562021] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456562021] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456562021] wproc: NOTIFY job 600 from worker Core Worker 23315 is a non-check helper but exited with return code 2
+[1456562021] wproc:   host=credr_imageprocessing_52.76.65.82; service=Root Partition; contact=mohit
+[1456562021] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456562021] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456562021] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456562021] wproc: NOTIFY job 600 from worker Core Worker 23314 is a non-check helper but exited with return code 2
+[1456562021] wproc:   host=credr_imageprocessing_52.76.65.82; service=Root Partition; contact=nagiosinfra
+[1456562021] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456562021] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456562021] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456562036] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562036] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Total Processes;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456562036] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Total Processes;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456562036] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Total Processes;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456562036] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Total Processes;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456562036] wproc: NOTIFY job 603 from worker Core Worker 23313 is a non-check helper but exited with return code 2
+[1456562036] wproc:   host=credr_imageprocessing_52.76.65.82; service=Total Processes; contact=mohit
+[1456562036] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456562036] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456562036] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456562036] wproc: NOTIFY job 603 from worker Core Worker 23315 is a non-check helper but exited with return code 2
+[1456562036] wproc:   host=credr_imageprocessing_52.76.65.82; service=Total Processes; contact=vivek
+[1456562036] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456562036] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456562036] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456562036] wproc: NOTIFY job 604 from worker Core Worker 23316 is a non-check helper but exited with return code 2
+[1456562036] wproc:   host=credr_imageprocessing_52.76.65.82; service=Total Processes; contact=nagiosinfra
+[1456562036] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456562036] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456562036] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456562079] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562094] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562097] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562109] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562183] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562186] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562201] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562216] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562259] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562274] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562277] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562289] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562363] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562366] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562381] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562396] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562439] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562454] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562457] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562469] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562543] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562546] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562561] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562576] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562619] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562634] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562637] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562649] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562723] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562726] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562741] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562756] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562799] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562814] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562817] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562829] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562903] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562906] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562921] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562936] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562979] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562994] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456562997] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563009] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563083] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563086] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563101] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563116] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563159] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563174] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563177] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563189] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563263] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563266] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563281] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563296] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563339] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563341] SERVICE NOTIFICATION: vivek;credr_mobile_52.77.29.14;Nginx http;CRITICAL;notify-service-by-email;connect to address 52.77.29.14 and port 80: Connection refused
+[1456563341] SERVICE NOTIFICATION: nagiosadmin;credr_mobile_52.77.29.14;Nginx http;CRITICAL;notify-service-by-email;connect to address 52.77.29.14 and port 80: Connection refused
+[1456563341] SERVICE NOTIFICATION: mohit;credr_mobile_52.77.29.14;Nginx http;CRITICAL;notify-service-by-email;connect to address 52.77.29.14 and port 80: Connection refused
+[1456563341] SERVICE NOTIFICATION: nagiosinfra;credr_mobile_52.77.29.14;Nginx http;CRITICAL;notify-service-by-email;connect to address 52.77.29.14 and port 80: Connection refused
+[1456563341] wproc: NOTIFY job 953 from worker Core Worker 23316 is a non-check helper but exited with return code 2
+[1456563341] wproc:   host=credr_mobile_52.77.29.14; service=Nginx http; contact=vivek
+[1456563341] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563341] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563341] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563341] wproc: NOTIFY job 953 from worker Core Worker 23313 is a non-check helper but exited with return code 2
+[1456563341] wproc:   host=credr_mobile_52.77.29.14; service=Nginx http; contact=nagiosinfra
+[1456563341] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563341] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563341] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563341] wproc: NOTIFY job 953 from worker Core Worker 23314 is a non-check helper but exited with return code 2
+[1456563341] wproc:   host=credr_mobile_52.77.29.14; service=Nginx http; contact=mohit
+[1456563341] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563341] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563341] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563354] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563357] SERVICE NOTIFICATION: vivek;credr_jenkins_52.76.31.249;Nginx http;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 1490 bytes in 0.002 second response time
+[1456563357] SERVICE NOTIFICATION: nagiosadmin;credr_jenkins_52.76.31.249;Nginx http;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 1490 bytes in 0.002 second response time
+[1456563357] SERVICE NOTIFICATION: mohit;credr_jenkins_52.76.31.249;Nginx http;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 1490 bytes in 0.002 second response time
+[1456563357] SERVICE NOTIFICATION: nagiosinfra;credr_jenkins_52.76.31.249;Nginx http;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 403 Forbidden - 1490 bytes in 0.002 second response time
+[1456563357] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563357] wproc: NOTIFY job 964 from worker Core Worker 23315 is a non-check helper but exited with return code 2
+[1456563357] wproc:   host=credr_jenkins_52.76.31.249; service=Nginx http; contact=nagiosinfra
+[1456563357] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563357] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563357] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563357] wproc: NOTIFY job 964 from worker Core Worker 23316 is a non-check helper but exited with return code 2
+[1456563357] wproc:   host=credr_jenkins_52.76.31.249; service=Nginx http; contact=mohit
+[1456563357] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563357] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563357] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563357] wproc: NOTIFY job 963 from worker Core Worker 23314 is a non-check helper but exited with return code 2
+[1456563357] wproc:   host=credr_jenkins_52.76.31.249; service=Nginx http; contact=vivek
+[1456563357] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563357] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563357] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563369] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563429] Auto-save of retention data completed successfully.
+[1456563443] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563446] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563461] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563476] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563519] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563524] Caught SIGTERM, shutting down...
+[1456563524] Successfully shutdown... (PID=23312)
+[1456563524] Event broker module 'NERD' deinitialized successfully.
+[1456563525] Nagios 4.1.1 starting... (PID=30009)
+[1456563525] Local time is Sat Feb 27 14:28:45 IST 2016
+[1456563525] LOG VERSION: 2.0
+[1456563525] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1456563525] qh: core query handler registered
+[1456563525] nerd: Channel hostchecks registered successfully
+[1456563525] nerd: Channel servicechecks registered successfully
+[1456563525] nerd: Channel opathchecks registered successfully
+[1456563525] nerd: Fully initialized and ready to rock!
+[1456563525] wproc: Successfully registered manager as @wproc with query handler
+[1456563525] wproc: Registry request: name=Core Worker 30013;pid=30013
+[1456563525] wproc: Registry request: name=Core Worker 30012;pid=30012
+[1456563525] wproc: Registry request: name=Core Worker 30011;pid=30011
+[1456563525] wproc: Registry request: name=Core Worker 30010;pid=30010
+[1456563525] Warning: Duplicate definition found for service 'CPU Usage' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 76)
+[1456563525] Warning: Duplicate definition found for service 'Current Load' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 67)
+[1456563525] Successfully launched command file worker with pid 30014
+[1456563534] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563534] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_imageprocessing_52.76.65.82;CPU Usage;1456563533
+[1456563534] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563537] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563549] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563626] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563641] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563656] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563699] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563699] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Current Load;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563699] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Current Load;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563699] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Current Load;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563699] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Current Load;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563699] wproc: NOTIFY job 46 from worker Core Worker 30011 is a non-check helper but exited with return code 2
+[1456563699] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Load; contact=vivek
+[1456563699] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563699] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563699] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563699] wproc: NOTIFY job 47 from worker Core Worker 30012 is a non-check helper but exited with return code 2
+[1456563699] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Load; contact=nagiosinfra
+[1456563699] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563699] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563699] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563699] wproc: NOTIFY job 47 from worker Core Worker 30013 is a non-check helper but exited with return code 2
+[1456563699] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Load; contact=mohit
+[1456563699] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563699] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563699] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563714] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563714] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563714] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563714] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563714] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563714] wproc: NOTIFY job 50 from worker Core Worker 30013 is a non-check helper but exited with return code 2
+[1456563714] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Users; contact=vivek
+[1456563714] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563714] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563714] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563714] wproc: NOTIFY job 50 from worker Core Worker 30011 is a non-check helper but exited with return code 2
+[1456563714] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Users; contact=mohit
+[1456563714] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563714] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563714] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563714] wproc: NOTIFY job 50 from worker Core Worker 30010 is a non-check helper but exited with return code 2
+[1456563714] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Users; contact=nagiosinfra
+[1456563714] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563714] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563714] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563714] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456563714] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563714] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;CPU Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563714] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;CPU Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563714] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;CPU Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563714] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;CPU Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563714] wproc: NOTIFY job 53 from worker Core Worker 30013 is a non-check helper but exited with return code 2
+[1456563714] wproc:   host=credr_imageprocessing_52.76.65.82; service=CPU Usage; contact=mohit
+[1456563714] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563714] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563714] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563714] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456563714] wproc: NOTIFY job 53 from worker Core Worker 30012 is a non-check helper but exited with return code 2
+[1456563714] wproc:   host=credr_imageprocessing_52.76.65.82; service=CPU Usage; contact=nagiosinfra
+[1456563714] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563714] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563714] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563714] wproc: NOTIFY job 52 from worker Core Worker 30011 is a non-check helper but exited with return code 2
+[1456563714] wproc:   host=credr_imageprocessing_52.76.65.82; service=CPU Usage; contact=vivek
+[1456563714] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563714] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563714] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563714] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456563717] Warning: Return code of 255 for check of service 'Memory' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563717] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563717] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563717] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563717] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563717] wproc: NOTIFY job 59 from worker Core Worker 30013 is a non-check helper but exited with return code 2
+[1456563717] wproc:   host=credr_imageprocessing_52.76.65.82; service=Memory; contact=vivek
+[1456563717] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563717] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563717] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563717] wproc: NOTIFY job 59 from worker Core Worker 30011 is a non-check helper but exited with return code 2
+[1456563717] wproc:   host=credr_imageprocessing_52.76.65.82; service=Memory; contact=mohit
+[1456563717] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563717] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563717] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563717] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456563717] wproc: NOTIFY job 59 from worker Core Worker 30010 is a non-check helper but exited with return code 2
+[1456563717] wproc:   host=credr_imageprocessing_52.76.65.82; service=Memory; contact=nagiosinfra
+[1456563717] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563717] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563717] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563717] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456563729] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_imageprocessing_52.76.65.82' was out of bounds.
+[1456563729] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563729] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563729] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563729] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1456563729] wproc: NOTIFY job 63 from worker Core Worker 30013 is a non-check helper but exited with return code 2
+[1456563729] wproc:   host=credr_imageprocessing_52.76.65.82; service=Zombie Process; contact=mohit
+[1456563729] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563729] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563729] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563729] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456563729] wproc: NOTIFY job 63 from worker Core Worker 30012 is a non-check helper but exited with return code 2
+[1456563729] wproc:   host=credr_imageprocessing_52.76.65.82; service=Zombie Process; contact=nagiosinfra
+[1456563729] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563729] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563729] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563729] wproc: NOTIFY job 62 from worker Core Worker 30011 is a non-check helper but exited with return code 2
+[1456563729] wproc:   host=credr_imageprocessing_52.76.65.82; service=Zombie Process; contact=vivek
+[1456563729] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563729] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563729] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563748] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_imageprocessing_52.76.65.82;CPU Usage;1456563746
+[1456563750] SERVICE ALERT: credr_imageprocessing_52.76.65.82;CPU Usage;OK;HARD;3;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1456563750] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1456563750] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1456563750] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1456563750] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1456563750] wproc: NOTIFY job 70 from worker Core Worker 30010 is a non-check helper but exited with return code 2
+[1456563750] wproc:   host=credr_imageprocessing_52.76.65.82; service=CPU Usage; contact=vivek
+[1456563750] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563750] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563750] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563750] wproc: NOTIFY job 71 from worker Core Worker 30011 is a non-check helper but exited with return code 2
+[1456563750] wproc:   host=credr_imageprocessing_52.76.65.82; service=CPU Usage; contact=nagiosinfra
+[1456563750] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563750] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563750] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563750] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456563750] wproc: NOTIFY job 71 from worker Core Worker 30012 is a non-check helper but exited with return code 2
+[1456563750] wproc:   host=credr_imageprocessing_52.76.65.82; service=CPU Usage; contact=mohit
+[1456563750] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563750] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563750] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563750] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456563810] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Ping Check;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1456563810] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Ping Check;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1456563810] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Ping Check;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1456563810] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Ping Check;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1456563810] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Ping Check;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1456563810] wproc: NOTIFY job 82 from worker Core Worker 30012 is a non-check helper but exited with return code 2
+[1456563810] wproc:   host=credr_imageprocessing_52.76.65.82; service=Ping Check; contact=mohit
+[1456563810] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563810] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563810] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563810] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456563810] wproc: NOTIFY job 82 from worker Core Worker 30011 is a non-check helper but exited with return code 2
+[1456563810] wproc:   host=credr_imageprocessing_52.76.65.82; service=Ping Check; contact=nagiosinfra
+[1456563810] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563810] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563810] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563810] wproc: NOTIFY job 81 from worker Core Worker 30010 is a non-check helper but exited with return code 2
+[1456563810] wproc:   host=credr_imageprocessing_52.76.65.82; service=Ping Check; contact=vivek
+[1456563810] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563810] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563810] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563810] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456563821] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Root Partition;OK;HARD;3;DISK OK - free space: / 10365 MB (54% inode=87%):
+[1456563821] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Root Partition;OK;notify-service-by-email;DISK OK - free space: / 10365 MB (54% inode=87%):
+[1456563821] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Root Partition;OK;notify-service-by-email;DISK OK - free space: / 10365 MB (54% inode=87%):
+[1456563821] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Root Partition;OK;notify-service-by-email;DISK OK - free space: / 10365 MB (54% inode=87%):
+[1456563821] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Root Partition;OK;notify-service-by-email;DISK OK - free space: / 10365 MB (54% inode=87%):
+[1456563821] wproc: NOTIFY job 84 from worker Core Worker 30011 is a non-check helper but exited with return code 2
+[1456563821] wproc:   host=credr_imageprocessing_52.76.65.82; service=Root Partition; contact=nagiosinfra
+[1456563821] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563821] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563821] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563821] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456563821] wproc: NOTIFY job 83 from worker Core Worker 30010 is a non-check helper but exited with return code 2
+[1456563821] wproc:   host=credr_imageprocessing_52.76.65.82; service=Root Partition; contact=vivek
+[1456563821] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563821] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563821] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563821] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456563821] wproc: NOTIFY job 84 from worker Core Worker 30012 is a non-check helper but exited with return code 2
+[1456563821] wproc:   host=credr_imageprocessing_52.76.65.82; service=Root Partition; contact=mohit
+[1456563821] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563821] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563821] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563821] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456563822] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_imageprocessing_52.76.65.82;Current Load;1456563821
+[1456563822] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Current Load;OK;HARD;3;OK - load average: 0.00, 0.01, 0.05
+[1456563822] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Current Load;OK;notify-service-by-email;OK - load average: 0.00, 0.01, 0.05
+[1456563822] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Current Load;OK;notify-service-by-email;OK - load average: 0.00, 0.01, 0.05
+[1456563822] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Current Load;OK;notify-service-by-email;OK - load average: 0.00, 0.01, 0.05
+[1456563822] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Current Load;OK;notify-service-by-email;OK - load average: 0.00, 0.01, 0.05
+[1456563822] wproc: NOTIFY job 85 from worker Core Worker 30010 is a non-check helper but exited with return code 2
+[1456563822] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Load; contact=nagiosinfra
+[1456563822] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563822] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563822] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563822] wproc: NOTIFY job 85 from worker Core Worker 30013 is a non-check helper but exited with return code 2
+[1456563822] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Load; contact=vivek
+[1456563822] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563822] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563822] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563822] wproc: NOTIFY job 85 from worker Core Worker 30011 is a non-check helper but exited with return code 2
+[1456563822] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Load; contact=mohit
+[1456563822] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563822] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563822] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563827] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_imageprocessing_52.76.65.82;Current Load;1456563826
+[1456563836] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Total Processes;OK;HARD;3;PROCS OK: 120 processes
+[1456563836] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Total Processes;OK;notify-service-by-email;PROCS OK: 120 processes
+[1456563836] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Total Processes;OK;notify-service-by-email;PROCS OK: 120 processes
+[1456563836] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Total Processes;OK;notify-service-by-email;PROCS OK: 120 processes
+[1456563836] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Total Processes;OK;notify-service-by-email;PROCS OK: 120 processes
+[1456563836] wproc: NOTIFY job 89 from worker Core Worker 30011 is a non-check helper but exited with return code 2
+[1456563836] wproc:   host=credr_imageprocessing_52.76.65.82; service=Total Processes; contact=mohit
+[1456563836] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563836] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563836] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563836] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456563836] wproc: NOTIFY job 89 from worker Core Worker 30013 is a non-check helper but exited with return code 2
+[1456563836] wproc:   host=credr_imageprocessing_52.76.65.82; service=Total Processes; contact=vivek
+[1456563836] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563836] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563836] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563836] wproc: NOTIFY job 89 from worker Core Worker 30010 is a non-check helper but exited with return code 2
+[1456563836] wproc:   host=credr_imageprocessing_52.76.65.82; service=Total Processes; contact=nagiosinfra
+[1456563836] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563836] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563836] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563894] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Current Users;OK;HARD;3;USERS OK - 1 users currently logged in
+[1456563894] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Current Users;OK;notify-service-by-email;USERS OK - 1 users currently logged in
+[1456563894] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Current Users;OK;notify-service-by-email;USERS OK - 1 users currently logged in
+[1456563894] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Current Users;OK;notify-service-by-email;USERS OK - 1 users currently logged in
+[1456563894] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Current Users;OK;notify-service-by-email;USERS OK - 1 users currently logged in
+[1456563894] wproc: NOTIFY job 106 from worker Core Worker 30011 is a non-check helper but exited with return code 2
+[1456563894] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Users; contact=vivek
+[1456563894] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563894] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563894] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563894] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456563894] wproc: NOTIFY job 107 from worker Core Worker 30012 is a non-check helper but exited with return code 2
+[1456563894] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Users; contact=nagiosinfra
+[1456563894] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563894] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563894] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563894] wproc: NOTIFY job 107 from worker Core Worker 30013 is a non-check helper but exited with return code 2
+[1456563894] wproc:   host=credr_imageprocessing_52.76.65.82; service=Current Users; contact=mohit
+[1456563894] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563894] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563894] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563897] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Memory;OK;HARD;3;[MEMORY] Total: 3952 MB - Used: 269 MB - 6% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1456563897] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Memory;OK;notify-service-by-email;[MEMORY] Total: 3952 MB - Used: 269 MB - 6% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1456563897] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Memory;OK;notify-service-by-email;[MEMORY] Total: 3952 MB - Used: 269 MB - 6% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1456563897] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Memory;OK;notify-service-by-email;[MEMORY] Total: 3952 MB - Used: 269 MB - 6% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1456563897] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Memory;OK;notify-service-by-email;[MEMORY] Total: 3952 MB - Used: 269 MB - 6% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1456563897] wproc: NOTIFY job 115 from worker Core Worker 30012 is a non-check helper but exited with return code 2
+[1456563897] wproc:   host=credr_imageprocessing_52.76.65.82; service=Memory; contact=mohit
+[1456563897] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563897] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563897] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563897] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456563897] wproc: NOTIFY job 115 from worker Core Worker 30011 is a non-check helper but exited with return code 2
+[1456563897] wproc:   host=credr_imageprocessing_52.76.65.82; service=Memory; contact=nagiosinfra
+[1456563897] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563897] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563897] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563897] wproc: NOTIFY job 114 from worker Core Worker 30010 is a non-check helper but exited with return code 2
+[1456563897] wproc:   host=credr_imageprocessing_52.76.65.82; service=Memory; contact=vivek
+[1456563897] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563897] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563897] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563909] SERVICE ALERT: credr_imageprocessing_52.76.65.82;Zombie Process;OK;HARD;3;PROCS OK: 0 processes with STATE = Z
+[1456563909] SERVICE NOTIFICATION: vivek;credr_imageprocessing_52.76.65.82;Zombie Process;OK;notify-service-by-email;PROCS OK: 0 processes with STATE = Z
+[1456563909] SERVICE NOTIFICATION: nagiosadmin;credr_imageprocessing_52.76.65.82;Zombie Process;OK;notify-service-by-email;PROCS OK: 0 processes with STATE = Z
+[1456563909] SERVICE NOTIFICATION: mohit;credr_imageprocessing_52.76.65.82;Zombie Process;OK;notify-service-by-email;PROCS OK: 0 processes with STATE = Z
+[1456563909] SERVICE NOTIFICATION: nagiosinfra;credr_imageprocessing_52.76.65.82;Zombie Process;OK;notify-service-by-email;PROCS OK: 0 processes with STATE = Z
+[1456563909] wproc: NOTIFY job 118 from worker Core Worker 30013 is a non-check helper but exited with return code 2
+[1456563909] wproc:   host=credr_imageprocessing_52.76.65.82; service=Zombie Process; contact=vivek
+[1456563909] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563909] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563909] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563909] wproc: NOTIFY job 118 from worker Core Worker 30010 is a non-check helper but exited with return code 2
+[1456563909] wproc:   host=credr_imageprocessing_52.76.65.82; service=Zombie Process; contact=nagiosinfra
+[1456563909] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563909] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563909] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563909] wproc: NOTIFY job 118 from worker Core Worker 30011 is a non-check helper but exited with return code 2
+[1456563909] wproc:   host=credr_imageprocessing_52.76.65.82; service=Zombie Process; contact=mohit
+[1456563909] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1456563909] wproc:   stderr line 01: Send options without primary recipient specified.
+[1456563909] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1456563909] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1456564004] Caught SIGTERM, shutting down...
+[1456564004] Successfully shutdown... (PID=30009)
+[1456564004] Event broker module 'NERD' deinitialized successfully.
+[1456564005] Nagios 4.1.1 starting... (PID=31106)
+[1456564005] Local time is Sat Feb 27 14:36:45 IST 2016
+[1456564005] LOG VERSION: 2.0
+[1456564005] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1456564005] qh: core query handler registered
+[1456564005] nerd: Channel hostchecks registered successfully
+[1456564005] nerd: Channel servicechecks registered successfully
+[1456564005] nerd: Channel opathchecks registered successfully
+[1456564005] nerd: Fully initialized and ready to rock!
+[1456564005] wproc: Successfully registered manager as @wproc with query handler
+[1456564005] wproc: Registry request: name=Core Worker 31107;pid=31107
+[1456564005] wproc: Registry request: name=Core Worker 31108;pid=31108
+[1456564005] wproc: Registry request: name=Core Worker 31110;pid=31110
+[1456564005] wproc: Registry request: name=Core Worker 31109;pid=31109
+[1456564005] Warning: Duplicate definition found for service 'CPU Usage' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 76)
+[1456564005] Warning: Duplicate definition found for service 'Current Load' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 67)
+[1456564005] Successfully launched command file worker with pid 31111
+[1456564109] Caught SIGTERM, shutting down...
+[1456564109] Successfully shutdown... (PID=31106)
+[1456564109] Event broker module 'NERD' deinitialized successfully.
+[1456564110] Nagios 4.1.1 starting... (PID=31415)
+[1456564110] Local time is Sat Feb 27 14:38:30 IST 2016
+[1456564110] LOG VERSION: 2.0
+[1456564110] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1456564110] qh: core query handler registered
+[1456564110] nerd: Channel hostchecks registered successfully
+[1456564110] nerd: Channel servicechecks registered successfully
+[1456564110] nerd: Channel opathchecks registered successfully
+[1456564110] nerd: Fully initialized and ready to rock!
+[1456564110] wproc: Successfully registered manager as @wproc with query handler
+[1456564110] wproc: Registry request: name=Core Worker 31419;pid=31419
+[1456564110] wproc: Registry request: name=Core Worker 31418;pid=31418
+[1456564110] wproc: Registry request: name=Core Worker 31417;pid=31417
+[1456564110] wproc: Registry request: name=Core Worker 31416;pid=31416
+[1456564110] Warning: Duplicate definition found for service 'CPU Usage' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 76)
+[1456564110] Warning: Duplicate definition found for service 'Current Load' on host 'credr_prod_52.74.247.15' (config file '/usr/local/nagios/etc/servers/credr_prod_52.74.247.15.cfg', starting on line 67)
+[1456564110] Successfully launched command file worker with pid 31420
