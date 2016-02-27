@@ -1,0 +1,175 @@
+[1450789928] Nagios 4.1.1 starting... (PID=9629)
+[1450789928] Local time is Tue Dec 22 13:12:08 UTC 2015
+[1450789928] LOG VERSION: 2.0
+[1450789928] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450789928] qh: core query handler registered
+[1450789928] nerd: Channel hostchecks registered successfully
+[1450789928] nerd: Channel servicechecks registered successfully
+[1450789928] nerd: Channel opathchecks registered successfully
+[1450789928] nerd: Fully initialized and ready to rock!
+[1450789928] wproc: Successfully registered manager as @wproc with query handler
+[1450789928] wproc: Registry request: name=Core Worker 9632;pid=9632
+[1450789928] wproc: Registry request: name=Core Worker 9633;pid=9633
+[1450789928] wproc: Registry request: name=Core Worker 9630;pid=9630
+[1450789928] wproc: Registry request: name=Core Worker 9631;pid=9631
+[1450789929] Successfully launched command file worker with pid 9634
+[1450790173] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Current Users;1450790171
+[1450790190] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;1;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1450790244] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Current Users;1450790243
+[1450790250] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1450790310] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;3;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1450790370] SERVICE ALERT: localhost;Swap Usage;CRITICAL;HARD;4;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1450790370] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1450790370] wproc: NOTIFY job 4 from worker Core Worker 9631 is a non-check helper but exited with return code 127
+[1450790370] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1450790370] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1450790370] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1450790370] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1450790431] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Current Users;1450790429
+[1450790969] Caught SIGTERM, shutting down...
+[1450790969] Successfully shutdown... (PID=9629)
+[1450790969] Event broker module 'NERD' deinitialized successfully.
+[1450790970] Nagios 4.1.1 starting... (PID=10476)
+[1450790970] Local time is Tue Dec 22 13:29:30 UTC 2015
+[1450790970] LOG VERSION: 2.0
+[1450790970] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450790970] qh: core query handler registered
+[1450790970] nerd: Channel hostchecks registered successfully
+[1450790970] nerd: Channel servicechecks registered successfully
+[1450790970] nerd: Channel opathchecks registered successfully
+[1450790970] nerd: Fully initialized and ready to rock!
+[1450790970] wproc: Successfully registered manager as @wproc with query handler
+[1450790970] wproc: Registry request: name=Core Worker 10480;pid=10480
+[1450790970] wproc: Registry request: name=Core Worker 10479;pid=10479
+[1450790970] wproc: Registry request: name=Core Worker 10478;pid=10478
+[1450790970] wproc: Registry request: name=Core Worker 10477;pid=10477
+[1450790970] Successfully launched command file worker with pid 10481
+[1450791031] SERVICE ALERT: localhost;Current Users;WARNING;SOFT;1;USERS WARNING - 3 users currently logged in
+[1450791091] SERVICE ALERT: localhost;Current Users;WARNING;SOFT;2;USERS WARNING - 3 users currently logged in
+[1450791128] SERVICE ALERT: localhost;Total Processes;WARNING;SOFT;1;PROCS WARNING: 84 processes with STATE = RSZDT
+[1450791142] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Current Users;1450791140
+[1450791142] SERVICE ALERT: localhost;Current Users;WARNING;SOFT;3;USERS WARNING - 3 users currently logged in
+[1450791188] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Total Processes;1450791186
+[1450791188] SERVICE ALERT: localhost;Total Processes;WARNING;SOFT;2;PROCS WARNING: 84 processes with STATE = RSZDT
+[1450791194] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Total Processes;1450791193
+[1450791194] SERVICE ALERT: localhost;Total Processes;WARNING;SOFT;3;PROCS WARNING: 84 processes with STATE = RSZDT
+[1450791202] SERVICE ALERT: localhost;Current Users;WARNING;HARD;4;USERS WARNING - 3 users currently logged in
+[1450791202] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Users;WARNING;notify-service-by-email;USERS WARNING - 3 users currently logged in
+[1450791202] wproc: NOTIFY job 4 from worker Core Worker 10480 is a non-check helper but exited with return code 127
+[1450791202] wproc:   host=localhost; service=Current Users; contact=nagiosadmin
+[1450791202] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1450791202] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1450791202] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1450791234] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Total Processes;1450791232
+[1450791234] SERVICE ALERT: localhost;Total Processes;WARNING;HARD;4;PROCS WARNING: 84 processes with STATE = RSZDT
+[1450791234] SERVICE NOTIFICATION: nagiosadmin;localhost;Total Processes;WARNING;notify-service-by-email;PROCS WARNING: 84 processes with STATE = RSZDT
+[1450791234] wproc: NOTIFY job 4 from worker Core Worker 10478 is a non-check helper but exited with return code 127
+[1450791234] wproc:   host=localhost; service=Total Processes; contact=nagiosadmin
+[1450791234] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1450791234] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1450791243] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Total Processes;1450791250
+[1450791611] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Total Processes;1450791610
+[1450792415] Caught SIGTERM, shutting down...
+[1450792415] Successfully shutdown... (PID=10476)
+[1450792415] Event broker module 'NERD' deinitialized successfully.
+[1450792416] Nagios 4.1.1 starting... (PID=11150)
+[1450792416] Local time is Tue Dec 22 13:53:36 UTC 2015
+[1450792416] LOG VERSION: 2.0
+[1450792416] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1450792416] qh: core query handler registered
+[1450792416] nerd: Channel hostchecks registered successfully
+[1450792416] nerd: Channel servicechecks registered successfully
+[1450792416] nerd: Channel opathchecks registered successfully
+[1450792416] nerd: Fully initialized and ready to rock!
+[1450792416] wproc: Successfully registered manager as @wproc with query handler
+[1450792416] wproc: Registry request: name=Core Worker 11154;pid=11154
+[1450792416] wproc: Registry request: name=Core Worker 11153;pid=11153
+[1450792416] wproc: Registry request: name=Core Worker 11152;pid=11152
+[1450792416] wproc: Registry request: name=Core Worker 11151;pid=11151
+[1450792416] Successfully launched command file worker with pid 11155
+[1450792439] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Current Users;1450792438
+[1450792444] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Current Users;1450792442
+[1450792461] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Current Users;1450792460
+[1450792467] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Current Users;1450792465
+[1450792508] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Current Users;1450792506
+[1450792511] SERVICE ALERT: localhost;Total Processes;CRITICAL;HARD;4;PROCS CRITICAL: 85 processes with STATE = RSZDT
+[1450792511] SERVICE NOTIFICATION: nagiosadmin;localhost;Total Processes;CRITICAL;notify-service-by-email;PROCS CRITICAL: 85 processes with STATE = RSZDT
+[1450792511] wproc: NOTIFY job 2 from worker Core Worker 11151 is a non-check helper but exited with return code 127
+[1450792511] wproc:   host=localhost; service=Total Processes; contact=nagiosadmin
+[1450792511] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1450792511] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1450792511] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1450792521] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Current Users;1450792520
+[1450792649] EXTERNAL COMMAND: ENABLE_HOST_SVC_NOTIFICATIONS;localhost
+[1450794921] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Users;WARNING;notify-service-by-email;USERS WARNING - 3 users currently logged in
+[1450794921] wproc: NOTIFY job 19 from worker Core Worker 11152 is a non-check helper but exited with return code 127
+[1450794921] wproc:   host=localhost; service=Current Users; contact=nagiosadmin
+[1450794921] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1450794921] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1450794921] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1450796015] Auto-save of retention data completed successfully.
+[1450796111] SERVICE NOTIFICATION: nagiosadmin;localhost;Total Processes;CRITICAL;notify-service-by-email;PROCS CRITICAL: 82 processes with STATE = RSZDT
+[1450796111] wproc: NOTIFY job 27 from worker Core Worker 11153 is a non-check helper but exited with return code 127
+[1450796111] wproc:   host=localhost; service=Total Processes; contact=nagiosadmin
+[1450796111] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1450796111] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1450796111] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1450798221] SERVICE ALERT: localhost;Current Users;OK;HARD;4;USERS OK - 1 users currently logged in
+[1450798221] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Users;OK;notify-service-by-email;USERS OK - 1 users currently logged in
+[1450798221] wproc: NOTIFY job 42 from worker Core Worker 11154 is a non-check helper but exited with return code 127
+[1450798221] wproc:   host=localhost; service=Current Users; contact=nagiosadmin
+[1450798221] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1450798221] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1450798221] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1450799615] Auto-save of retention data completed successfully.
+[1450799711] SERVICE NOTIFICATION: nagiosadmin;localhost;Total Processes;CRITICAL;notify-service-by-email;PROCS CRITICAL: 77 processes with STATE = RSZDT
+[1450799711] wproc: NOTIFY job 51 from worker Core Worker 11151 is a non-check helper but exited with return code 127
+[1450799711] wproc:   host=localhost; service=Total Processes; contact=nagiosadmin
+[1450799711] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1450799711] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1450803215] Auto-save of retention data completed successfully.
+[1450803610] SERVICE NOTIFICATION: nagiosadmin;localhost;Total Processes;CRITICAL;notify-service-by-email;PROCS CRITICAL: 77 processes with STATE = RSZDT
+[1450803610] wproc: NOTIFY job 78 from worker Core Worker 11154 is a non-check helper but exited with return code 127
+[1450803610] wproc:   host=localhost; service=Total Processes; contact=nagiosadmin
+[1450803610] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1450803610] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1450806815] Auto-save of retention data completed successfully.
+[1450807210] SERVICE NOTIFICATION: nagiosadmin;localhost;Total Processes;CRITICAL;notify-service-by-email;PROCS CRITICAL: 77 processes with STATE = RSZDT
+[1450807210] wproc: NOTIFY job 102 from worker Core Worker 11153 is a non-check helper but exited with return code 127
+[1450807210] wproc:   host=localhost; service=Total Processes; contact=nagiosadmin
+[1450807210] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1450807210] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1450810415] Auto-save of retention data completed successfully.
+[1450810810] SERVICE NOTIFICATION: nagiosadmin;localhost;Total Processes;CRITICAL;notify-service-by-email;PROCS CRITICAL: 75 processes with STATE = RSZDT
+[1450810810] wproc: NOTIFY job 126 from worker Core Worker 11153 is a non-check helper but exited with return code 127
+[1450810810] wproc:   host=localhost; service=Total Processes; contact=nagiosadmin
+[1450810810] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1450810810] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1450810810] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1450814015] Auto-save of retention data completed successfully.
+[1450814410] SERVICE NOTIFICATION: nagiosadmin;localhost;Total Processes;CRITICAL;notify-service-by-email;PROCS CRITICAL: 75 processes with STATE = RSZDT
+[1450814410] wproc: NOTIFY job 150 from worker Core Worker 11152 is a non-check helper but exited with return code 127
+[1450814410] wproc:   host=localhost; service=Total Processes; contact=nagiosadmin
+[1450814410] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1450814410] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1450817615] Auto-save of retention data completed successfully.
+[1450818309] SERVICE NOTIFICATION: nagiosadmin;localhost;Total Processes;CRITICAL;notify-service-by-email;PROCS CRITICAL: 75 processes with STATE = RSZDT
+[1450818309] wproc: NOTIFY job 176 from worker Core Worker 11151 is a non-check helper but exited with return code 127
+[1450818309] wproc:   host=localhost; service=Total Processes; contact=nagiosadmin
+[1450818309] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1450818309] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1450821215] Auto-save of retention data completed successfully.
+[1450821909] SERVICE NOTIFICATION: nagiosadmin;localhost;Total Processes;CRITICAL;notify-service-by-email;PROCS CRITICAL: 75 processes with STATE = RSZDT
+[1450821909] wproc: NOTIFY job 201 from worker Core Worker 11154 is a non-check helper but exited with return code 127
+[1450821909] wproc:   host=localhost; service=Total Processes; contact=nagiosadmin
+[1450821909] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1450821909] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1450821909] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1450824815] Auto-save of retention data completed successfully.
+[1450825509] SERVICE NOTIFICATION: nagiosadmin;localhost;Total Processes;CRITICAL;notify-service-by-email;PROCS CRITICAL: 75 processes with STATE = RSZDT
+[1450825509] wproc: NOTIFY job 225 from worker Core Worker 11153 is a non-check helper but exited with return code 127
+[1450825509] wproc:   host=localhost; service=Total Processes; contact=nagiosadmin
+[1450825509] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1450825509] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1450825509] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1450828415] Auto-save of retention data completed successfully.

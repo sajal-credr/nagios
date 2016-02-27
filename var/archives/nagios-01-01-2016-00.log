@@ -1,0 +1,287 @@
+[1451500200] LOG ROTATION: DAILY
+[1451500200] LOG VERSION: 2.0
+[1451500200] CURRENT HOST STATE: Nagios Server;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1451500200] CURRENT HOST STATE: credr_DW_52.76.17.124;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.42 ms
+[1451500200] CURRENT HOST STATE: credr_dev_52.74.244.220;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.63 ms
+[1451500200] CURRENT HOST STATE: credr_prod_52.74.247.15;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1451500200] CURRENT HOST STATE: credr_prodsolr_52.74.114.132;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.34 ms
+[1451500200] CURRENT SERVICE STATE: Nagios Server;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1451500200] CURRENT SERVICE STATE: Nagios Server;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451500200] CURRENT SERVICE STATE: Nagios Server;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11783 bytes in 0.000 second response time
+[1451500200] CURRENT SERVICE STATE: Nagios Server;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451500200] CURRENT SERVICE STATE: Nagios Server;Root Partition;OK;HARD;1;DISK OK - free space: / 36951 MB (96% inode=97%):
+[1451500200] CURRENT SERVICE STATE: Nagios Server;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1451500200] CURRENT SERVICE STATE: Nagios Server;Total Processes;OK;HARD;1;PROCS OK: 78 processes with STATE = RSZDT
+[1451500200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1451500200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1451500200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451500200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 209 MB - 5% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451500200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1451500200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Root Partition;OK;HARD;1;DISK OK - free space: / 89975 MB (93% inode=98%):
+[1451500200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1451500200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Total Processes;OK;HARD;1;PROCS OK: 129 processes
+[1451500200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1451500200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1451500200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451500200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1451500200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 2358 MB - 59% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451500200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1451500200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Root Partition;OK;HARD;1;DISK OK - free space: / 1167 MB (15% inode=62%):
+[1451500200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1451500200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Total Processes;OK;HARD;1;PROCS OK: 122 processes
+[1451500200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1451500200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=2.51% system=0.00%, iowait=0.00%, idle=97.49%, nice=0.00%, steal=0.00%
+[1451500200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Current Load;OK;HARD;1;OK - load average: 0.20, 0.29, 0.36
+[1451500200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451500200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Memory;OK;HARD;1;[MEMORY] Total: 16047 MB - Used: 2060 MB - 12% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451500200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Nginx http;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 392 bytes in 0.001 second response time
+[1451500200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451500200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Root Partition;OK;HARD;1;DISK OK - free space: / 85737 MB (88% inode=95%):
+[1451500200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1451500200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Supervisor Celery;OK;HARD;1;celery_smsserv                   RUNNING    pid 9675, uptime 1 day, 9:47:56
+[1451500200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Supervisor WebApp;OK;HARD;1;credrWebApp                      RUNNING    pid 13612, uptime 5:42:10
+[1451500200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Total Processes;OK;HARD;1;PROCS OK: 150 processes
+[1451500200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1451500200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1451500200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Current Load;OK;HARD;1;OK - load average: 0.03, 0.02, 0.05
+[1451500200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451500200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Memory;OK;HARD;1;[MEMORY] Total: 7479 MB - Used: 1040 MB - 13% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451500200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451500200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Root Partition;OK;HARD;1;DISK OK - free space: / 8244 MB (21% inode=97%):
+[1451500200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1451500200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Solr Service;OK;HARD;1;PORT 8983 OK: localhost/8983 is responding
+[1451500200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Total Processes;OK;HARD;1;PROCS OK: 105 processes
+[1451500200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1451500814] Auto-save of retention data completed successfully.
+[1451504414] Auto-save of retention data completed successfully.
+[1451507689] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;WARNING;SOFT;1;CPU STATISTICS WARNING : user=44.28% system=5.97%, iowait=0.00%, idle=49.25%, nice=0.00%, steal=0.50%
+[1451507809] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;OK;SOFT;2;CPU STATISTICS OK : user=23.88% system=6.97%, iowait=0.00%, idle=68.66%, nice=0.00%, steal=0.50%
+[1451508015] Auto-save of retention data completed successfully.
+[1451511615] Auto-save of retention data completed successfully.
+[1451515214] Auto-save of retention data completed successfully.
+[1451518814] Auto-save of retention data completed successfully.
+[1451522415] Auto-save of retention data completed successfully.
+[1451526015] Auto-save of retention data completed successfully.
+[1451529614] Auto-save of retention data completed successfully.
+[1451533214] Auto-save of retention data completed successfully.
+[1451536814] Auto-save of retention data completed successfully.
+[1451537807] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;WARNING;SOFT;1;CPU STATISTICS WARNING : user=41.50% system=4.00%, iowait=0.00%, idle=54.50%, nice=0.00%, steal=0.00%
+[1451537927] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;OK;SOFT;2;CPU STATISTICS OK : user=1.00% system=0.50%, iowait=0.50%, idle=98.01%, nice=0.00%, steal=0.00%
+[1451540414] Auto-save of retention data completed successfully.
+[1451544014] Auto-save of retention data completed successfully.
+[1451547599] SERVICE ALERT: credr_DW_52.76.17.124;Total Processes;WARNING;SOFT;1;PROCS WARNING: 203 processes
+[1451547614] Auto-save of retention data completed successfully.
+[1451547719] SERVICE ALERT: credr_DW_52.76.17.124;Total Processes;WARNING;SOFT;2;PROCS WARNING: 203 processes
+[1451547839] SERVICE ALERT: credr_DW_52.76.17.124;Total Processes;OK;SOFT;3;PROCS OK: 195 processes
+[1451548439] SERVICE ALERT: credr_DW_52.76.17.124;Total Processes;WARNING;SOFT;1;PROCS WARNING: 211 processes
+[1451548559] SERVICE ALERT: credr_DW_52.76.17.124;Total Processes;WARNING;SOFT;2;PROCS WARNING: 212 processes
+[1451548679] SERVICE ALERT: credr_DW_52.76.17.124;Total Processes;WARNING;HARD;3;PROCS WARNING: 212 processes
+[1451548679] SERVICE NOTIFICATION: sajal;credr_DW_52.76.17.124;Total Processes;WARNING;notify-service-by-email;PROCS WARNING: 212 processes
+[1451548679] SERVICE NOTIFICATION: nagiosadmin;credr_DW_52.76.17.124;Total Processes;WARNING;notify-service-by-email;PROCS WARNING: 212 processes
+[1451551214] Auto-save of retention data completed successfully.
+[1451552279] SERVICE NOTIFICATION: sajal;credr_DW_52.76.17.124;Total Processes;WARNING;notify-service-by-email;PROCS WARNING: 205 processes
+[1451552279] SERVICE NOTIFICATION: nagiosadmin;credr_DW_52.76.17.124;Total Processes;WARNING;notify-service-by-email;PROCS WARNING: 205 processes
+[1451553479] SERVICE ALERT: credr_DW_52.76.17.124;Total Processes;OK;HARD;3;PROCS OK: 189 processes
+[1451553479] SERVICE NOTIFICATION: sajal;credr_DW_52.76.17.124;Total Processes;OK;notify-service-by-email;PROCS OK: 189 processes
+[1451553479] SERVICE NOTIFICATION: nagiosadmin;credr_DW_52.76.17.124;Total Processes;OK;notify-service-by-email;PROCS OK: 189 processes
+[1451554814] Auto-save of retention data completed successfully.
+[1451558414] Auto-save of retention data completed successfully.
+[1451558968] Caught SIGTERM, shutting down...
+[1451558968] Successfully shutdown... (PID=20573)
+[1451558968] Event broker module 'NERD' deinitialized successfully.
+[1451558969] Nagios 4.1.1 starting... (PID=9649)
+[1451558969] Local time is Thu Dec 31 16:19:29 IST 2015
+[1451558969] LOG VERSION: 2.0
+[1451558969] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451558969] qh: core query handler registered
+[1451558969] nerd: Channel hostchecks registered successfully
+[1451558969] nerd: Channel servicechecks registered successfully
+[1451558969] nerd: Channel opathchecks registered successfully
+[1451558969] nerd: Fully initialized and ready to rock!
+[1451558969] wproc: Successfully registered manager as @wproc with query handler
+[1451558969] wproc: Registry request: name=Core Worker 9653;pid=9653
+[1451558969] wproc: Registry request: name=Core Worker 9652;pid=9652
+[1451558969] wproc: Registry request: name=Core Worker 9651;pid=9651
+[1451558969] wproc: Registry request: name=Core Worker 9650;pid=9650
+[1451558969] Successfully launched command file worker with pid 9654
+[1451558986] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_DW_52.76.17.124;PG Connections;1451558985
+[1451558986] SERVICE ALERT: credr_DW_52.76.17.124;PG Connections;CRITICAL;SOFT;1;NRPE: Command 'check_check_connections' not defined
+[1451559000] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_DW_52.76.17.124;PG Triggers;1451558999
+[1451559008] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_DW_52.76.17.124;PG Triggers;1451559008
+[1451559043] Caught SIGTERM, shutting down...
+[1451559043] Successfully shutdown... (PID=9649)
+[1451559043] Event broker module 'NERD' deinitialized successfully.
+[1451559044] Nagios 4.1.1 starting... (PID=9738)
+[1451559044] Local time is Thu Dec 31 16:20:44 IST 2015
+[1451559044] LOG VERSION: 2.0
+[1451559044] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451559044] qh: core query handler registered
+[1451559044] nerd: Channel hostchecks registered successfully
+[1451559044] nerd: Channel servicechecks registered successfully
+[1451559044] nerd: Channel opathchecks registered successfully
+[1451559044] nerd: Fully initialized and ready to rock!
+[1451559044] wproc: Successfully registered manager as @wproc with query handler
+[1451559044] wproc: Registry request: name=Core Worker 9739;pid=9739
+[1451559044] wproc: Registry request: name=Core Worker 9740;pid=9740
+[1451559044] wproc: Registry request: name=Core Worker 9741;pid=9741
+[1451559044] wproc: Registry request: name=Core Worker 9742;pid=9742
+[1451559044] Successfully launched command file worker with pid 9743
+[1451559051] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_DW_52.76.17.124;PG Connections;1451559050
+[1451559051] SERVICE ALERT: credr_DW_52.76.17.124;PG Connections;OK;SOFT;2;POSTGRES_BACKENDS OK: DB "apps_data" 36 of 1000 connections (3%)
+[1451559055] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_DW_52.76.17.124;PG Connections;1451559054
+[1451559133] Caught SIGTERM, shutting down...
+[1451559133] Successfully shutdown... (PID=9738)
+[1451559133] Event broker module 'NERD' deinitialized successfully.
+[1451559134] Nagios 4.1.1 starting... (PID=9849)
+[1451559134] Local time is Thu Dec 31 16:22:14 IST 2015
+[1451559134] LOG VERSION: 2.0
+[1451559134] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451559134] qh: core query handler registered
+[1451559134] nerd: Channel hostchecks registered successfully
+[1451559134] nerd: Channel servicechecks registered successfully
+[1451559134] nerd: Channel opathchecks registered successfully
+[1451559134] nerd: Fully initialized and ready to rock!
+[1451559134] wproc: Successfully registered manager as @wproc with query handler
+[1451559134] wproc: Registry request: name=Core Worker 9853;pid=9853
+[1451559134] wproc: Registry request: name=Core Worker 9852;pid=9852
+[1451559134] wproc: Registry request: name=Core Worker 9851;pid=9851
+[1451559134] wproc: Registry request: name=Core Worker 9850;pid=9850
+[1451559134] Successfully launched command file worker with pid 9854
+[1451561032] Caught SIGTERM, shutting down...
+[1451561032] Successfully shutdown... (PID=9849)
+[1451561032] Event broker module 'NERD' deinitialized successfully.
+[1451561033] Nagios 4.1.1 starting... (PID=10841)
+[1451561033] Local time is Thu Dec 31 16:53:53 IST 2015
+[1451561033] LOG VERSION: 2.0
+[1451561033] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451561033] qh: core query handler registered
+[1451561033] nerd: Channel hostchecks registered successfully
+[1451561033] nerd: Channel servicechecks registered successfully
+[1451561033] nerd: Channel opathchecks registered successfully
+[1451561033] nerd: Fully initialized and ready to rock!
+[1451561033] wproc: Successfully registered manager as @wproc with query handler
+[1451561033] wproc: Registry request: name=Core Worker 10844;pid=10844
+[1451561033] wproc: Registry request: name=Core Worker 10843;pid=10843
+[1451561033] wproc: Registry request: name=Core Worker 10842;pid=10842
+[1451561033] wproc: Registry request: name=Core Worker 10845;pid=10845
+[1451561033] Successfully launched command file worker with pid 10846
+[1451561105] Caught SIGTERM, shutting down...
+[1451561105] Successfully shutdown... (PID=10841)
+[1451561105] Event broker module 'NERD' deinitialized successfully.
+[1451561106] Nagios 4.1.1 starting... (PID=10942)
+[1451561106] Local time is Thu Dec 31 16:55:06 IST 2015
+[1451561106] LOG VERSION: 2.0
+[1451561106] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451561106] qh: core query handler registered
+[1451561106] nerd: Channel hostchecks registered successfully
+[1451561106] nerd: Channel servicechecks registered successfully
+[1451561106] nerd: Channel opathchecks registered successfully
+[1451561106] nerd: Fully initialized and ready to rock!
+[1451561106] wproc: Successfully registered manager as @wproc with query handler
+[1451561106] wproc: Registry request: name=Core Worker 10946;pid=10946
+[1451561106] wproc: Registry request: name=Core Worker 10945;pid=10945
+[1451561106] wproc: Registry request: name=Core Worker 10944;pid=10944
+[1451561106] wproc: Registry request: name=Core Worker 10943;pid=10943
+[1451561106] Successfully launched command file worker with pid 10947
+[1451561123] Caught SIGTERM, shutting down...
+[1451561123] Successfully shutdown... (PID=10942)
+[1451561123] Event broker module 'NERD' deinitialized successfully.
+[1451561124] Nagios 4.1.1 starting... (PID=11005)
+[1451561124] Local time is Thu Dec 31 16:55:24 IST 2015
+[1451561124] LOG VERSION: 2.0
+[1451561124] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451561124] qh: core query handler registered
+[1451561124] nerd: Channel hostchecks registered successfully
+[1451561124] nerd: Channel servicechecks registered successfully
+[1451561124] nerd: Channel opathchecks registered successfully
+[1451561124] nerd: Fully initialized and ready to rock!
+[1451561124] wproc: Successfully registered manager as @wproc with query handler
+[1451561124] wproc: Registry request: name=Core Worker 11006;pid=11006
+[1451561124] wproc: Registry request: name=Core Worker 11007;pid=11007
+[1451561124] wproc: Registry request: name=Core Worker 11008;pid=11008
+[1451561124] wproc: Registry request: name=Core Worker 11009;pid=11009
+[1451561124] Successfully launched command file worker with pid 11010
+[1451563127] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;CRITICAL;SOFT;1;CPU STATISTICS CRITICAL : user=93.07% system=4.95%, iowait=0.00%, idle=1.49%, nice=0.00%, steal=0.50%
+[1451563247] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;OK;SOFT;2;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1451564723] Auto-save of retention data completed successfully.
+[1451565469] Caught SIGTERM, shutting down...
+[1451565469] Successfully shutdown... (PID=11005)
+[1451565469] Event broker module 'NERD' deinitialized successfully.
+[1451565470] Nagios 4.1.1 starting... (PID=15251)
+[1451565470] Local time is Thu Dec 31 18:07:50 IST 2015
+[1451565470] LOG VERSION: 2.0
+[1451565470] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451565470] qh: core query handler registered
+[1451565470] nerd: Channel hostchecks registered successfully
+[1451565470] nerd: Channel servicechecks registered successfully
+[1451565470] nerd: Channel opathchecks registered successfully
+[1451565470] nerd: Fully initialized and ready to rock!
+[1451565470] wproc: Successfully registered manager as @wproc with query handler
+[1451565470] wproc: Registry request: name=Core Worker 15255;pid=15255
+[1451565470] wproc: Registry request: name=Core Worker 15254;pid=15254
+[1451565470] wproc: Registry request: name=Core Worker 15253;pid=15253
+[1451565470] wproc: Registry request: name=Core Worker 15252;pid=15252
+[1451565470] Successfully launched command file worker with pid 15256
+[1451565483] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Website Check;1451565481
+[1451565483] SERVICE ALERT: credr_prod_52.74.247.15;Website Check;UNKNOWN;SOFT;1;Usage:
+[1451565487] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Website Check;1451565485
+[1451565487] SERVICE ALERT: credr_prod_52.74.247.15;Website Check;UNKNOWN;SOFT;2;Usage:
+[1451565529] Caught SIGTERM, shutting down...
+[1451565529] Successfully shutdown... (PID=15251)
+[1451565529] Event broker module 'NERD' deinitialized successfully.
+[1451565530] Nagios 4.1.1 starting... (PID=15333)
+[1451565530] Local time is Thu Dec 31 18:08:50 IST 2015
+[1451565530] LOG VERSION: 2.0
+[1451565530] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451565530] qh: core query handler registered
+[1451565530] nerd: Channel hostchecks registered successfully
+[1451565530] nerd: Channel servicechecks registered successfully
+[1451565530] nerd: Channel opathchecks registered successfully
+[1451565530] nerd: Fully initialized and ready to rock!
+[1451565530] wproc: Successfully registered manager as @wproc with query handler
+[1451565530] wproc: Registry request: name=Core Worker 15337;pid=15337
+[1451565530] wproc: Registry request: name=Core Worker 15336;pid=15336
+[1451565530] wproc: Registry request: name=Core Worker 15335;pid=15335
+[1451565530] wproc: Registry request: name=Core Worker 15334;pid=15334
+[1451565530] Successfully launched command file worker with pid 15338
+[1451565534] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Website Check;1451565533
+[1451565534] SERVICE ALERT: credr_prod_52.74.247.15;Website Check;OK;SOFT;3;CONTENT OK: EXPR FOUND
+[1451565538] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Website Check;1451565537
+[1451565546] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Website Check;1451565545
+[1451565650] Caught SIGTERM, shutting down...
+[1451565650] Successfully shutdown... (PID=15333)
+[1451565650] Event broker module 'NERD' deinitialized successfully.
+[1451565651] Nagios 4.1.1 starting... (PID=15486)
+[1451565651] Local time is Thu Dec 31 18:10:51 IST 2015
+[1451565651] LOG VERSION: 2.0
+[1451565651] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451565651] qh: core query handler registered
+[1451565651] nerd: Channel hostchecks registered successfully
+[1451565651] nerd: Channel servicechecks registered successfully
+[1451565651] nerd: Channel opathchecks registered successfully
+[1451565651] nerd: Fully initialized and ready to rock!
+[1451565651] wproc: Successfully registered manager as @wproc with query handler
+[1451565651] wproc: Registry request: name=Core Worker 15490;pid=15490
+[1451565651] wproc: Registry request: name=Core Worker 15489;pid=15489
+[1451565651] wproc: Registry request: name=Core Worker 15488;pid=15488
+[1451565651] wproc: Registry request: name=Core Worker 15487;pid=15487
+[1451565651] Successfully launched command file worker with pid 15491
+[1451565660] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Website Check;1451565659
+[1451568060] SERVICE ALERT: credr_prod_52.74.247.15;Website Check;CRITICAL;SOFT;1;CONTENT ERROR: EXPR NOT FOUND, WEBSITE MIGHT BE DOWN !! (last: </html>)
+[1451568180] SERVICE ALERT: credr_prod_52.74.247.15;Website Check;CRITICAL;SOFT;2;CONTENT ERROR: EXPR NOT FOUND, WEBSITE MIGHT BE DOWN !! (last: </html>)
+[1451568300] SERVICE ALERT: credr_prod_52.74.247.15;Website Check;CRITICAL;HARD;3;CONTENT ERROR: EXPR NOT FOUND, WEBSITE MIGHT BE DOWN !! (last: </html>)
+[1451568300] SERVICE NOTIFICATION: sajal;credr_prod_52.74.247.15;Website Check;CRITICAL;notify-service-by-email;CONTENT ERROR: EXPR NOT FOUND, WEBSITE MIGHT BE DOWN !! (last: </html>)
+[1451568300] SERVICE NOTIFICATION: nagiosadmin;credr_prod_52.74.247.15;Website Check;CRITICAL;notify-service-by-email;CONTENT ERROR: EXPR NOT FOUND, WEBSITE MIGHT BE DOWN !! (last: </html>)
+[1451569250] Auto-save of retention data completed successfully.
+[1451571900] SERVICE NOTIFICATION: sajal;credr_prod_52.74.247.15;Website Check;CRITICAL;notify-service-by-email;CONTENT ERROR: EXPR NOT FOUND, WEBSITE MIGHT BE DOWN !! (last: </html>)
+[1451571900] SERVICE NOTIFICATION: nagiosadmin;credr_prod_52.74.247.15;Website Check;CRITICAL;notify-service-by-email;CONTENT ERROR: EXPR NOT FOUND, WEBSITE MIGHT BE DOWN !! (last: </html>)
+[1451572850] Auto-save of retention data completed successfully.
+[1451575501] SERVICE NOTIFICATION: sajal;credr_prod_52.74.247.15;Website Check;CRITICAL;notify-service-by-email;CONTENT ERROR: EXPR NOT FOUND, WEBSITE MIGHT BE DOWN !! (last: </html>)
+[1451575501] SERVICE NOTIFICATION: nagiosadmin;credr_prod_52.74.247.15;Website Check;CRITICAL;notify-service-by-email;CONTENT ERROR: EXPR NOT FOUND, WEBSITE MIGHT BE DOWN !! (last: </html>)
+[1451576450] Auto-save of retention data completed successfully.
+[1451579700] SERVICE NOTIFICATION: sajal;credr_prod_52.74.247.15;Website Check;CRITICAL;notify-service-by-email;CONTENT ERROR: EXPR NOT FOUND, WEBSITE MIGHT BE DOWN !! (last: </html>)
+[1451579700] SERVICE NOTIFICATION: nagiosadmin;credr_prod_52.74.247.15;Website Check;CRITICAL;notify-service-by-email;CONTENT ERROR: EXPR NOT FOUND, WEBSITE MIGHT BE DOWN !! (last: </html>)
+[1451580050] Auto-save of retention data completed successfully.
+[1451583650] Auto-save of retention data completed successfully.
+[1451583899] SERVICE NOTIFICATION: sajal;credr_prod_52.74.247.15;Website Check;CRITICAL;notify-service-by-email;CONTENT ERROR: EXPR NOT FOUND, WEBSITE MIGHT BE DOWN !! (last: </html>)
+[1451583899] SERVICE NOTIFICATION: nagiosadmin;credr_prod_52.74.247.15;Website Check;CRITICAL;notify-service-by-email;CONTENT ERROR: EXPR NOT FOUND, WEBSITE MIGHT BE DOWN !! (last: </html>)

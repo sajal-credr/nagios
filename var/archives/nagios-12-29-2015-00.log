@@ -1,0 +1,744 @@
+[1451241000] LOG ROTATION: DAILY
+[1451241000] LOG VERSION: 2.0
+[1451241000] CURRENT HOST STATE: Nagios Server;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451241000] CURRENT HOST STATE: credr_dev_52.74.244.220;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.63 ms
+[1451241000] CURRENT HOST STATE: credr_prod_52.74.247.15;DOWN;HARD;10;PING CRITICAL - Packet loss = 100%
+[1451241000] CURRENT HOST STATE: credr_stage_52.74.191.24;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.04 ms
+[1451241000] CURRENT SERVICE STATE: Nagios Server;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1451241000] CURRENT SERVICE STATE: Nagios Server;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451241000] CURRENT SERVICE STATE: Nagios Server;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11783 bytes in 0.000 second response time
+[1451241000] CURRENT SERVICE STATE: Nagios Server;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451241000] CURRENT SERVICE STATE: Nagios Server;Root Partition;OK;HARD;1;DISK OK - free space: / 37000 MB (96% inode=97%):
+[1451241000] CURRENT SERVICE STATE: Nagios Server;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1451241000] CURRENT SERVICE STATE: Nagios Server;Total Processes;OK;HARD;1;PROCS OK: 74 processes with STATE = RSZDT
+[1451241000] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1451241000] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451241000] CURRENT SERVICE STATE: credr_dev_52.74.244.220;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1451241000] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 2236 MB - 56% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451241000] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451241000] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Root Partition;OK;HARD;1;DISK OK - free space: / 1128 MB (15% inode=62%):
+[1451241000] CURRENT SERVICE STATE: credr_dev_52.74.244.220;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1451241000] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Total Processes;OK;HARD;1;PROCS OK: 122 processes
+[1451241000] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1451241000] CURRENT SERVICE STATE: credr_prod_52.74.247.15;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.75% system=0.25%, iowait=0.00%, idle=99.00%, nice=0.00%, steal=0.00%
+[1451241000] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Current Load;OK;HARD;1;OK - load average: 0.39, 0.34, 0.33
+[1451241000] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451241000] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Memory;OK;HARD;1;[MEMORY] Total: 16047 MB - Used: 2544 MB - 15% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451241000] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Nginx http;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 392 bytes in 0.001 second response time
+[1451241000] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451241000] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Root Partition;OK;HARD;1;DISK OK - free space: / 86250 MB (89% inode=95%):
+[1451241000] CURRENT SERVICE STATE: credr_prod_52.74.247.15;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1451241000] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Total Processes;OK;HARD;1;PROCS OK: 152 processes
+[1451241000] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1451241000] CURRENT SERVICE STATE: credr_stage_52.74.191.24;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1451241000] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Current Load;OK;HARD;1;OK - load average: 0.03, 0.03, 0.05
+[1451241000] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451241000] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 490 MB - 12% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451241000] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Nginx http;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 393 bytes in 0.001 second response time
+[1451241000] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Nginx https;OK;HARD;1;HTTP/1.1 200 OK
+[1451241000] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451241000] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Root Partition;OK;HARD;1;DISK OK - free space: / 51742 MB (89% inode=92%):
+[1451241000] CURRENT SERVICE STATE: credr_stage_52.74.191.24;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.3 (protocol 2.0)
+[1451241000] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Supervisor;OK;HARD;1;credrWebApp                      RUNNING    pid 27979, uptime 1 day, 10:24:08
+[1451241000] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Total Processes;OK;HARD;1;PROCS OK: 127 processes
+[1451241000] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1451242506] Auto-save of retention data completed successfully.
+[1451246106] Auto-save of retention data completed successfully.
+[1451249706] Auto-save of retention data completed successfully.
+[1451253306] Auto-save of retention data completed successfully.
+[1451256906] Auto-save of retention data completed successfully.
+[1451260506] Auto-save of retention data completed successfully.
+[1451264106] Auto-save of retention data completed successfully.
+[1451267706] Auto-save of retention data completed successfully.
+[1451271306] Auto-save of retention data completed successfully.
+[1451273452] HOST NOTIFICATION: sajal;credr_prod_52.74.247.15;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451273452] HOST NOTIFICATION: nagiosadmin;credr_prod_52.74.247.15;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451274906] Auto-save of retention data completed successfully.
+[1451278506] Auto-save of retention data completed successfully.
+[1451280652] HOST NOTIFICATION: sajal;credr_prod_52.74.247.15;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451280652] HOST NOTIFICATION: nagiosadmin;credr_prod_52.74.247.15;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451282106] Auto-save of retention data completed successfully.
+[1451284153] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;credr_prod_52.74.247.15;1451284151
+[1451284155] HOST ALERT: credr_prod_52.74.247.15;UP;HARD;10;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1451284155] HOST NOTIFICATION: sajal;credr_prod_52.74.247.15;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1451284155] HOST NOTIFICATION: nagiosadmin;credr_prod_52.74.247.15;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1451284156] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;credr_prod_52.74.247.15;1451284155
+[1451284779] Caught SIGTERM, shutting down...
+[1451284779] Successfully shutdown... (PID=30921)
+[1451284779] Event broker module 'NERD' deinitialized successfully.
+[1451284780] Nagios 4.1.1 starting... (PID=25190)
+[1451284780] Local time is Mon Dec 28 12:09:40 IST 2015
+[1451284780] LOG VERSION: 2.0
+[1451284780] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451284780] qh: core query handler registered
+[1451284780] nerd: Channel hostchecks registered successfully
+[1451284780] nerd: Channel servicechecks registered successfully
+[1451284780] nerd: Channel opathchecks registered successfully
+[1451284780] nerd: Fully initialized and ready to rock!
+[1451284780] wproc: Successfully registered manager as @wproc with query handler
+[1451284780] wproc: Registry request: name=Core Worker 25191;pid=25191
+[1451284780] wproc: Registry request: name=Core Worker 25192;pid=25192
+[1451284780] wproc: Registry request: name=Core Worker 25193;pid=25193
+[1451284780] wproc: Registry request: name=Core Worker 25194;pid=25194
+[1451284780] Successfully launched command file worker with pid 25195
+[1451284799] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451284797
+[1451284799] SERVICE ALERT: credr_prod_52.74.247.15;Supervisor;CRITICAL;SOFT;1;CRITICAL: Could not get status of credrWebApp
+[1451284802] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451284801
+[1451284802] SERVICE ALERT: credr_prod_52.74.247.15;Supervisor;CRITICAL;SOFT;2;CRITICAL: Could not get status of credrWebApp
+[1451284922] SERVICE ALERT: credr_prod_52.74.247.15;Supervisor;CRITICAL;HARD;3;CRITICAL: Could not get status of credrWebApp
+[1451284922] SERVICE NOTIFICATION: sajal;credr_prod_52.74.247.15;Supervisor;CRITICAL;notify-service-by-email;CRITICAL: Could not get status of credrWebApp
+[1451284922] SERVICE NOTIFICATION: nagiosadmin;credr_prod_52.74.247.15;Supervisor;CRITICAL;notify-service-by-email;CRITICAL: Could not get status of credrWebApp
+[1451285269] Caught SIGTERM, shutting down...
+[1451285269] Successfully shutdown... (PID=25190)
+[1451285269] Event broker module 'NERD' deinitialized successfully.
+[1451285270] Nagios 4.1.1 starting... (PID=25575)
+[1451285270] Local time is Mon Dec 28 12:17:50 IST 2015
+[1451285270] LOG VERSION: 2.0
+[1451285270] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451285270] qh: core query handler registered
+[1451285270] nerd: Channel hostchecks registered successfully
+[1451285270] nerd: Channel servicechecks registered successfully
+[1451285270] nerd: Channel opathchecks registered successfully
+[1451285270] nerd: Fully initialized and ready to rock!
+[1451285270] wproc: Successfully registered manager as @wproc with query handler
+[1451285270] wproc: Registry request: name=Core Worker 25576;pid=25576
+[1451285270] wproc: Registry request: name=Core Worker 25577;pid=25577
+[1451285270] wproc: Registry request: name=Core Worker 25578;pid=25578
+[1451285270] wproc: Registry request: name=Core Worker 25579;pid=25579
+[1451285270] Successfully launched command file worker with pid 25580
+[1451285274] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451285273
+[1451285278] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451285277
+[1451285285] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451285284
+[1451285491] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451285489
+[1451285495] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451285494
+[1451285501] SERVICE ALERT: credr_stage_52.74.191.24;Supervisor;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285501] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451285500
+[1451285505] SERVICE ALERT: credr_stage_52.74.191.24;Supervisor;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285511] SERVICE ALERT: credr_stage_52.74.191.24;Supervisor;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285511] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Supervisor;CRITICAL;notify-service-by-email;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285511] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Supervisor;CRITICAL;notify-service-by-email;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285531] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1451285536] SERVICE ALERT: credr_dev_52.74.244.220;Memory;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285551] SERVICE ALERT: credr_stage_52.74.191.24;CPU Usage;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285556] SERVICE ALERT: credr_stage_52.74.191.24;Total Processes;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285566] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1451285581] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1451285618] SERVICE ALERT: credr_stage_52.74.191.24;Zombie Process;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285648] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1451285656] SERVICE ALERT: credr_dev_52.74.244.220;Memory;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285656] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1451285658] SERVICE ALERT: credr_dev_52.74.244.220;Zombie Process;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285671] SERVICE ALERT: credr_stage_52.74.191.24;CPU Usage;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285676] SERVICE ALERT: credr_stage_52.74.191.24;Total Processes;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285688] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1451285701] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;4;PING CRITICAL - Packet loss = 100%
+[1451285721] SERVICE ALERT: credr_stage_52.74.191.24;Current Load;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285738] SERVICE ALERT: credr_stage_52.74.191.24;Zombie Process;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285749] SERVICE ALERT: credr_dev_52.74.244.220;Current Load;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285751] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;5;PING CRITICAL - Packet loss = 100%
+[1451285776] SERVICE ALERT: credr_dev_52.74.244.220;Memory;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285778] SERVICE ALERT: credr_dev_52.74.244.220;Zombie Process;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285778] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;4;PING CRITICAL - Packet loss = 100%
+[1451285785] SERVICE ALERT: credr_stage_52.74.191.24;Current Users;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285791] SERVICE ALERT: credr_stage_52.74.191.24;CPU Usage;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285796] SERVICE ALERT: credr_stage_52.74.191.24;Total Processes;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285815] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;6;PING CRITICAL - Packet loss = 100%
+[1451285818] SERVICE ALERT: credr_dev_52.74.244.220;Current Users;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285821] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;5;PING CRITICAL - Packet loss = 100%
+[1451285841] SERVICE ALERT: credr_stage_52.74.191.24;Current Load;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285858] SERVICE ALERT: credr_stage_52.74.191.24;Zombie Process;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285869] SERVICE ALERT: credr_dev_52.74.244.220;Current Load;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285871] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;7;PING CRITICAL - Packet loss = 100%
+[1451285873] SERVICE ALERT: credr_dev_52.74.244.220;Ping Check;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285898] SERVICE ALERT: credr_dev_52.74.244.220;Zombie Process;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285899] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;6;PING CRITICAL - Packet loss = 100%
+[1451285905] SERVICE ALERT: credr_stage_52.74.191.24;Current Users;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285908] SERVICE ALERT: credr_stage_52.74.191.24;Memory;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285935] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;8;PING CRITICAL - Packet loss = 100%
+[1451285938] SERVICE ALERT: credr_dev_52.74.244.220;Current Users;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285961] SERVICE ALERT: credr_stage_52.74.191.24;Current Load;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285968] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;7;PING CRITICAL - Packet loss = 100%
+[1451285969] SERVICE ALERT: credr_stage_52.74.191.24;Ping Check;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285989] SERVICE ALERT: credr_dev_52.74.244.220;Current Load;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285989] SERVICE ALERT: credr_dev_52.74.244.220;Root Partition;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451285991] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;9;PING CRITICAL - Packet loss = 100%
+[1451285993] SERVICE ALERT: credr_dev_52.74.244.220;Ping Check;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451286018] SERVICE ALERT: credr_stage_52.74.191.24;Root Partition;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451286019] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;8;PING CRITICAL - Packet loss = 100%
+[1451286021] SERVICE ALERT: credr_dev_52.74.244.220;Total Processes;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451286025] SERVICE ALERT: credr_stage_52.74.191.24;Current Users;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451286028] SERVICE ALERT: credr_stage_52.74.191.24;Memory;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451286048] HOST ALERT: credr_stage_52.74.191.24;DOWN;HARD;10;PING CRITICAL - Packet loss = 100%
+[1451286048] HOST NOTIFICATION: sajal;credr_stage_52.74.191.24;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451286048] HOST NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451286051] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;9;PING CRITICAL - Packet loss = 100%
+[1451286058] SERVICE ALERT: credr_dev_52.74.244.220;Current Users;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451286088] HOST ALERT: credr_dev_52.74.244.220;DOWN;HARD;10;PING CRITICAL - Packet loss = 100%
+[1451286088] HOST NOTIFICATION: sajal;credr_dev_52.74.244.220;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451286088] HOST NOTIFICATION: nagiosadmin;credr_dev_52.74.244.220;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451286089] SERVICE ALERT: credr_stage_52.74.191.24;Ping Check;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451286109] SERVICE ALERT: credr_dev_52.74.244.220;Root Partition;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451286113] SERVICE ALERT: credr_dev_52.74.244.220;Ping Check;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451286138] SERVICE ALERT: credr_stage_52.74.191.24;Root Partition;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451286141] SERVICE ALERT: credr_dev_52.74.244.220;Total Processes;CRITICAL;SOFT;2;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451286148] SERVICE ALERT: credr_stage_52.74.191.24;Memory;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451286209] SERVICE ALERT: credr_stage_52.74.191.24;Ping Check;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451286229] SERVICE ALERT: credr_dev_52.74.244.220;Root Partition;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451286258] SERVICE ALERT: credr_stage_52.74.191.24;Root Partition;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451286261] SERVICE ALERT: credr_dev_52.74.244.220;Total Processes;CRITICAL;HARD;3;CHECK_NRPE: Socket timeout after 10 seconds.
+[1451286336] Caught SIGTERM, shutting down...
+[1451286336] Successfully shutdown... (PID=25575)
+[1451286336] Event broker module 'NERD' deinitialized successfully.
+[1451286337] Nagios 4.1.1 starting... (PID=26138)
+[1451286337] Local time is Mon Dec 28 12:35:37 IST 2015
+[1451286337] LOG VERSION: 2.0
+[1451286337] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451286337] qh: core query handler registered
+[1451286337] nerd: Channel hostchecks registered successfully
+[1451286337] nerd: Channel servicechecks registered successfully
+[1451286337] nerd: Channel opathchecks registered successfully
+[1451286337] nerd: Fully initialized and ready to rock!
+[1451286337] wproc: Successfully registered manager as @wproc with query handler
+[1451286337] wproc: Registry request: name=Core Worker 26139;pid=26139
+[1451286337] wproc: Registry request: name=Core Worker 26140;pid=26140
+[1451286337] wproc: Registry request: name=Core Worker 26141;pid=26141
+[1451286337] wproc: Registry request: name=Core Worker 26142;pid=26142
+[1451286337] Successfully launched command file worker with pid 26143
+[1451286650] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451286649
+[1451286655] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451286654
+[1451286662] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451286661
+[1451286712] Caught SIGTERM, shutting down...
+[1451286712] Successfully shutdown... (PID=26138)
+[1451286712] Event broker module 'NERD' deinitialized successfully.
+[1451286713] Nagios 4.1.1 starting... (PID=26358)
+[1451286713] Local time is Mon Dec 28 12:41:53 IST 2015
+[1451286713] LOG VERSION: 2.0
+[1451286713] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451286713] qh: core query handler registered
+[1451286713] nerd: Channel hostchecks registered successfully
+[1451286713] nerd: Channel servicechecks registered successfully
+[1451286713] nerd: Channel opathchecks registered successfully
+[1451286713] nerd: Fully initialized and ready to rock!
+[1451286713] wproc: Successfully registered manager as @wproc with query handler
+[1451286713] wproc: Registry request: name=Core Worker 26362;pid=26362
+[1451286713] wproc: Registry request: name=Core Worker 26361;pid=26361
+[1451286713] wproc: Registry request: name=Core Worker 26360;pid=26360
+[1451286713] wproc: Registry request: name=Core Worker 26359;pid=26359
+[1451286713] Successfully launched command file worker with pid 26363
+[1451286789] Caught SIGTERM, shutting down...
+[1451286789] Successfully shutdown... (PID=26358)
+[1451286789] Event broker module 'NERD' deinitialized successfully.
+[1451286790] Nagios 4.1.1 starting... (PID=26450)
+[1451286790] Local time is Mon Dec 28 12:43:10 IST 2015
+[1451286790] LOG VERSION: 2.0
+[1451286790] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451286790] qh: core query handler registered
+[1451286790] nerd: Channel hostchecks registered successfully
+[1451286790] nerd: Channel servicechecks registered successfully
+[1451286790] nerd: Channel opathchecks registered successfully
+[1451286790] nerd: Fully initialized and ready to rock!
+[1451286790] wproc: Successfully registered manager as @wproc with query handler
+[1451286790] wproc: Registry request: name=Core Worker 26454;pid=26454
+[1451286790] wproc: Registry request: name=Core Worker 26453;pid=26453
+[1451286790] wproc: Registry request: name=Core Worker 26452;pid=26452
+[1451286790] wproc: Registry request: name=Core Worker 26451;pid=26451
+[1451286790] Successfully launched command file worker with pid 26455
+[1451286863] SERVICE ALERT: credr_stage_52.74.191.24;Root Partition;OK;HARD;3;DISK OK - free space: / 51740 MB (89% inode=92%):
+[1451286864] HOST ALERT: credr_dev_52.74.244.220;UP;HARD;10;PING OK - Packet loss = 68%, RTA = 0.67 ms
+[1451286864] HOST NOTIFICATION: sajal;credr_dev_52.74.244.220;UP;notify-host-by-email;PING OK - Packet loss = 68%, RTA = 0.67 ms
+[1451286864] HOST NOTIFICATION: nagiosadmin;credr_dev_52.74.244.220;UP;notify-host-by-email;PING OK - Packet loss = 68%, RTA = 0.67 ms
+[1451286864] wproc: NOTIFY job 2 from worker Core Worker 26451 is a non-check helper but exited with return code 2
+[1451286864] wproc:   host=credr_dev_52.74.244.220; service=(none); contact=nagiosadmin
+[1451286864] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451286864] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451286864] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451286866] SERVICE ALERT: credr_dev_52.74.244.220;Total Processes;OK;HARD;3;PROCS OK: 122 processes
+[1451286867] HOST ALERT: credr_stage_52.74.191.24;UP;HARD;10;PING OK - Packet loss = 0%, RTA = 0.61 ms
+[1451286867] HOST NOTIFICATION: sajal;credr_stage_52.74.191.24;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.61 ms
+[1451286867] HOST NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.61 ms
+[1451286867] wproc: NOTIFY job 3 from worker Core Worker 26452 is a non-check helper but exited with return code 2
+[1451286867] wproc:   host=credr_stage_52.74.191.24; service=(none); contact=nagiosadmin
+[1451286867] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451286867] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451286867] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451286870] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;CPU Usage;1451286869
+[1451286872] SERVICE ALERT: credr_stage_52.74.191.24;CPU Usage;OK;HARD;3;CPU STATISTICS OK : user=0.00% system=0.50%, iowait=0.00%, idle=99.50%, nice=0.00%, steal=0.00%
+[1451286879] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;CPU Usage;1451286878
+[1451286894] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451286893
+[1451286895] SERVICE ALERT: credr_stage_52.74.191.24;Supervisor;OK;HARD;3;credrWebApp                      RUNNING    pid 27979, uptime 1 day, 23:14:51
+[1451286895] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Supervisor;OK;notify-service-by-email;credrWebApp                      RUNNING    pid 27979, uptime 1 day, 23:14:51
+[1451286895] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Supervisor;OK;notify-service-by-email;credrWebApp                      RUNNING    pid 27979, uptime 1 day, 23:14:51
+[1451286895] wproc: NOTIFY job 4 from worker Core Worker 26451 is a non-check helper but exited with return code 2
+[1451286895] wproc:   host=credr_stage_52.74.191.24; service=Supervisor; contact=nagiosadmin
+[1451286895] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451286895] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451286895] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451286966] SERVICE ALERT: credr_dev_52.74.244.220;Memory;OK;HARD;3;[MEMORY] Total: 3951 MB - Used: 2598 MB - 65% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451286986] SERVICE ALERT: credr_stage_52.74.191.24;Total Processes;OK;HARD;3;PROCS OK: 133 processes
+[1451287048] SERVICE ALERT: credr_stage_52.74.191.24;Zombie Process;OK;HARD;3;PROCS OK: 0 processes with STATE = Z
+[1451287061] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Current Load;1451287061
+[1451287061] SERVICE ALERT: credr_stage_52.74.191.24;Current Load;OK;HARD;3;OK - load average: 0.00, 0.01, 0.05
+[1451287088] SERVICE ALERT: credr_dev_52.74.244.220;Zombie Process;OK;HARD;3;PROCS OK: 0 processes with STATE = Z
+[1451287116] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Current Users;1451287115
+[1451287116] SERVICE ALERT: credr_stage_52.74.191.24;Current Users;OK;HARD;3;USERS OK - 1 users currently logged in
+[1451287124] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Ping Check;1451287123
+[1451287128] SERVICE ALERT: credr_stage_52.74.191.24;Ping Check;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451287156] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451287155
+[1451287179] SERVICE ALERT: credr_dev_52.74.244.220;Current Load;OK;HARD;3;OK - load average: 0.00, 0.01, 0.05
+[1451287194] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1451287197] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1451287206] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Memory;1451287205
+[1451287206] SERVICE ALERT: credr_stage_52.74.191.24;Memory;OK;HARD;3;[MEMORY] Total: 3951 MB - Used: 498 MB - 12% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451287210] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Memory;1451287209
+[1451287223] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;Current Users;1451287222
+[1451287223] SERVICE ALERT: credr_dev_52.74.244.220;Current Users;OK;HARD;3;USERS OK - 0 users currently logged in
+[1451287232] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;Ping Check;1451287230
+[1451287236] SERVICE ALERT: credr_dev_52.74.244.220;Ping Check;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1451287236] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1451287242] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;Root Partition;1451287241
+[1451287242] SERVICE ALERT: credr_dev_52.74.244.220;Root Partition;OK;HARD;3;DISK OK - free space: / 1183 MB (15% inode=62%):
+[1451287253] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1451287289] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451287288
+[1451287309] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1451287318] Caught SIGTERM, shutting down...
+[1451287318] Successfully shutdown... (PID=26450)
+[1451287318] Event broker module 'NERD' deinitialized successfully.
+[1451287319] Nagios 4.1.1 starting... (PID=26811)
+[1451287319] Local time is Mon Dec 28 12:51:59 IST 2015
+[1451287319] LOG VERSION: 2.0
+[1451287319] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451287319] qh: core query handler registered
+[1451287319] nerd: Channel hostchecks registered successfully
+[1451287319] nerd: Channel servicechecks registered successfully
+[1451287319] nerd: Channel opathchecks registered successfully
+[1451287319] nerd: Fully initialized and ready to rock!
+[1451287319] wproc: Successfully registered manager as @wproc with query handler
+[1451287319] wproc: Registry request: name=Core Worker 26812;pid=26812
+[1451287319] wproc: Registry request: name=Core Worker 26813;pid=26813
+[1451287319] wproc: Registry request: name=Core Worker 26814;pid=26814
+[1451287319] wproc: Registry request: name=Core Worker 26815;pid=26815
+[1451287319] Successfully launched command file worker with pid 26816
+[1451287324] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451287323
+[1451287349] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1451287377] Caught SIGTERM, shutting down...
+[1451287377] Successfully shutdown... (PID=26811)
+[1451287377] Event broker module 'NERD' deinitialized successfully.
+[1451287378] Nagios 4.1.1 starting... (PID=26919)
+[1451287378] Local time is Mon Dec 28 12:52:58 IST 2015
+[1451287378] LOG VERSION: 2.0
+[1451287378] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451287378] qh: core query handler registered
+[1451287378] nerd: Channel hostchecks registered successfully
+[1451287378] nerd: Channel servicechecks registered successfully
+[1451287378] nerd: Channel opathchecks registered successfully
+[1451287378] nerd: Fully initialized and ready to rock!
+[1451287378] wproc: Successfully registered manager as @wproc with query handler
+[1451287378] wproc: Registry request: name=Core Worker 26923;pid=26923
+[1451287378] wproc: Registry request: name=Core Worker 26922;pid=26922
+[1451287378] wproc: Registry request: name=Core Worker 26921;pid=26921
+[1451287378] wproc: Registry request: name=Core Worker 26920;pid=26920
+[1451287378] Successfully launched command file worker with pid 26924
+[1451287389] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451287388
+[1451287408] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1451287426] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451287425
+[1451287439] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1451287456] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1451287481] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1451287486] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451287484
+[1451287491] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451287489
+[1451287511] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;4;PING CRITICAL - Packet loss = 100%
+[1451287571] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;4;PING CRITICAL - Packet loss = 100%
+[1451287578] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;5;PING CRITICAL - Packet loss = 100%
+[1451287616] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;6;PING CRITICAL - Packet loss = 100%
+[1451287621] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;5;PING CRITICAL - Packet loss = 100%
+[1451287678] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;7;PING CRITICAL - Packet loss = 100%
+[1451287711] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;6;PING CRITICAL - Packet loss = 100%
+[1451287746] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;8;PING CRITICAL - Packet loss = 100%
+[1451287782] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451287781
+[1451287801] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;7;PING CRITICAL - Packet loss = 100%
+[1451287836] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;9;PING CRITICAL - Packet loss = 100%
+[1451287853] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;8;PING CRITICAL - Packet loss = 100%
+[1451287902] Caught SIGTERM, shutting down...
+[1451287902] Successfully shutdown... (PID=26919)
+[1451287902] Event broker module 'NERD' deinitialized successfully.
+[1451287903] Nagios 4.1.1 starting... (PID=27433)
+[1451287903] Local time is Mon Dec 28 13:01:43 IST 2015
+[1451287903] LOG VERSION: 2.0
+[1451287903] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451287903] qh: core query handler registered
+[1451287903] nerd: Channel hostchecks registered successfully
+[1451287903] nerd: Channel servicechecks registered successfully
+[1451287903] nerd: Channel opathchecks registered successfully
+[1451287903] nerd: Fully initialized and ready to rock!
+[1451287903] wproc: Successfully registered manager as @wproc with query handler
+[1451287903] wproc: Registry request: name=Core Worker 27437;pid=27437
+[1451287903] wproc: Registry request: name=Core Worker 27436;pid=27436
+[1451287903] wproc: Registry request: name=Core Worker 27435;pid=27435
+[1451287903] wproc: Registry request: name=Core Worker 27434;pid=27434
+[1451287903] Successfully launched command file worker with pid 27438
+[1451287910] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;credr_dev_52.74.244.220;1451287907
+[1451287914] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;credr_dev_52.74.244.220;1451287913
+[1451287933] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1451287940] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1451287940] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;credr_dev_52.74.244.220;1451287939
+[1451287944] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;4;PING CRITICAL - Packet loss = 100%
+[1451287970] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;4;PING CRITICAL - Packet loss = 100%
+[1451288023] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1451288034] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;5;PING CRITICAL - Packet loss = 100%
+[1451288056] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;4;PING CRITICAL - Packet loss = 100%
+[1451288081] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;6;PING CRITICAL - Packet loss = 100%
+[1451288111] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;5;PING CRITICAL - Packet loss = 100%
+[1451288171] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;7;PING CRITICAL - Packet loss = 100%
+[1451288178] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;6;PING CRITICAL - Packet loss = 100%
+[1451288216] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;7;PING CRITICAL - Packet loss = 100%
+[1451288221] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;8;PING CRITICAL - Packet loss = 100%
+[1451288278] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;8;PING CRITICAL - Packet loss = 100%
+[1451288311] HOST ALERT: credr_dev_52.74.244.220;DOWN;SOFT;9;PING CRITICAL - Packet loss = 100%
+[1451288346] HOST ALERT: credr_stage_52.74.191.24;DOWN;SOFT;9;PING CRITICAL - Packet loss = 100%
+[1451288401] HOST ALERT: credr_dev_52.74.244.220;DOWN;HARD;10;PING CRITICAL - Packet loss = 100%
+[1451288401] HOST NOTIFICATION: sajal;credr_dev_52.74.244.220;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451288401] HOST NOTIFICATION: nagiosadmin;credr_dev_52.74.244.220;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451288436] HOST ALERT: credr_stage_52.74.191.24;DOWN;HARD;10;PING CRITICAL - Packet loss = 100%
+[1451288436] HOST NOTIFICATION: sajal;credr_stage_52.74.191.24;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451288436] HOST NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451288982] SERVICE NOTIFICATION: sajal;credr_prod_52.74.247.15;Supervisor;CRITICAL;notify-service-by-email;CRITICAL: Could not get status of credrWebApp
+[1451288982] SERVICE NOTIFICATION: nagiosadmin;credr_prod_52.74.247.15;Supervisor;CRITICAL;notify-service-by-email;CRITICAL: Could not get status of credrWebApp
+[1451288988] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451288987
+[1451288994] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451288993
+[1451289114] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451289112
+[1451289141] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451289140
+[1451289278] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451289276
+[1451289627] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451289626
+[1451289630] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451289629
+[1451289633] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451289632
+[1451289636] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451289635
+[1451289939] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451289938
+[1451289947] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451289945
+[1451289960] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451289959
+[1451290426] SERVICE ALERT: credr_stage_52.74.191.24;Supervisor;CRITICAL;SOFT;1;CRITICAL: Could not get status of credrWebApp
+[1451290546] SERVICE ALERT: credr_stage_52.74.191.24;Supervisor;CRITICAL;SOFT;2;CRITICAL: Could not get status of credrWebApp
+[1451290666] SERVICE ALERT: credr_stage_52.74.191.24;Supervisor;CRITICAL;HARD;3;CRITICAL: Could not get status of credrWebApp
+[1451291502] Auto-save of retention data completed successfully.
+[1451291677] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451291676
+[1451291677] SERVICE ALERT: credr_stage_52.74.191.24;Supervisor;OK;HARD;3;credrWebApp                      RUNNING    pid 27979, uptime 2 days, 0:34:34
+[1451291677] SERVICE FLAPPING ALERT: credr_stage_52.74.191.24;Supervisor;STARTED; Service appears to have started flapping (21.6% change >= 20.0% threshold)
+[1451291685] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451291684
+[1451291685] SERVICE ALERT: credr_prod_52.74.247.15;Supervisor;OK;HARD;3;credrWebApp                      RUNNING    pid 13663, uptime 23:00:31
+[1451291685] SERVICE NOTIFICATION: sajal;credr_prod_52.74.247.15;Supervisor;OK;notify-service-by-email;credrWebApp                      RUNNING    pid 13663, uptime 23:00:31
+[1451291685] SERVICE NOTIFICATION: nagiosadmin;credr_prod_52.74.247.15;Supervisor;OK;notify-service-by-email;credrWebApp                      RUNNING    pid 13663, uptime 23:00:31
+[1451291692] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Supervisor;1451291691
+[1451293997] Caught SIGTERM, shutting down...
+[1451293997] Successfully shutdown... (PID=27433)
+[1451293997] Event broker module 'NERD' deinitialized successfully.
+[1451293998] Nagios 4.1.1 starting... (PID=31089)
+[1451293998] Local time is Mon Dec 28 14:43:18 IST 2015
+[1451293998] LOG VERSION: 2.0
+[1451293998] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451293998] qh: core query handler registered
+[1451293998] nerd: Channel hostchecks registered successfully
+[1451293998] nerd: Channel servicechecks registered successfully
+[1451293998] nerd: Channel opathchecks registered successfully
+[1451293998] nerd: Fully initialized and ready to rock!
+[1451293998] wproc: Successfully registered manager as @wproc with query handler
+[1451293998] wproc: Registry request: name=Core Worker 31093;pid=31093
+[1451293998] wproc: Registry request: name=Core Worker 31092;pid=31092
+[1451293998] wproc: Registry request: name=Core Worker 31091;pid=31091
+[1451293998] wproc: Registry request: name=Core Worker 31090;pid=31090
+[1451293998] SERVICE FLAPPING ALERT: credr_stage_52.74.191.24;Supervisor;STARTED; Service appears to have started flapping (20.0% change >= 20.0% threshold)
+[1451293998] Successfully launched command file worker with pid 31094
+[1451294013] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Ping Check;1451294012
+[1451294043] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Ping Check;1451294042
+[1451294241] Caught SIGTERM, shutting down...
+[1451294241] Successfully shutdown... (PID=31089)
+[1451294241] Event broker module 'NERD' deinitialized successfully.
+[1451294243] Nagios 4.1.1 starting... (PID=31316)
+[1451294243] Local time is Mon Dec 28 14:47:23 IST 2015
+[1451294243] LOG VERSION: 2.0
+[1451294243] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451294243] qh: core query handler registered
+[1451294243] nerd: Channel hostchecks registered successfully
+[1451294243] nerd: Channel servicechecks registered successfully
+[1451294243] nerd: Channel opathchecks registered successfully
+[1451294243] nerd: Fully initialized and ready to rock!
+[1451294243] wproc: Successfully registered manager as @wproc with query handler
+[1451294243] wproc: Registry request: name=Core Worker 31319;pid=31319
+[1451294243] wproc: Registry request: name=Core Worker 31317;pid=31317
+[1451294243] wproc: Registry request: name=Core Worker 31320;pid=31320
+[1451294243] wproc: Registry request: name=Core Worker 31318;pid=31318
+[1451294243] Successfully launched command file worker with pid 31321
+[1451295608] HOST NOTIFICATION: sajal;credr_dev_52.74.244.220;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451295608] HOST NOTIFICATION: nagiosadmin;credr_dev_52.74.244.220;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451295638] wproc: Core Worker 31320: job 37 (pid=31988) timed out. Killing it
+[1451295638] wproc: CHECK job 37 from worker Core Worker 31320 timed out after 30.01s
+[1451295638] wproc:   host=credr_stage_52.74.191.24; service=(null);
+[1451295638] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451295638] Warning: Check of host 'credr_stage_52.74.191.24' timed out after 30.01 seconds
+[1451295638] HOST NOTIFICATION: sajal;credr_stage_52.74.191.24;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1451295638] HOST NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1451295638] wproc: Core Worker 31320: job 37 (pid=31988): Dormant child reaped
+[1451296756] Caught SIGTERM, shutting down...
+[1451296756] Successfully shutdown... (PID=31316)
+[1451296756] Event broker module 'NERD' deinitialized successfully.
+[1451296757] Nagios 4.1.1 starting... (PID=32737)
+[1451296757] Local time is Mon Dec 28 15:29:17 IST 2015
+[1451296757] LOG VERSION: 2.0
+[1451296757] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451296757] qh: core query handler registered
+[1451296757] nerd: Channel hostchecks registered successfully
+[1451296757] nerd: Channel servicechecks registered successfully
+[1451296757] nerd: Channel opathchecks registered successfully
+[1451296757] nerd: Fully initialized and ready to rock!
+[1451296757] wproc: Successfully registered manager as @wproc with query handler
+[1451296757] wproc: Registry request: name=Core Worker 32738;pid=32738
+[1451296757] wproc: Registry request: name=Core Worker 32740;pid=32740
+[1451296757] wproc: Registry request: name=Core Worker 32739;pid=32739
+[1451296757] wproc: Registry request: name=Core Worker 32741;pid=32741
+[1451296757] Successfully launched command file worker with pid 32742
+[1451296787] HOST ALERT: credr_prodsolr_52.74.114.132;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1451296812] SERVICE ALERT: credr_prodsolr_52.74.114.132;CPU Usage;UNKNOWN;SOFT;1;NRPE: Unable to read output
+[1451296842] HOST ALERT: credr_prodsolr_52.74.114.132;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1451296898] HOST ALERT: credr_prodsolr_52.74.114.132;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1451296932] SERVICE ALERT: credr_prodsolr_52.74.114.132;CPU Usage;UNKNOWN;SOFT;2;NRPE: Unable to read output
+[1451296954] HOST ALERT: credr_prodsolr_52.74.114.132;DOWN;SOFT;4;PING CRITICAL - Packet loss = 100%
+[1451297010] HOST ALERT: credr_prodsolr_52.74.114.132;DOWN;SOFT;5;PING CRITICAL - Packet loss = 100%
+[1451297036] SERVICE ALERT: credr_prodsolr_52.74.114.132;Nginx http;CRITICAL;SOFT;1;connect to address 52.74.114.132 and port 80: Connection refused
+[1451297052] SERVICE ALERT: credr_prodsolr_52.74.114.132;CPU Usage;UNKNOWN;HARD;3;NRPE: Unable to read output
+[1451297066] HOST ALERT: credr_prodsolr_52.74.114.132;DOWN;SOFT;6;PING CRITICAL - Packet loss = 100%
+[1451297101] SERVICE ALERT: credr_prodsolr_52.74.114.132;Ping Check;CRITICAL;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1451297131] HOST ALERT: credr_prodsolr_52.74.114.132;DOWN;SOFT;7;PING CRITICAL - Packet loss = 100%
+[1451297156] SERVICE ALERT: credr_prodsolr_52.74.114.132;Nginx http;CRITICAL;SOFT;2;connect to address 52.74.114.132 and port 80: Connection refused
+[1451297177] HOST ALERT: credr_prodsolr_52.74.114.132;DOWN;SOFT;8;PING CRITICAL - Packet loss = 100%
+[1451297221] SERVICE ALERT: credr_prodsolr_52.74.114.132;Ping Check;CRITICAL;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1451297233] HOST ALERT: credr_prodsolr_52.74.114.132;DOWN;SOFT;9;PING CRITICAL - Packet loss = 100%
+[1451297275] SERVICE ALERT: credr_prodsolr_52.74.114.132;Nginx http;CRITICAL;HARD;3;connect to address 52.74.114.132 and port 80: Connection refused
+[1451297289] HOST ALERT: credr_prodsolr_52.74.114.132;DOWN;HARD;10;PING CRITICAL - Packet loss = 100%
+[1451297289] HOST NOTIFICATION: sajal;credr_prodsolr_52.74.114.132;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451297289] HOST NOTIFICATION: nagiosadmin;credr_prodsolr_52.74.114.132;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451297341] SERVICE ALERT: credr_prodsolr_52.74.114.132;Ping Check;CRITICAL;HARD;3;PING CRITICAL - Packet loss = 100%
+[1451297705] Caught SIGTERM, shutting down...
+[1451297705] Successfully shutdown... (PID=32737)
+[1451297705] Event broker module 'NERD' deinitialized successfully.
+[1451297706] Nagios 4.1.1 starting... (PID=971)
+[1451297706] Local time is Mon Dec 28 15:45:06 IST 2015
+[1451297706] LOG VERSION: 2.0
+[1451297706] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451297706] qh: core query handler registered
+[1451297706] nerd: Channel hostchecks registered successfully
+[1451297706] nerd: Channel servicechecks registered successfully
+[1451297706] nerd: Channel opathchecks registered successfully
+[1451297706] nerd: Fully initialized and ready to rock!
+[1451297706] wproc: Successfully registered manager as @wproc with query handler
+[1451297706] wproc: Registry request: name=Core Worker 973;pid=973
+[1451297706] wproc: Registry request: name=Core Worker 972;pid=972
+[1451297706] wproc: Registry request: name=Core Worker 975;pid=975
+[1451297706] wproc: Registry request: name=Core Worker 974;pid=974
+[1451297706] Successfully launched command file worker with pid 976
+[1451297714] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prodsolr_52.74.114.132;Ping Check;1451297713
+[1451297718] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prodsolr_52.74.114.132;Ping Check;1451297716
+[1451297718] SERVICE ALERT: credr_prodsolr_52.74.114.132;Ping Check;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451297864] Caught SIGTERM, shutting down...
+[1451297864] Successfully shutdown... (PID=971)
+[1451297864] Event broker module 'NERD' deinitialized successfully.
+[1451297865] Nagios 4.1.1 starting... (PID=1160)
+[1451297865] Local time is Mon Dec 28 15:47:45 IST 2015
+[1451297865] LOG VERSION: 2.0
+[1451297865] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451297865] qh: core query handler registered
+[1451297865] nerd: Channel hostchecks registered successfully
+[1451297865] nerd: Channel servicechecks registered successfully
+[1451297865] nerd: Channel opathchecks registered successfully
+[1451297865] nerd: Fully initialized and ready to rock!
+[1451297865] wproc: Successfully registered manager as @wproc with query handler
+[1451297865] wproc: Registry request: name=Core Worker 1161;pid=1161
+[1451297865] wproc: Registry request: name=Core Worker 1163;pid=1163
+[1451297865] wproc: Registry request: name=Core Worker 1162;pid=1162
+[1451297865] wproc: Registry request: name=Core Worker 1164;pid=1164
+[1451297865] Successfully launched command file worker with pid 1165
+[1451297935] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prodsolr_52.74.114.132;CPU Usage;1451297934
+[1451298009] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prodsolr_52.74.114.132;CPU Usage;1451298007
+[1451298013] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prodsolr_52.74.114.132;CPU Usage;1451298012
+[1451298017] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prodsolr_52.74.114.132;CPU Usage;1451298016
+[1451298051] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prodsolr_52.74.114.132;CPU Usage;1451298050
+[1451298053] SERVICE ALERT: credr_prodsolr_52.74.114.132;CPU Usage;OK;HARD;3;CPU STATISTICS OK : user=0.50% system=0.00%, iowait=0.00%, idle=99.50%, nice=0.00%, steal=0.00%
+[1451298054] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prodsolr_52.74.114.132;CPU Usage;1451298053
+[1451298883] Caught SIGTERM, shutting down...
+[1451298883] Successfully shutdown... (PID=1160)
+[1451298883] Event broker module 'NERD' deinitialized successfully.
+[1451298884] Nagios 4.1.1 starting... (PID=1827)
+[1451298884] Local time is Mon Dec 28 16:04:44 IST 2015
+[1451298884] LOG VERSION: 2.0
+[1451298884] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451298884] qh: core query handler registered
+[1451298884] nerd: Channel hostchecks registered successfully
+[1451298884] nerd: Channel servicechecks registered successfully
+[1451298884] nerd: Channel opathchecks registered successfully
+[1451298884] nerd: Fully initialized and ready to rock!
+[1451298884] wproc: Successfully registered manager as @wproc with query handler
+[1451298884] wproc: Registry request: name=Core Worker 1831;pid=1831
+[1451298884] wproc: Registry request: name=Core Worker 1830;pid=1830
+[1451298884] wproc: Registry request: name=Core Worker 1829;pid=1829
+[1451298884] wproc: Registry request: name=Core Worker 1828;pid=1828
+[1451298884] Successfully launched command file worker with pid 1832
+[1451299442] SERVICE ALERT: credr_prod_52.74.247.15;Ping Check;CRITICAL;SOFT;1;NRPE: Command 'check_ping' not defined
+[1451299562] SERVICE ALERT: credr_prod_52.74.247.15;Ping Check;CRITICAL;SOFT;2;NRPE: Command 'check_ping' not defined
+[1451299682] SERVICE ALERT: credr_prod_52.74.247.15;Ping Check;CRITICAL;HARD;3;NRPE: Command 'check_ping' not defined
+[1451299682] SERVICE NOTIFICATION: sajal;credr_prod_52.74.247.15;Ping Check;CRITICAL;notify-service-by-email;NRPE: Command 'check_ping' not defined
+[1451299682] SERVICE NOTIFICATION: nagiosadmin;credr_prod_52.74.247.15;Ping Check;CRITICAL;notify-service-by-email;NRPE: Command 'check_ping' not defined
+[1451301338] Caught SIGTERM, shutting down...
+[1451301338] Successfully shutdown... (PID=1827)
+[1451301338] Event broker module 'NERD' deinitialized successfully.
+[1451301339] Nagios 4.1.1 starting... (PID=2659)
+[1451301339] Local time is Mon Dec 28 16:45:39 IST 2015
+[1451301339] LOG VERSION: 2.0
+[1451301339] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451301339] qh: core query handler registered
+[1451301339] nerd: Channel hostchecks registered successfully
+[1451301339] nerd: Channel servicechecks registered successfully
+[1451301339] nerd: Channel opathchecks registered successfully
+[1451301339] nerd: Fully initialized and ready to rock!
+[1451301339] wproc: Successfully registered manager as @wproc with query handler
+[1451301339] wproc: Registry request: name=Core Worker 2663;pid=2663
+[1451301339] wproc: Registry request: name=Core Worker 2662;pid=2662
+[1451301339] wproc: Registry request: name=Core Worker 2661;pid=2661
+[1451301339] wproc: Registry request: name=Core Worker 2660;pid=2660
+[1451301339] Successfully launched command file worker with pid 2664
+[1451301474] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;Ping Check;1451301473
+[1451301478] SERVICE ALERT: credr_prod_52.74.247.15;Ping Check;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.02 ms
+[1451301478] SERVICE NOTIFICATION: sajal;credr_prod_52.74.247.15;Ping Check;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.02 ms
+[1451301478] SERVICE NOTIFICATION: nagiosadmin;credr_prod_52.74.247.15;Ping Check;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.02 ms
+[1451301833] SERVICE ALERT: Nagios Server;HTTP;CRITICAL;SOFT;1;connect to address 127.0.0.1 and port 80: Connection refused
+[1451301833] SERVICE EVENT HANDLER: Nagios Server;HTTP;CRITICAL;SOFT;1;restart-local-services
+[1451301893] SERVICE ALERT: Nagios Server;HTTP;CRITICAL;SOFT;2;connect to address 127.0.0.1 and port 80: Connection refused
+[1451301893] SERVICE EVENT HANDLER: Nagios Server;HTTP;CRITICAL;SOFT;2;restart-local-services
+[1451301953] SERVICE ALERT: Nagios Server;HTTP;CRITICAL;SOFT;3;connect to address 127.0.0.1 and port 80: Connection refused
+[1451301953] SERVICE EVENT HANDLER: Nagios Server;HTTP;CRITICAL;SOFT;3;restart-local-services
+[1451302013] SERVICE ALERT: Nagios Server;HTTP;CRITICAL;HARD;4;connect to address 127.0.0.1 and port 80: Connection refused
+[1451302013] SERVICE NOTIFICATION: sajal;Nagios Server;HTTP;CRITICAL;notify-service-by-email;connect to address 127.0.0.1 and port 80: Connection refused
+[1451302013] SERVICE NOTIFICATION: nagiosadmin;Nagios Server;HTTP;CRITICAL;notify-service-by-email;connect to address 127.0.0.1 and port 80: Connection refused
+[1451302013] SERVICE EVENT HANDLER: Nagios Server;HTTP;CRITICAL;HARD;4;restart-local-services
+[1451302586] Caught SIGTERM, shutting down...
+[1451302586] Successfully shutdown... (PID=2659)
+[1451302586] Event broker module 'NERD' deinitialized successfully.
+[1451302587] Nagios 4.1.1 starting... (PID=3562)
+[1451302587] Local time is Mon Dec 28 17:06:27 IST 2015
+[1451302587] LOG VERSION: 2.0
+[1451302587] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451302587] qh: core query handler registered
+[1451302587] nerd: Channel hostchecks registered successfully
+[1451302587] nerd: Channel servicechecks registered successfully
+[1451302587] nerd: Channel opathchecks registered successfully
+[1451302587] nerd: Fully initialized and ready to rock!
+[1451302587] wproc: Successfully registered manager as @wproc with query handler
+[1451302587] wproc: Registry request: name=Core Worker 3566;pid=3566
+[1451302587] wproc: Registry request: name=Core Worker 3565;pid=3565
+[1451302587] wproc: Registry request: name=Core Worker 3564;pid=3564
+[1451302587] wproc: Registry request: name=Core Worker 3563;pid=3563
+[1451302587] Successfully launched command file worker with pid 3567
+[1451302677] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Nagios Server;HTTP;1451302676
+[1451302677] SERVICE ALERT: Nagios Server;HTTP;OK;HARD;4;HTTP OK: HTTP/1.1 200 OK - 11783 bytes in 0.001 second response time
+[1451302677] SERVICE NOTIFICATION: sajal;Nagios Server;HTTP;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 11783 bytes in 0.001 second response time
+[1451302677] SERVICE NOTIFICATION: nagiosadmin;Nagios Server;HTTP;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 11783 bytes in 0.001 second response time
+[1451302677] SERVICE EVENT HANDLER: Nagios Server;HTTP;OK;HARD;4;restart-local-services
+[1451302677] wproc: NOTIFY job 5 from worker Core Worker 3566 is a non-check helper but exited with return code 2
+[1451302677] wproc:   host=Nagios Server; service=HTTP; contact=nagiosadmin
+[1451302677] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451302677] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451302677] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451302977] SERVICE ALERT: Nagios Server;HTTP;CRITICAL;SOFT;1;connect to address 127.0.0.1 and port 80: Connection refused
+[1451302977] SERVICE EVENT HANDLER: Nagios Server;HTTP;CRITICAL;SOFT;1;restart-local-services
+[1451303037] SERVICE ALERT: Nagios Server;HTTP;CRITICAL;SOFT;2;connect to address 127.0.0.1 and port 80: Connection refused
+[1451303037] SERVICE EVENT HANDLER: Nagios Server;HTTP;CRITICAL;SOFT;2;restart-local-services
+[1451303097] SERVICE ALERT: Nagios Server;HTTP;CRITICAL;SOFT;3;connect to address 127.0.0.1 and port 80: Connection refused
+[1451303097] SERVICE EVENT HANDLER: Nagios Server;HTTP;CRITICAL;SOFT;3;restart-local-services
+[1451303157] SERVICE ALERT: Nagios Server;HTTP;CRITICAL;HARD;4;connect to address 127.0.0.1 and port 80: Connection refused
+[1451303157] SERVICE NOTIFICATION: sajal;Nagios Server;HTTP;CRITICAL;notify-service-by-email;connect to address 127.0.0.1 and port 80: Connection refused
+[1451303157] SERVICE NOTIFICATION: nagiosadmin;Nagios Server;HTTP;CRITICAL;notify-service-by-email;connect to address 127.0.0.1 and port 80: Connection refused
+[1451303157] SERVICE EVENT HANDLER: Nagios Server;HTTP;CRITICAL;HARD;4;restart-local-services
+[1451303157] wproc: NOTIFY job 22 from worker Core Worker 3563 is a non-check helper but exited with return code 2
+[1451303157] wproc:   host=Nagios Server; service=HTTP; contact=nagiosadmin
+[1451303157] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451303157] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451303157] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451303757] SERVICE ALERT: Nagios Server;HTTP;OK;HARD;4;HTTP OK: HTTP/1.1 200 OK - 11783 bytes in 0.000 second response time
+[1451303757] SERVICE FLAPPING ALERT: Nagios Server;HTTP;STARTED; Service appears to have started flapping (23.6% change >= 20.0% threshold)
+[1451303757] SERVICE EVENT HANDLER: Nagios Server;HTTP;OK;HARD;4;restart-local-services
+[1451303765] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Nagios Server;HTTP;1451303764
+[1451304364] Caught SIGTERM, shutting down...
+[1451304364] Successfully shutdown... (PID=3562)
+[1451304364] Event broker module 'NERD' deinitialized successfully.
+[1451304365] Nagios 4.1.1 starting... (PID=4553)
+[1451304365] Local time is Mon Dec 28 17:36:05 IST 2015
+[1451304365] LOG VERSION: 2.0
+[1451304365] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451304365] qh: core query handler registered
+[1451304365] nerd: Channel hostchecks registered successfully
+[1451304365] nerd: Channel servicechecks registered successfully
+[1451304365] nerd: Channel opathchecks registered successfully
+[1451304365] nerd: Fully initialized and ready to rock!
+[1451304365] wproc: Successfully registered manager as @wproc with query handler
+[1451304365] wproc: Registry request: name=Core Worker 4557;pid=4557
+[1451304365] wproc: Registry request: name=Core Worker 4556;pid=4556
+[1451304365] wproc: Registry request: name=Core Worker 4555;pid=4555
+[1451304365] wproc: Registry request: name=Core Worker 4554;pid=4554
+[1451304365] SERVICE FLAPPING ALERT: Nagios Server;HTTP;STARTED; Service appears to have started flapping (22.5% change >= 20.0% threshold)
+[1451304365] Successfully launched command file worker with pid 4558
+[1451304404] Caught SIGTERM, shutting down...
+[1451304404] Successfully shutdown... (PID=4553)
+[1451304404] Event broker module 'NERD' deinitialized successfully.
+[1451304405] Nagios 4.1.1 starting... (PID=4657)
+[1451304405] Local time is Mon Dec 28 17:36:45 IST 2015
+[1451304405] LOG VERSION: 2.0
+[1451304405] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451304405] qh: core query handler registered
+[1451304405] nerd: Channel hostchecks registered successfully
+[1451304405] nerd: Channel servicechecks registered successfully
+[1451304405] nerd: Channel opathchecks registered successfully
+[1451304405] nerd: Fully initialized and ready to rock!
+[1451304405] wproc: Successfully registered manager as @wproc with query handler
+[1451304405] wproc: Registry request: name=Core Worker 4660;pid=4660
+[1451304405] wproc: Registry request: name=Core Worker 4659;pid=4659
+[1451304405] wproc: Registry request: name=Core Worker 4661;pid=4661
+[1451304405] wproc: Registry request: name=Core Worker 4658;pid=4658
+[1451304405] SERVICE FLAPPING ALERT: Nagios Server;HTTP;STARTED; Service appears to have started flapping (22.5% change >= 20.0% threshold)
+[1451304405] Successfully launched command file worker with pid 4662
+[1451304720] SERVICE ALERT: Nagios Server;HTTP;CRITICAL;SOFT;1;connect to address 127.0.0.1 and port 80: Connection refused
+[1451304720] SERVICE EVENT HANDLER: Nagios Server;HTTP;CRITICAL;SOFT;1;restart-local-services
+[1451304779] SERVICE ALERT: Nagios Server;HTTP;CRITICAL;SOFT;2;connect to address 127.0.0.1 and port 80: Connection refused
+[1451304779] SERVICE EVENT HANDLER: Nagios Server;HTTP;CRITICAL;SOFT;2;restart-local-services
+[1451304839] SERVICE ALERT: Nagios Server;HTTP;CRITICAL;SOFT;3;connect to address 127.0.0.1 and port 80: Connection refused
+[1451304839] SERVICE EVENT HANDLER: Nagios Server;HTTP;CRITICAL;SOFT;3;restart-local-services
+[1451304899] SERVICE ALERT: Nagios Server;HTTP;CRITICAL;HARD;4;connect to address 127.0.0.1 and port 80: Connection refused
+[1451304899] SERVICE EVENT HANDLER: Nagios Server;HTTP;CRITICAL;HARD;4;restart-local-services
+[1451305199] SERVICE ALERT: Nagios Server;HTTP;OK;HARD;4;HTTP OK: HTTP/1.1 200 OK - 11783 bytes in 0.001 second response time
+[1451305199] SERVICE EVENT HANDLER: Nagios Server;HTTP;OK;HARD;4;restart-local-services
+[1451305499] SERVICE ALERT: Nagios Server;HTTP;CRITICAL;SOFT;1;connect to address 127.0.0.1 and port 80: Connection refused
+[1451305499] SERVICE EVENT HANDLER: Nagios Server;HTTP;CRITICAL;SOFT;1;restart-local-services
+[1451305559] SERVICE ALERT: Nagios Server;HTTP;CRITICAL;SOFT;2;connect to address 127.0.0.1 and port 80: Connection refused
+[1451305559] SERVICE EVENT HANDLER: Nagios Server;HTTP;CRITICAL;SOFT;2;restart-local-services
+[1451305619] SERVICE ALERT: Nagios Server;HTTP;OK;SOFT;3;HTTP OK: HTTP/1.1 200 OK - 11783 bytes in 0.001 second response time
+[1451305619] SERVICE EVENT HANDLER: Nagios Server;HTTP;OK;SOFT;3;restart-local-services
+[1451306519] SERVICE ALERT: Nagios Server;HTTP;CRITICAL;SOFT;1;connect to address 127.0.0.1 and port 80: Connection refused
+[1451306519] SERVICE EVENT HANDLER: Nagios Server;HTTP;CRITICAL;SOFT;1;restart-local-services
+[1451306579] SERVICE ALERT: Nagios Server;HTTP;CRITICAL;SOFT;2;connect to address 127.0.0.1 and port 80: Connection refused
+[1451306579] SERVICE EVENT HANDLER: Nagios Server;HTTP;CRITICAL;SOFT;2;restart-local-services
+[1451306639] SERVICE ALERT: Nagios Server;HTTP;OK;SOFT;3;HTTP OK: HTTP/1.1 200 OK - 11783 bytes in 0.001 second response time
+[1451306639] SERVICE EVENT HANDLER: Nagios Server;HTTP;OK;SOFT;3;restart-local-services
+[1451308004] Auto-save of retention data completed successfully.
+[1451311139] SERVICE FLAPPING ALERT: Nagios Server;HTTP;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)
+[1451311604] Auto-save of retention data completed successfully.
+[1451311952] wproc: Core Worker 4661: job 259 (pid=7223) timed out. Killing it
+[1451311952] wproc: CHECK job 259 from worker Core Worker 4661 timed out after 30.04s
+[1451311952] wproc:   host=credr_prodsolr_52.74.114.132; service=(null);
+[1451311952] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451311952] Warning: Check of host 'credr_prodsolr_52.74.114.132' timed out after 30.04 seconds
+[1451311952] wproc: Core Worker 4661: job 259 (pid=7223): Dormant child reaped
+[1451315204] Auto-save of retention data completed successfully.
+[1451318804] Auto-save of retention data completed successfully.
+[1451322404] Auto-save of retention data completed successfully.
+[1451326004] Auto-save of retention data completed successfully.
+[1451326207] wproc: Core Worker 4660: job 740 (pid=11096) timed out. Killing it
+[1451326207] wproc: CHECK job 740 from worker Core Worker 4660 timed out after 30.04s
+[1451326207] wproc:   host=credr_dev_52.74.244.220; service=(null);
+[1451326207] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451326207] Warning: Check of host 'credr_dev_52.74.244.220' timed out after 30.04 seconds
+[1451326207] wproc: Core Worker 4660: job 740 (pid=11096): Dormant child reaped

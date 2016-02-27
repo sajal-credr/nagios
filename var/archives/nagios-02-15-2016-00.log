@@ -1,0 +1,220 @@
+[1455388200] LOG ROTATION: DAILY
+[1455388200] LOG VERSION: 2.0
+[1455388200] CURRENT HOST STATE: Nagios Server;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1455388200] CURRENT HOST STATE: credr_DW_52.76.17.124;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.43 ms
+[1455388200] CURRENT HOST STATE: credr_db_prod_master_52.76.120.118;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.70 ms
+[1455388200] CURRENT HOST STATE: credr_db_prod_middle_52.76.193.246;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.64 ms
+[1455388200] CURRENT HOST STATE: credr_db_prod_slave_52.76.187.176;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.62 ms
+[1455388200] CURRENT HOST STATE: credr_dev_52.74.244.220;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.71 ms
+[1455388200] CURRENT HOST STATE: credr_prod_52.74.247.15;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.58 ms
+[1455388200] CURRENT HOST STATE: credr_prodsolr_52.74.114.132;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.35 ms
+[1455388200] CURRENT HOST STATE: credr_stage_52.76.16.57;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.70 ms
+[1455388200] CURRENT SERVICE STATE: Nagios Server;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1455388200] CURRENT SERVICE STATE: Nagios Server;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1455388200] CURRENT SERVICE STATE: Nagios Server;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1455388200] CURRENT SERVICE STATE: Nagios Server;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11783 bytes in 0.001 second response time
+[1455388200] CURRENT SERVICE STATE: Nagios Server;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 168 MB - 4% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455388200] CURRENT SERVICE STATE: Nagios Server;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1455388200] CURRENT SERVICE STATE: Nagios Server;Root Partition;OK;HARD;1;DISK OK - free space: / 36916 MB (96% inode=97%):
+[1455388200] CURRENT SERVICE STATE: Nagios Server;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1455388200] CURRENT SERVICE STATE: Nagios Server;Total Processes;OK;HARD;1;PROCS OK: 85 processes with STATE = RSZDT
+[1455388200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1455388200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1455388200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1455388200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 2106 MB - 53% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455388200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;PG Connections;OK;HARD;1;POSTGRES_BACKENDS OK: DB "apps_data" 5 of 1000 connections (1%)
+[1455388200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;PG DB Disk Space;OK;HARD;1;POSTGRES_DISK_SPACE OK: DB "apps_data" FS /dev/xvda1 mounted on / is using 13.26 GB of 98.30 GB (15%)
+[1455388200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;PG DB Size;OK;HARD;1;POSTGRES_DATABASE_SIZE OK: DB "apps_data" credr_dw: 916497480 (874 MB) apps_data: 642139208 (612 MB) apps_scrapping1: 406389832 (388 MB) crm_replica: 113427528 (108 MB) solardb: 92996680 (89 MB) credr_analytics: 61269064 (58 MB) credr_data: 40010824 (38 MB) crm_level1: 20849736 (20 MB) apps_internal: 9364552 (9145 kB) crm_logging: 7144520 (6977 kB) credr_data_warehouse: 7029832 (6865 kB) postgres: 6923336 (6761 kB) credr_db: 6513736 (6361 kB) template1: 6448200 (6297 kB) template0: 6332932 (6185 kB)
+[1455388200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;PG Ideal Connections;OK;HARD;1;POSTGRES_TXN_IDLE OK: DB "apps_data" not more than 50 idle in transaction
+[1455388200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;PG Locks;OK;HARD;1;POSTGRES_LOCKS OK: DB "apps_data" total=28
+[1455388200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;PG Triggers;OK;HARD;1;POSTGRES_DISABLED_TRIGGERS OK: DB "apps_data" Disabled triggers: 0
+[1455388200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1455388200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Root Partition;OK;HARD;1;DISK OK - free space: / 82883 MB (85% inode=97%):
+[1455388200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1455388200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Total Processes;OK;HARD;1;PROCS OK: 129 processes
+[1455388200] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_master_52.76.120.118;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=4.02% system=0.00%, iowait=0.00%, idle=95.98%, nice=0.00%, steal=0.00%
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_master_52.76.120.118;Current Load;OK;HARD;1;OK - load average: 0.09, 0.12, 0.13
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_master_52.76.120.118;Current Users;OK;HARD;1;USERS OK - 1 users currently logged in
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_master_52.76.120.118;Memory;OK;HARD;1;[MEMORY] Total: 7983 MB - Used: 433 MB - 5% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_master_52.76.120.118;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_master_52.76.120.118;Root Partition;OK;HARD;1;DISK OK - free space: / 53617 MB (53% inode=98%):
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_master_52.76.120.118;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_master_52.76.120.118;Total Processes;OK;HARD;1;PROCS OK: 145 processes
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_master_52.76.120.118;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_middle_52.76.193.246;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_middle_52.76.193.246;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_middle_52.76.193.246;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_middle_52.76.193.246;Memory;OK;HARD;1;[MEMORY] Total: 7983 MB - Used: 1303 MB - 16% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_middle_52.76.193.246;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_middle_52.76.193.246;Root Partition;OK;HARD;1;DISK OK - free space: / 266532 MB (91% inode=99%):
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_middle_52.76.193.246;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_middle_52.76.193.246;Total Processes;OK;HARD;1;PROCS OK: 163 processes
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_middle_52.76.193.246;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_slave_52.76.187.176;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_slave_52.76.187.176;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_slave_52.76.187.176;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_slave_52.76.187.176;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 336 MB - 8% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_slave_52.76.187.176;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_slave_52.76.187.176;Root Partition;OK;HARD;1;DISK OK - free space: / 91251 MB (94% inode=98%):
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_slave_52.76.187.176;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_slave_52.76.187.176;Total Processes;OK;HARD;1;PROCS OK: 126 processes
+[1455388200] CURRENT SERVICE STATE: credr_db_prod_slave_52.76.187.176;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1455388200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Current Load;OK;HARD;1;OK - load average: 0.02, 0.06, 0.05
+[1455388200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1455388200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 8889 bytes in 0.004 second response time
+[1455388200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 2456 MB - 62% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455388200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1455388200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Root Partition;OK;HARD;1;DISK OK - free space: / 1107 MB (14% inode=52%):
+[1455388200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1455388200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Total Processes;OK;HARD;1;PROCS OK: 124 processes
+[1455388200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1455388200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.63% system=0.00%, iowait=0.00%, idle=99.37%, nice=0.00%, steal=0.00%
+[1455388200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Current Load;OK;HARD;1;OK - load average: 0.25, 0.39, 0.41
+[1455388200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Current Users;OK;HARD;1;USERS OK - 1 users currently logged in
+[1455388200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Memory;OK;HARD;1;[MEMORY] Total: 32175 MB - Used: 7769 MB - 24% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455388200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Nginx http;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 374 bytes in 0.001 second response time
+[1455388200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1455388200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Root Partition;OK;HARD;1;DISK OK - free space: / 75776 MB (78% inode=93%):
+[1455388200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.4 (protocol 2.0)
+[1455388200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Supervisor Celery;OK;HARD;1;celery_smsserv                   RUNNING    pid 2258, uptime 10 days, 23:23:33
+[1455388200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Supervisor WebApp;OK;HARD;1;credrWebApp                      RUNNING    pid 30400, uptime 3 days, 7:13:18
+[1455388200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Total Processes;OK;HARD;1;PROCS OK: 230 processes
+[1455388200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Website Check;OK;HARD;1;CONTENT OK: WEBSITE IS RUNNING FINE
+[1455388200] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1455388200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1455388200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Current Load;OK;HARD;1;OK - load average: 0.02, 0.03, 0.05
+[1455388200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1455388200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Memory;OK;HARD;1;[MEMORY] Total: 7479 MB - Used: 917 MB - 12% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455388200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1455388200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Root Partition;OK;HARD;1;DISK OK - free space: / 14706 MB (38% inode=97%):
+[1455388200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1455388200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Solr Service;OK;HARD;1;PORT 8983 OK: localhost/8983 is responding
+[1455388200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Total Processes;OK;HARD;1;PROCS OK: 105 processes
+[1455388200] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=1.01% system=0.00%, iowait=0.00%, idle=98.99%, nice=0.00%, steal=0.00%
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Memory Usage;OK;HARD;1;Memory used by celery process :: 563.594 MB
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Memory credr-core;OK;HARD;1;Memory used by celery_credrcore process :: 193.457 MB
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Memory credrWebApp;OK;HARD;1;Memory used by credrWebApp process :: 67.7812 MB
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Memory crmserv;OK;HARD;1;Memory used by celery_crmserv process :: 3.25391 MB
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Memory emailserv;OK;HARD;1;Memory used by celery_emailserv process :: 101.539 MB
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Memory smsserv;OK;HARD;1;Memory used by celery_smsserv process :: 112.09 MB
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Process Total;OK;HARD;1;celery worker process running: 20
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Process credr-core;OK;HARD;1;celery_credrcore worker process running: 5
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Process credrWebApp;OK;HARD;1;credrWebApp worker process running: 3
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Process crmserv;OK;HARD;1;crmserv worker process running: 6
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Process emailserv;OK;HARD;1;emailserv worker process running: 4
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Process smsserv;OK;HARD;1;smsserv worker process running: 4
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Current Load;OK;HARD;1;OK - load average: 0.00, 0.02, 0.05
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Memory;OK;HARD;1;[MEMORY] Total: 7984 MB - Used: 1713 MB - 21% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Nginx http;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 1099 bytes in 0.004 second response time
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Redis Memory Usage;OK;HARD;1;OK - 612.05kB of memory used.
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Redis Service;OK;HARD;1;OK - uptime_in_days: 0
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Root Partition;OK;HARD;1;DISK OK - free space: / 25056 MB (87% inode=85%):
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.6 (protocol 2.0)
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Total Processes;OK;HARD;1;PROCS OK: 147 processes
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Website Check;OK;HARD;1;CONTENT OK: WEBSITE IS RUNNING FINE
+[1455388200] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1455388271] SERVICE ALERT: credr_db_prod_middle_52.76.193.246;CPU Usage;CRITICAL;SOFT;1;CPU STATISTICS CRITICAL : user=0.00% system=2.67%, iowait=49.73%, idle=47.06%, nice=0.00%, steal=0.53%
+[1455388331] SERVICE ALERT: credr_db_prod_middle_52.76.193.246;CPU Usage;OK;SOFT;2;CPU STATISTICS OK : user=49.24% system=1.52%, iowait=0.51%, idle=47.72%, nice=0.00%, steal=1.02%
+[1455390038] Auto-save of retention data completed successfully.
+[1455393638] Auto-save of retention data completed successfully.
+[1455397238] Auto-save of retention data completed successfully.
+[1455399821] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;WARNING;SOFT;1;CPU STATISTICS WARNING : user=45.27% system=3.98%, iowait=0.00%, idle=50.25%, nice=0.00%, steal=0.50%
+[1455399881] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;WARNING;SOFT;2;CPU STATISTICS WARNING : user=44.00% system=6.00%, iowait=0.00%, idle=50.00%, nice=0.00%, steal=0.00%
+[1455399941] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;WARNING;HARD;3;CPU STATISTICS WARNING : user=44.06% system=5.94%, iowait=0.00%, idle=49.50%, nice=0.00%, steal=0.50%
+[1455399941] SERVICE NOTIFICATION: nagiosadmin;credr_DW_52.76.17.124;CPU Usage;WARNING;notify-service-by-email;CPU STATISTICS WARNING : user=44.06% system=5.94%, iowait=0.00%, idle=49.50%, nice=0.00%, steal=0.50%
+[1455399941] SERVICE NOTIFICATION: mohit;credr_DW_52.76.17.124;CPU Usage;WARNING;notify-service-by-email;CPU STATISTICS WARNING : user=44.06% system=5.94%, iowait=0.00%, idle=49.50%, nice=0.00%, steal=0.50%
+[1455399941] SERVICE NOTIFICATION: nitin;credr_DW_52.76.17.124;CPU Usage;WARNING;notify-service-by-email;CPU STATISTICS WARNING : user=44.06% system=5.94%, iowait=0.00%, idle=49.50%, nice=0.00%, steal=0.50%
+[1455399941] SERVICE NOTIFICATION: suneet;credr_DW_52.76.17.124;CPU Usage;WARNING;notify-service-by-email;CPU STATISTICS WARNING : user=44.06% system=5.94%, iowait=0.00%, idle=49.50%, nice=0.00%, steal=0.50%
+[1455399941] SERVICE NOTIFICATION: sudheer;credr_DW_52.76.17.124;CPU Usage;WARNING;notify-service-by-email;CPU STATISTICS WARNING : user=44.06% system=5.94%, iowait=0.00%, idle=49.50%, nice=0.00%, steal=0.50%
+[1455399941] SERVICE NOTIFICATION: nagiosdb;credr_DW_52.76.17.124;CPU Usage;WARNING;notify-service-by-email;CPU STATISTICS WARNING : user=44.06% system=5.94%, iowait=0.00%, idle=49.50%, nice=0.00%, steal=0.50%
+[1455399941] wproc: NOTIFY job 60739 from worker Core Worker 13162 is a non-check helper but exited with return code 2
+[1455399941] wproc:   host=credr_DW_52.76.17.124; service=CPU Usage; contact=nagiosdb
+[1455399941] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455399941] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455399941] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455400838] Auto-save of retention data completed successfully.
+[1455401201] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;OK;HARD;3;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1455401201] SERVICE NOTIFICATION: nagiosadmin;credr_DW_52.76.17.124;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1455401201] SERVICE NOTIFICATION: mohit;credr_DW_52.76.17.124;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1455401201] SERVICE NOTIFICATION: nitin;credr_DW_52.76.17.124;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1455401201] SERVICE NOTIFICATION: suneet;credr_DW_52.76.17.124;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1455401201] SERVICE NOTIFICATION: sudheer;credr_DW_52.76.17.124;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1455401201] SERVICE NOTIFICATION: nagiosdb;credr_DW_52.76.17.124;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1455401201] wproc: NOTIFY job 60945 from worker Core Worker 13161 is a non-check helper but exited with return code 2
+[1455401201] wproc:   host=credr_DW_52.76.17.124; service=CPU Usage; contact=nagiosdb
+[1455401201] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455401201] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455401201] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455401381] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;WARNING;SOFT;1;CPU STATISTICS WARNING : user=44.22% system=5.53%, iowait=0.00%, idle=50.25%, nice=0.00%, steal=0.00%
+[1455401441] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;WARNING;SOFT;2;CPU STATISTICS WARNING : user=56.22% system=5.47%, iowait=0.00%, idle=38.31%, nice=0.00%, steal=0.00%
+[1455401501] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;WARNING;HARD;3;CPU STATISTICS WARNING : user=45.77% system=4.48%, iowait=0.00%, idle=49.75%, nice=0.00%, steal=0.00%
+[1455401501] SERVICE NOTIFICATION: nagiosadmin;credr_DW_52.76.17.124;CPU Usage;WARNING;notify-service-by-email;CPU STATISTICS WARNING : user=45.77% system=4.48%, iowait=0.00%, idle=49.75%, nice=0.00%, steal=0.00%
+[1455401501] SERVICE NOTIFICATION: mohit;credr_DW_52.76.17.124;CPU Usage;WARNING;notify-service-by-email;CPU STATISTICS WARNING : user=45.77% system=4.48%, iowait=0.00%, idle=49.75%, nice=0.00%, steal=0.00%
+[1455401501] SERVICE NOTIFICATION: nitin;credr_DW_52.76.17.124;CPU Usage;WARNING;notify-service-by-email;CPU STATISTICS WARNING : user=45.77% system=4.48%, iowait=0.00%, idle=49.75%, nice=0.00%, steal=0.00%
+[1455401501] SERVICE NOTIFICATION: suneet;credr_DW_52.76.17.124;CPU Usage;WARNING;notify-service-by-email;CPU STATISTICS WARNING : user=45.77% system=4.48%, iowait=0.00%, idle=49.75%, nice=0.00%, steal=0.00%
+[1455401501] SERVICE NOTIFICATION: sudheer;credr_DW_52.76.17.124;CPU Usage;WARNING;notify-service-by-email;CPU STATISTICS WARNING : user=45.77% system=4.48%, iowait=0.00%, idle=49.75%, nice=0.00%, steal=0.00%
+[1455401501] SERVICE NOTIFICATION: nagiosdb;credr_DW_52.76.17.124;CPU Usage;WARNING;notify-service-by-email;CPU STATISTICS WARNING : user=45.77% system=4.48%, iowait=0.00%, idle=49.75%, nice=0.00%, steal=0.00%
+[1455401501] wproc: NOTIFY job 60992 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455401501] wproc:   host=credr_DW_52.76.17.124; service=CPU Usage; contact=nagiosdb
+[1455401501] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455401501] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455401501] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455402221] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;OK;HARD;3;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1455402221] SERVICE FLAPPING ALERT: credr_DW_52.76.17.124;CPU Usage;STARTED; Service appears to have started flapping (22.2% change >= 20.0% threshold)
+[1455404438] Auto-save of retention data completed successfully.
+[1455405101] SERVICE FLAPPING ALERT: credr_DW_52.76.17.124;CPU Usage;STOPPED; Service appears to have stopped flapping (4.1% change < 5.0% threshold)
+[1455408009] SERVICE ALERT: credr_DW_52.76.17.124;PG Locks;WARNING;SOFT;1;POSTGRES_LOCKS WARNING: DB "apps_data" total locks: 132
+[1455408038] Auto-save of retention data completed successfully.
+[1455408069] SERVICE ALERT: credr_DW_52.76.17.124;PG Locks;WARNING;SOFT;2;POSTGRES_LOCKS WARNING: DB "apps_data" total locks: 132
+[1455408130] SERVICE ALERT: credr_DW_52.76.17.124;PG Locks;CRITICAL;HARD;3;POSTGRES_LOCKS CRITICAL: DB "apps_data" total locks: 258
+[1455408130] SERVICE NOTIFICATION: nagiosadmin;credr_DW_52.76.17.124;PG Locks;CRITICAL;notify-service-by-email;POSTGRES_LOCKS CRITICAL: DB "apps_data" total locks: 258
+[1455408130] SERVICE NOTIFICATION: mohit;credr_DW_52.76.17.124;PG Locks;CRITICAL;notify-service-by-email;POSTGRES_LOCKS CRITICAL: DB "apps_data" total locks: 258
+[1455408130] SERVICE NOTIFICATION: nitin;credr_DW_52.76.17.124;PG Locks;CRITICAL;notify-service-by-email;POSTGRES_LOCKS CRITICAL: DB "apps_data" total locks: 258
+[1455408130] SERVICE NOTIFICATION: suneet;credr_DW_52.76.17.124;PG Locks;CRITICAL;notify-service-by-email;POSTGRES_LOCKS CRITICAL: DB "apps_data" total locks: 258
+[1455408130] SERVICE NOTIFICATION: sudheer;credr_DW_52.76.17.124;PG Locks;CRITICAL;notify-service-by-email;POSTGRES_LOCKS CRITICAL: DB "apps_data" total locks: 258
+[1455408130] SERVICE NOTIFICATION: nagiosdb;credr_DW_52.76.17.124;PG Locks;CRITICAL;notify-service-by-email;POSTGRES_LOCKS CRITICAL: DB "apps_data" total locks: 258
+[1455408130] wproc: NOTIFY job 62069 from worker Core Worker 13160 is a non-check helper but exited with return code 2
+[1455408130] wproc:   host=credr_DW_52.76.17.124; service=PG Locks; contact=nagiosdb
+[1455408130] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455408130] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455408130] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455408130] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1455408309] SERVICE ALERT: credr_DW_52.76.17.124;PG Locks;OK;HARD;3;POSTGRES_LOCKS OK: DB "apps_data" total=28
+[1455408309] SERVICE NOTIFICATION: nagiosadmin;credr_DW_52.76.17.124;PG Locks;OK;notify-service-by-email;POSTGRES_LOCKS OK: DB "apps_data" total=28
+[1455408309] SERVICE NOTIFICATION: mohit;credr_DW_52.76.17.124;PG Locks;OK;notify-service-by-email;POSTGRES_LOCKS OK: DB "apps_data" total=28
+[1455408309] SERVICE NOTIFICATION: nitin;credr_DW_52.76.17.124;PG Locks;OK;notify-service-by-email;POSTGRES_LOCKS OK: DB "apps_data" total=28
+[1455408309] SERVICE NOTIFICATION: suneet;credr_DW_52.76.17.124;PG Locks;OK;notify-service-by-email;POSTGRES_LOCKS OK: DB "apps_data" total=28
+[1455408309] SERVICE NOTIFICATION: sudheer;credr_DW_52.76.17.124;PG Locks;OK;notify-service-by-email;POSTGRES_LOCKS OK: DB "apps_data" total=28
+[1455408309] SERVICE NOTIFICATION: nagiosdb;credr_DW_52.76.17.124;PG Locks;OK;notify-service-by-email;POSTGRES_LOCKS OK: DB "apps_data" total=28
+[1455408309] wproc: NOTIFY job 62099 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455408309] wproc:   host=credr_DW_52.76.17.124; service=PG Locks; contact=nagiosdb
+[1455408309] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455408309] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455408309] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455408309] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1455411638] Auto-save of retention data completed successfully.
+[1455415238] Auto-save of retention data completed successfully.
+[1455418838] Auto-save of retention data completed successfully.
+[1455422438] Auto-save of retention data completed successfully.
+[1455426038] Auto-save of retention data completed successfully.
+[1455427719] SERVICE ALERT: credr_stage_52.76.16.57;Redis Service;CRITICAL;SOFT;1;CRITICAL -  Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+[1455427779] SERVICE ALERT: credr_stage_52.76.16.57;Redis Service;OK;SOFT;2;OK - uptime_in_days: 0
+[1455429638] Auto-save of retention data completed successfully.
+[1455432521] SERVICE ALERT: credr_db_prod_slave_52.76.187.176;CPU Usage;CRITICAL;SOFT;1;CPU STATISTICS CRITICAL : user=5.03% system=2.01%, iowait=42.71%, idle=49.75%, nice=0.00%, steal=0.50%
+[1455432581] SERVICE ALERT: credr_db_prod_slave_52.76.187.176;CPU Usage;OK;SOFT;2;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=99.50%, nice=0.00%, steal=0.50%
+[1455433238] Auto-save of retention data completed successfully.
+[1455436838] Auto-save of retention data completed successfully.
+[1455440438] Auto-save of retention data completed successfully.
+[1455444038] Auto-save of retention data completed successfully.
+[1455447638] Auto-save of retention data completed successfully.
+[1455451238] Auto-save of retention data completed successfully.
+[1455454838] Auto-save of retention data completed successfully.
+[1455458438] Auto-save of retention data completed successfully.
+[1455462038] Auto-save of retention data completed successfully.
+[1455465638] Auto-save of retention data completed successfully.
+[1455469238] Auto-save of retention data completed successfully.
+[1455472838] Auto-save of retention data completed successfully.

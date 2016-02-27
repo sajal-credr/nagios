@@ -1,0 +1,855 @@
+[1455042600] LOG ROTATION: DAILY
+[1455042600] LOG VERSION: 2.0
+[1455042600] CURRENT HOST STATE: Nagios Server;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1455042600] CURRENT HOST STATE: credr_DW_52.76.17.124;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.42 ms
+[1455042600] CURRENT HOST STATE: credr_db_prod_master_52.76.120.118;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.71 ms
+[1455042600] CURRENT HOST STATE: credr_db_prod_middle_52.76.193.246;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.60 ms
+[1455042600] CURRENT HOST STATE: credr_db_prod_slave_52.76.187.176;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.63 ms
+[1455042600] CURRENT HOST STATE: credr_dev_52.74.244.220;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.63 ms
+[1455042600] CURRENT HOST STATE: credr_prod_52.74.247.15;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.54 ms
+[1455042600] CURRENT HOST STATE: credr_prodsolr_52.74.114.132;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.33 ms
+[1455042600] CURRENT HOST STATE: credr_stage_52.76.16.57;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 2.12 ms
+[1455042600] CURRENT SERVICE STATE: Nagios Server;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.50% system=0.00%, iowait=0.00%, idle=99.50%, nice=0.00%, steal=0.00%
+[1455042600] CURRENT SERVICE STATE: Nagios Server;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1455042600] CURRENT SERVICE STATE: Nagios Server;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1455042600] CURRENT SERVICE STATE: Nagios Server;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11783 bytes in 0.000 second response time
+[1455042600] CURRENT SERVICE STATE: Nagios Server;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 161 MB - 4% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455042600] CURRENT SERVICE STATE: Nagios Server;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1455042600] CURRENT SERVICE STATE: Nagios Server;Root Partition;OK;HARD;1;DISK OK - free space: / 36936 MB (96% inode=97%):
+[1455042600] CURRENT SERVICE STATE: Nagios Server;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1455042600] CURRENT SERVICE STATE: Nagios Server;Total Processes;OK;HARD;1;PROCS OK: 78 processes with STATE = RSZDT
+[1455042600] CURRENT SERVICE STATE: credr_DW_52.76.17.124;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1455042600] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Current Load;OK;HARD;1;OK - load average: 0.01, 0.02, 0.05
+[1455042600] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1455042600] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 2108 MB - 53% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455042600] CURRENT SERVICE STATE: credr_DW_52.76.17.124;PG Connections;OK;HARD;1;POSTGRES_BACKENDS OK: DB "apps_data" 5 of 1000 connections (1%)
+[1455042600] CURRENT SERVICE STATE: credr_DW_52.76.17.124;PG DB Disk Space;OK;HARD;1;POSTGRES_DISK_SPACE OK: DB "apps_data" FS /dev/xvda1 mounted on / is using 13.89 GB of 98.30 GB (15%)
+[1455042600] CURRENT SERVICE STATE: credr_DW_52.76.17.124;PG DB Size;OK;HARD;1;POSTGRES_DATABASE_SIZE OK: DB "apps_data" credr_dw: 900416584 (859 MB) apps_data: 638420040 (609 MB) apps_scrapping1: 406389832 (388 MB) apps_data_test: 402867272 (384 MB) test3: 289186888 (276 MB) test: 192062536 (183 MB) crm_replica: 111092808 (106 MB) solardb: 92996680 (89 MB) test2: 81675336 (78 MB) dashboard: 63964232 (61 MB) credr_analytics: 61121608 (58 MB) triggers_test: 43312200 (41 MB) credr_data: 40010824 (38 MB) crm_level1: 20841544 (20 MB) user_recommendation: 13853768 (13 MB) apps_internal: 9290824 (9073 kB) crm_logging: 7144520 (6977 kB) credr_data_warehouse: 7029832 (6865 kB) postgres: 6923336 (6761 kB) redshift_testing: 6784072 (6625 kB) whatsapp: 6497352 (6345 kB) template1: 6448200 (6297 kB) template0: 6332932 (6185 kB)
+[1455042600] CURRENT SERVICE STATE: credr_DW_52.76.17.124;PG Ideal Connections;OK;HARD;1;POSTGRES_TXN_IDLE OK: DB "apps_data" no idle in transaction
+[1455042600] CURRENT SERVICE STATE: credr_DW_52.76.17.124;PG Locks;OK;HARD;1;POSTGRES_LOCKS OK: DB "apps_data" total=1
+[1455042600] CURRENT SERVICE STATE: credr_DW_52.76.17.124;PG Triggers;OK;HARD;1;POSTGRES_DISABLED_TRIGGERS OK: DB "apps_data" Disabled triggers: 0
+[1455042600] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1455042600] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Root Partition;OK;HARD;1;DISK OK - free space: / 82239 MB (85% inode=97%):
+[1455042600] CURRENT SERVICE STATE: credr_DW_52.76.17.124;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1455042600] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Total Processes;OK;HARD;1;PROCS OK: 128 processes
+[1455042600] CURRENT SERVICE STATE: credr_DW_52.76.17.124;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_master_52.76.120.118;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=99.50%, nice=0.00%, steal=0.50%
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_master_52.76.120.118;Current Load;OK;HARD;1;OK - load average: 0.10, 0.16, 0.15
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_master_52.76.120.118;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_master_52.76.120.118;Memory;OK;HARD;1;[MEMORY] Total: 7983 MB - Used: 440 MB - 5% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_master_52.76.120.118;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_master_52.76.120.118;Root Partition;OK;HARD;1;DISK OK - free space: / 62589 MB (62% inode=98%):
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_master_52.76.120.118;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_master_52.76.120.118;Total Processes;OK;HARD;1;PROCS OK: 143 processes
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_master_52.76.120.118;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_middle_52.76.193.246;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_middle_52.76.193.246;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_middle_52.76.193.246;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_middle_52.76.193.246;Memory;OK;HARD;1;[MEMORY] Total: 7983 MB - Used: 1251 MB - 15% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_middle_52.76.193.246;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_middle_52.76.193.246;Root Partition;OK;HARD;1;DISK OK - free space: / 269839 MB (93% inode=99%):
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_middle_52.76.193.246;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_middle_52.76.193.246;Total Processes;OK;HARD;1;PROCS OK: 166 processes
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_middle_52.76.193.246;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_slave_52.76.187.176;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_slave_52.76.187.176;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_slave_52.76.187.176;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_slave_52.76.187.176;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 309 MB - 7% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_slave_52.76.187.176;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_slave_52.76.187.176;Root Partition;OK;HARD;1;DISK OK - free space: / 91629 MB (94% inode=98%):
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_slave_52.76.187.176;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_slave_52.76.187.176;Total Processes;OK;HARD;1;PROCS OK: 119 processes
+[1455042600] CURRENT SERVICE STATE: credr_db_prod_slave_52.76.187.176;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1455042600] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1455042600] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1455042600] CURRENT SERVICE STATE: credr_dev_52.74.244.220;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 8889 bytes in 0.004 second response time
+[1455042600] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 3043 MB - 76% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455042600] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1455042600] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Root Partition;OK;HARD;1;DISK OK - free space: / 1083 MB (14% inode=53%):
+[1455042600] CURRENT SERVICE STATE: credr_dev_52.74.244.220;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1455042600] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Total Processes;OK;HARD;1;PROCS OK: 123 processes
+[1455042600] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1455042600] CURRENT SERVICE STATE: credr_prod_52.74.247.15;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=2.12% system=0.25%, iowait=0.12%, idle=97.50%, nice=0.00%, steal=0.00%
+[1455042600] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Current Load;OK;HARD;1;OK - load average: 0.31, 0.41, 0.47
+[1455042600] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1455042600] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Memory;OK;HARD;1;[MEMORY] Total: 32175 MB - Used: 5447 MB - 16% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455042600] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Nginx http;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 374 bytes in 0.001 second response time
+[1455042600] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1455042600] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Root Partition;OK;HARD;1;DISK OK - free space: / 76799 MB (79% inode=93%):
+[1455042600] CURRENT SERVICE STATE: credr_prod_52.74.247.15;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.4 (protocol 2.0)
+[1455042600] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Supervisor Celery;OK;HARD;1;celery_smsserv                   RUNNING    pid 2258, uptime 6 days, 23:23:34
+[1455042600] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Supervisor WebApp;OK;HARD;1;credrWebApp                      RUNNING    pid 16375, uptime 3 days, 11:23:43
+[1455042600] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Total Processes;OK;HARD;1;PROCS OK: 220 processes
+[1455042600] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Website Check;OK;HARD;1;CONTENT OK: WEBSITE IS RUNNING FINE
+[1455042600] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1455042600] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1455042600] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Current Load;OK;HARD;1;OK - load average: 0.01, 0.02, 0.05
+[1455042600] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1455042600] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Memory;OK;HARD;1;[MEMORY] Total: 7479 MB - Used: 936 MB - 12% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455042600] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1455042600] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Root Partition;OK;HARD;1;DISK OK - free space: / 11036 MB (28% inode=97%):
+[1455042600] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1455042600] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Solr Service;OK;HARD;1;PORT 8983 OK: localhost/8983 is responding
+[1455042600] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Total Processes;OK;HARD;1;PROCS OK: 105 processes
+[1455042600] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=10.05% system=8.04%, iowait=0.00%, idle=81.41%, nice=0.00%, steal=0.50%
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Memory Usage;OK;HARD;1;Memory used by celery process :: 446.102 MB
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Memory credr-core;OK;HARD;1;Memory used by celery_credrcore process :: 189.328 MB
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Memory credrWebApp;OK;HARD;1;Memory used by credrWebApp process :: 81.0469 MB
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Memory crmserv;OK;HARD;1;Memory used by celery_crmserv process :: 3.25391 MB
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Memory emailserv;OK;HARD;1;Memory used by celery_emailserv process :: 101.395 MB
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Memory smsserv;OK;HARD;1;Memory used by celery_smsserv process :: 112.859 MB
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Process Total;OK;HARD;1;celery worker process running: 12
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Process credr-core;OK;HARD;1;celery_credrcore worker process running: 5
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Process credrWebApp;OK;HARD;1;credrWebApp worker process running: 3
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Process crmserv;OK;HARD;1;crmserv worker process running: 3
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Process emailserv;OK;HARD;1;emailserv worker process running: 4
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Celery Process smsserv;OK;HARD;1;smsserv worker process running: 4
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Current Load;OK;HARD;1;OK - load average: 0.55, 0.50, 0.40
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Current Users;OK;HARD;1;USERS OK - 2 users currently logged in
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Memory;OK;HARD;1;[MEMORY] Total: 7984 MB - Used: 2235 MB - 27% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Nginx http;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 1099 bytes in 0.001 second response time
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.02 ms
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Redis Memory Usage;OK;HARD;1;OK - 510.13kB of memory used.
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Redis Service;OK;HARD;1;OK - uptime_in_days: 0
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Root Partition;OK;HARD;1;DISK OK - free space: / 25143 MB (87% inode=85%):
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.6 (protocol 2.0)
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Total Processes;OK;HARD;1;PROCS OK: 158 processes
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Website Check;OK;HARD;1;CONTENT OK: WEBSITE IS RUNNING FINE
+[1455042600] CURRENT SERVICE STATE: credr_stage_52.76.16.57;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1455042689] SERVICE ALERT: credr_db_prod_middle_52.76.193.246;CPU Usage;CRITICAL;SOFT;1;CPU STATISTICS CRITICAL : user=0.00% system=2.62%, iowait=54.97%, idle=41.88%, nice=0.00%, steal=0.52%
+[1455042709] SERVICE ALERT: credr_db_prod_master_52.76.120.118;CPU Usage;WARNING;SOFT;1;CPU STATISTICS WARNING : user=60.56% system=1.67%, iowait=0.56%, idle=37.22%, nice=0.00%, steal=0.00%
+[1455042749] SERVICE ALERT: credr_db_prod_middle_52.76.193.246;CPU Usage;OK;SOFT;2;CPU STATISTICS OK : user=48.99% system=2.53%, iowait=0.00%, idle=47.98%, nice=0.00%, steal=0.51%
+[1455042768] SERVICE ALERT: credr_db_prod_master_52.76.120.118;CPU Usage;OK;SOFT;2;CPU STATISTICS OK : user=20.33% system=1.65%, iowait=0.00%, idle=77.47%, nice=0.00%, steal=0.55%
+[1455044439] Auto-save of retention data completed successfully.
+[1455045823] SERVICE ALERT: credr_db_prod_master_52.76.120.118;CPU Usage;WARNING;SOFT;1;CPU STATISTICS WARNING : user=50.25% system=2.49%, iowait=0.00%, idle=47.26%, nice=0.00%, steal=0.00%
+[1455045883] SERVICE ALERT: credr_db_prod_master_52.76.120.118;CPU Usage;OK;SOFT;2;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1455048039] Auto-save of retention data completed successfully.
+[1455051638] Auto-save of retention data completed successfully.
+[1455055239] Auto-save of retention data completed successfully.
+[1455058839] Auto-save of retention data completed successfully.
+[1455062369] SERVICE ALERT: credr_DW_52.76.17.124;PG Locks;CRITICAL;SOFT;1;POSTGRES_LOCKS CRITICAL: DB "apps_data" total locks: 230
+[1455062428] SERVICE ALERT: credr_DW_52.76.17.124;PG Locks;WARNING;SOFT;2;POSTGRES_LOCKS WARNING: DB "apps_data" total locks: 181
+[1455062439] Auto-save of retention data completed successfully.
+[1455062488] SERVICE ALERT: credr_DW_52.76.17.124;PG Locks;WARNING;HARD;3;POSTGRES_LOCKS WARNING: DB "apps_data" total locks: 106
+[1455062488] SERVICE NOTIFICATION: nagiosadmin;credr_DW_52.76.17.124;PG Locks;WARNING;notify-service-by-email;POSTGRES_LOCKS WARNING: DB "apps_data" total locks: 106
+[1455062488] SERVICE NOTIFICATION: mohit;credr_DW_52.76.17.124;PG Locks;WARNING;notify-service-by-email;POSTGRES_LOCKS WARNING: DB "apps_data" total locks: 106
+[1455062488] SERVICE NOTIFICATION: nitin;credr_DW_52.76.17.124;PG Locks;WARNING;notify-service-by-email;POSTGRES_LOCKS WARNING: DB "apps_data" total locks: 106
+[1455062488] SERVICE NOTIFICATION: suneet;credr_DW_52.76.17.124;PG Locks;WARNING;notify-service-by-email;POSTGRES_LOCKS WARNING: DB "apps_data" total locks: 106
+[1455062488] SERVICE NOTIFICATION: sudheer;credr_DW_52.76.17.124;PG Locks;WARNING;notify-service-by-email;POSTGRES_LOCKS WARNING: DB "apps_data" total locks: 106
+[1455062488] SERVICE NOTIFICATION: nagiosdb;credr_DW_52.76.17.124;PG Locks;WARNING;notify-service-by-email;POSTGRES_LOCKS WARNING: DB "apps_data" total locks: 106
+[1455062488] wproc: NOTIFY job 5853 from worker Core Worker 13162 is a non-check helper but exited with return code 2
+[1455062488] wproc:   host=credr_DW_52.76.17.124; service=PG Locks; contact=nagiosdb
+[1455062488] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455062488] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455062488] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455062668] SERVICE ALERT: credr_DW_52.76.17.124;PG Locks;CRITICAL;HARD;3;POSTGRES_LOCKS CRITICAL: DB "apps_data" total locks: 226
+[1455062668] SERVICE NOTIFICATION: nagiosadmin;credr_DW_52.76.17.124;PG Locks;CRITICAL;notify-service-by-email;POSTGRES_LOCKS CRITICAL: DB "apps_data" total locks: 226
+[1455062668] SERVICE NOTIFICATION: mohit;credr_DW_52.76.17.124;PG Locks;CRITICAL;notify-service-by-email;POSTGRES_LOCKS CRITICAL: DB "apps_data" total locks: 226
+[1455062668] SERVICE NOTIFICATION: nitin;credr_DW_52.76.17.124;PG Locks;CRITICAL;notify-service-by-email;POSTGRES_LOCKS CRITICAL: DB "apps_data" total locks: 226
+[1455062668] SERVICE NOTIFICATION: suneet;credr_DW_52.76.17.124;PG Locks;CRITICAL;notify-service-by-email;POSTGRES_LOCKS CRITICAL: DB "apps_data" total locks: 226
+[1455062668] SERVICE NOTIFICATION: sudheer;credr_DW_52.76.17.124;PG Locks;CRITICAL;notify-service-by-email;POSTGRES_LOCKS CRITICAL: DB "apps_data" total locks: 226
+[1455062668] SERVICE NOTIFICATION: nagiosdb;credr_DW_52.76.17.124;PG Locks;CRITICAL;notify-service-by-email;POSTGRES_LOCKS CRITICAL: DB "apps_data" total locks: 226
+[1455062668] wproc: NOTIFY job 5883 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455062668] wproc:   host=credr_DW_52.76.17.124; service=PG Locks; contact=nagiosdb
+[1455062668] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455062668] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455062668] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455063029] SERVICE ALERT: credr_DW_52.76.17.124;PG Locks;OK;HARD;3;POSTGRES_LOCKS OK: DB "apps_data" total=1
+[1455063029] SERVICE NOTIFICATION: nagiosadmin;credr_DW_52.76.17.124;PG Locks;OK;notify-service-by-email;POSTGRES_LOCKS OK: DB "apps_data" total=1
+[1455063029] SERVICE NOTIFICATION: mohit;credr_DW_52.76.17.124;PG Locks;OK;notify-service-by-email;POSTGRES_LOCKS OK: DB "apps_data" total=1
+[1455063029] SERVICE NOTIFICATION: nitin;credr_DW_52.76.17.124;PG Locks;OK;notify-service-by-email;POSTGRES_LOCKS OK: DB "apps_data" total=1
+[1455063029] SERVICE NOTIFICATION: suneet;credr_DW_52.76.17.124;PG Locks;OK;notify-service-by-email;POSTGRES_LOCKS OK: DB "apps_data" total=1
+[1455063029] SERVICE NOTIFICATION: sudheer;credr_DW_52.76.17.124;PG Locks;OK;notify-service-by-email;POSTGRES_LOCKS OK: DB "apps_data" total=1
+[1455063029] SERVICE NOTIFICATION: nagiosdb;credr_DW_52.76.17.124;PG Locks;OK;notify-service-by-email;POSTGRES_LOCKS OK: DB "apps_data" total=1
+[1455063029] wproc: NOTIFY job 5943 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455063029] wproc:   host=credr_DW_52.76.17.124; service=PG Locks; contact=nagiosdb
+[1455063029] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455063029] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455063029] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455066038] Auto-save of retention data completed successfully.
+[1455069638] Auto-save of retention data completed successfully.
+[1455073239] Auto-save of retention data completed successfully.
+[1455075641] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;WARNING;SOFT;1;CPU STATISTICS WARNING : user=45.23% system=5.03%, iowait=0.00%, idle=49.75%, nice=0.00%, steal=0.00%
+[1455075701] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;OK;SOFT;2;CPU STATISTICS OK : user=25.63% system=5.53%, iowait=0.00%, idle=68.84%, nice=0.00%, steal=0.00%
+[1455076421] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;WARNING;SOFT;1;CPU STATISTICS WARNING : user=47.76% system=1.99%, iowait=0.00%, idle=49.75%, nice=0.00%, steal=0.50%
+[1455076481] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;WARNING;SOFT;2;CPU STATISTICS WARNING : user=45.50% system=4.50%, iowait=0.00%, idle=50.00%, nice=0.00%, steal=0.00%
+[1455076541] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;WARNING;HARD;3;CPU STATISTICS WARNING : user=45.23% system=4.52%, iowait=0.00%, idle=50.25%, nice=0.00%, steal=0.00%
+[1455076541] SERVICE NOTIFICATION: nagiosadmin;credr_DW_52.76.17.124;CPU Usage;WARNING;notify-service-by-email;CPU STATISTICS WARNING : user=45.23% system=4.52%, iowait=0.00%, idle=50.25%, nice=0.00%, steal=0.00%
+[1455076541] SERVICE NOTIFICATION: mohit;credr_DW_52.76.17.124;CPU Usage;WARNING;notify-service-by-email;CPU STATISTICS WARNING : user=45.23% system=4.52%, iowait=0.00%, idle=50.25%, nice=0.00%, steal=0.00%
+[1455076541] SERVICE NOTIFICATION: nitin;credr_DW_52.76.17.124;CPU Usage;WARNING;notify-service-by-email;CPU STATISTICS WARNING : user=45.23% system=4.52%, iowait=0.00%, idle=50.25%, nice=0.00%, steal=0.00%
+[1455076541] SERVICE NOTIFICATION: suneet;credr_DW_52.76.17.124;CPU Usage;WARNING;notify-service-by-email;CPU STATISTICS WARNING : user=45.23% system=4.52%, iowait=0.00%, idle=50.25%, nice=0.00%, steal=0.00%
+[1455076541] SERVICE NOTIFICATION: sudheer;credr_DW_52.76.17.124;CPU Usage;WARNING;notify-service-by-email;CPU STATISTICS WARNING : user=45.23% system=4.52%, iowait=0.00%, idle=50.25%, nice=0.00%, steal=0.00%
+[1455076541] SERVICE NOTIFICATION: nagiosdb;credr_DW_52.76.17.124;CPU Usage;WARNING;notify-service-by-email;CPU STATISTICS WARNING : user=45.23% system=4.52%, iowait=0.00%, idle=50.25%, nice=0.00%, steal=0.00%
+[1455076541] wproc: NOTIFY job 8137 from worker Core Worker 13160 is a non-check helper but exited with return code 2
+[1455076541] wproc:   host=credr_DW_52.76.17.124; service=CPU Usage; contact=nagiosdb
+[1455076541] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455076541] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455076541] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455076721] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;OK;HARD;3;CPU STATISTICS OK : user=28.71% system=2.48%, iowait=0.00%, idle=68.81%, nice=0.00%, steal=0.00%
+[1455076721] SERVICE NOTIFICATION: nagiosadmin;credr_DW_52.76.17.124;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=28.71% system=2.48%, iowait=0.00%, idle=68.81%, nice=0.00%, steal=0.00%
+[1455076721] SERVICE NOTIFICATION: mohit;credr_DW_52.76.17.124;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=28.71% system=2.48%, iowait=0.00%, idle=68.81%, nice=0.00%, steal=0.00%
+[1455076721] SERVICE NOTIFICATION: nitin;credr_DW_52.76.17.124;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=28.71% system=2.48%, iowait=0.00%, idle=68.81%, nice=0.00%, steal=0.00%
+[1455076721] SERVICE NOTIFICATION: suneet;credr_DW_52.76.17.124;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=28.71% system=2.48%, iowait=0.00%, idle=68.81%, nice=0.00%, steal=0.00%
+[1455076721] SERVICE NOTIFICATION: sudheer;credr_DW_52.76.17.124;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=28.71% system=2.48%, iowait=0.00%, idle=68.81%, nice=0.00%, steal=0.00%
+[1455076721] SERVICE NOTIFICATION: nagiosdb;credr_DW_52.76.17.124;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=28.71% system=2.48%, iowait=0.00%, idle=68.81%, nice=0.00%, steal=0.00%
+[1455076721] wproc: NOTIFY job 8168 from worker Core Worker 13162 is a non-check helper but exited with return code 2
+[1455076721] wproc:   host=credr_DW_52.76.17.124; service=CPU Usage; contact=nagiosdb
+[1455076721] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455076721] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455076721] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455076838] Auto-save of retention data completed successfully.
+[1455077081] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;WARNING;SOFT;1;CPU STATISTICS WARNING : user=45.50% system=5.00%, iowait=0.00%, idle=49.50%, nice=0.00%, steal=0.00%
+[1455077141] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;OK;SOFT;2;CPU STATISTICS OK : user=4.50% system=0.00%, iowait=0.00%, idle=95.00%, nice=0.00%, steal=0.50%
+[1455080438] Auto-save of retention data completed successfully.
+[1455084038] Auto-save of retention data completed successfully.
+[1455087638] Auto-save of retention data completed successfully.
+[1455091239] Auto-save of retention data completed successfully.
+[1455094839] Auto-save of retention data completed successfully.
+[1455097645] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097645] SERVICE ALERT: credr_stage_52.76.16.57;Current Load;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097659] Warning: Return code of 255 for check of service 'Celery Process credrWebApp' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097659] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process credrWebApp;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097662] Warning: Return code of 255 for check of service 'Celery Memory Usage' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097662] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory Usage;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097664] SERVICE ALERT: credr_stage_52.76.16.57;Nginx http;CRITICAL;SOFT;1;connect to address 52.76.16.57 and port 80: Connection refused
+[1455097674] Warning: Return code of 255 for check of service 'Redis Service' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097674] SERVICE ALERT: credr_stage_52.76.16.57;Redis Service;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097678] Warning: Return code of 255 for check of service 'Memory' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097678] SERVICE ALERT: credr_stage_52.76.16.57;Memory;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097689] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097689] SERVICE ALERT: credr_stage_52.76.16.57;Ping Check;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097694] Warning: Return code of 255 for check of service 'Celery Process crmserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097694] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process crmserv;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097695] Warning: Return code of 255 for check of service 'Celery Memory credr-core' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097695] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory credr-core;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097705] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097705] SERVICE ALERT: credr_stage_52.76.16.57;Current Load;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097710] Warning: Return code of 255 for check of service 'Celery Process Total' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097710] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process Total;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097713] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097713] SERVICE ALERT: credr_stage_52.76.16.57;Root Partition;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097719] Warning: Return code of 255 for check of service 'Celery Memory emailserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097719] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory emailserv;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097719] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097719] SERVICE ALERT: credr_stage_52.76.16.57;CPU Usage;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097719] Warning: Return code of 255 for check of service 'Celery Process credrWebApp' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097719] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process credrWebApp;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097719] Warning: Return code of 255 for check of service 'Celery Process credr-core' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097719] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process credr-core;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097722] Warning: Return code of 255 for check of service 'Celery Memory Usage' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097722] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory Usage;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097724] SERVICE ALERT: credr_stage_52.76.16.57;SSH;CRITICAL;SOFT;1;connect to address 52.76.16.57 and port 22: Connection refused
+[1455097724] SERVICE ALERT: credr_stage_52.76.16.57;Nginx http;CRITICAL;SOFT;2;connect to address 52.76.16.57 and port 80: Connection refused
+[1455097725] Warning: Return code of 255 for check of service 'Redis Memory Usage' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097725] SERVICE ALERT: credr_stage_52.76.16.57;Redis Memory Usage;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097734] Warning: Return code of 255 for check of service 'Redis Service' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097734] SERVICE ALERT: credr_stage_52.76.16.57;Redis Service;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097738] Warning: Return code of 255 for check of service 'Memory' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097738] SERVICE ALERT: credr_stage_52.76.16.57;Memory;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097749] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097749] SERVICE ALERT: credr_stage_52.76.16.57;Ping Check;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097752] Warning: Return code of 255 for check of service 'Celery Memory credrWebApp' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097752] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory credrWebApp;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097754] Warning: Return code of 255 for check of service 'Celery Process crmserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097754] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process crmserv;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097755] Warning: Return code of 255 for check of service 'Celery Memory credr-core' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097755] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory credr-core;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097765] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097765] SERVICE ALERT: credr_stage_52.76.16.57;Current Load;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097765] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Current Load;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097765] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Current Load;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097765] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Current Load;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097765] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Current Load;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097765] wproc: NOTIFY job 11589 from worker Core Worker 13161 is a non-check helper but exited with return code 2
+[1455097765] wproc:   host=credr_stage_52.76.16.57; service=Current Load; contact=nagiosinfra
+[1455097765] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097765] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097765] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097769] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097769] SERVICE ALERT: credr_stage_52.76.16.57;Current Users;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097770] Warning: Return code of 255 for check of service 'Celery Process Total' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097770] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process Total;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097772] Warning: Return code of 255 for check of service 'Celery Memory crmserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097772] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory crmserv;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097772] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097772] SERVICE ALERT: credr_stage_52.76.16.57;Root Partition;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097776] Warning: Return code of 255 for check of service 'Celery Memory smsserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097776] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory smsserv;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097779] Warning: Return code of 255 for check of service 'Celery Memory emailserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097779] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory emailserv;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097779] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097779] SERVICE ALERT: credr_stage_52.76.16.57;CPU Usage;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097779] Warning: Return code of 255 for check of service 'Celery Process credrWebApp' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097779] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process credrWebApp;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097779] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Process credrWebApp;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097779] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Process credrWebApp;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097779] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Process credrWebApp;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097779] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Process credrWebApp;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097779] wproc: NOTIFY job 11592 from worker Core Worker 13160 is a non-check helper but exited with return code 2
+[1455097779] wproc:   host=credr_stage_52.76.16.57; service=Celery Process credrWebApp; contact=nagiosinfra
+[1455097779] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097779] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097779] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097779] Warning: Return code of 255 for check of service 'Celery Process credr-core' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097779] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process credr-core;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097781] Warning: Return code of 255 for check of service 'Celery Process emailserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097781] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process emailserv;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097782] Warning: Return code of 255 for check of service 'Celery Memory Usage' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097782] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory Usage;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097782] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Memory Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097782] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Memory Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097782] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Memory Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097782] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Memory Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097782] wproc: NOTIFY job 11594 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455097782] wproc:   host=credr_stage_52.76.16.57; service=Celery Memory Usage; contact=nagiosinfra
+[1455097782] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097782] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097782] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097784] SERVICE ALERT: credr_stage_52.76.16.57;SSH;CRITICAL;SOFT;2;connect to address 52.76.16.57 and port 22: Connection refused
+[1455097784] SERVICE ALERT: credr_stage_52.76.16.57;Nginx http;CRITICAL;HARD;3;connect to address 52.76.16.57 and port 80: Connection refused
+[1455097784] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Nginx http;CRITICAL;notify-service-by-email;connect to address 52.76.16.57 and port 80: Connection refused
+[1455097784] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Nginx http;CRITICAL;notify-service-by-email;connect to address 52.76.16.57 and port 80: Connection refused
+[1455097784] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Nginx http;CRITICAL;notify-service-by-email;connect to address 52.76.16.57 and port 80: Connection refused
+[1455097784] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Nginx http;CRITICAL;notify-service-by-email;connect to address 52.76.16.57 and port 80: Connection refused
+[1455097784] wproc: NOTIFY job 11596 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455097784] wproc:   host=credr_stage_52.76.16.57; service=Nginx http; contact=nagiosinfra
+[1455097784] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097784] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097784] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097784] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1455097785] Warning: Return code of 255 for check of service 'Redis Memory Usage' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097785] SERVICE ALERT: credr_stage_52.76.16.57;Redis Memory Usage;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097793] Warning: Return code of 255 for check of service 'Redis Service' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097793] SERVICE ALERT: credr_stage_52.76.16.57;Redis Service;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097793] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Redis Service;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097793] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Redis Service;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097793] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Redis Service;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097793] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Redis Service;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097794] wproc: NOTIFY job 11600 from worker Core Worker 13162 is a non-check helper but exited with return code 2
+[1455097794] wproc:   host=credr_stage_52.76.16.57; service=Redis Service; contact=nagiosinfra
+[1455097794] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097794] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097794] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097794] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097794] SERVICE ALERT: credr_stage_52.76.16.57;Total Processes;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097798] Warning: Return code of 255 for check of service 'Memory' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097798] SERVICE ALERT: credr_stage_52.76.16.57;Memory;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097798] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097798] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097798] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097798] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097798] wproc: NOTIFY job 11601 from worker Core Worker 13160 is a non-check helper but exited with return code 2
+[1455097798] wproc:   host=credr_stage_52.76.16.57; service=Memory; contact=nagiosinfra
+[1455097798] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097798] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097798] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097798] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1455097809] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097809] SERVICE ALERT: credr_stage_52.76.16.57;Zombie Process;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097809] Warning: Return code of 255 for check of service 'Celery Process smsserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097809] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process smsserv;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1455097809] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097809] SERVICE ALERT: credr_stage_52.76.16.57;Ping Check;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097809] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Ping Check;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097809] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Ping Check;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097809] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Ping Check;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097809] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Ping Check;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097809] wproc: NOTIFY job 11604 from worker Core Worker 13162 is a non-check helper but exited with return code 2
+[1455097809] wproc:   host=credr_stage_52.76.16.57; service=Ping Check; contact=nagiosinfra
+[1455097809] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097809] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097809] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097812] Warning: Return code of 255 for check of service 'Celery Memory credrWebApp' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097812] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory credrWebApp;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097814] Warning: Return code of 255 for check of service 'Celery Process crmserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097814] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process crmserv;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097814] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Process crmserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097814] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Process crmserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097814] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Process crmserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097814] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Process crmserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097814] wproc: NOTIFY job 11605 from worker Core Worker 13160 is a non-check helper but exited with return code 2
+[1455097814] wproc:   host=credr_stage_52.76.16.57; service=Celery Process crmserv; contact=nagiosinfra
+[1455097814] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097814] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097814] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097815] Warning: Return code of 255 for check of service 'Celery Memory credr-core' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097815] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory credr-core;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097815] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Memory credr-core;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097815] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Memory credr-core;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097815] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Memory credr-core;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097815] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Memory credr-core;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097815] wproc: NOTIFY job 11606 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455097815] wproc:   host=credr_stage_52.76.16.57; service=Celery Memory credr-core; contact=nagiosinfra
+[1455097815] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097815] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097815] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097829] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097829] SERVICE ALERT: credr_stage_52.76.16.57;Current Users;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097830] Warning: Return code of 255 for check of service 'Celery Process Total' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097830] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process Total;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097830] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Process Total;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097830] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Process Total;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097830] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Process Total;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097830] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Process Total;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097830] wproc: NOTIFY job 11610 from worker Core Worker 13162 is a non-check helper but exited with return code 2
+[1455097830] wproc:   host=credr_stage_52.76.16.57; service=Celery Process Total; contact=nagiosinfra
+[1455097830] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097830] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097830] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097832] Warning: Return code of 255 for check of service 'Celery Memory crmserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097832] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory crmserv;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097832] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097832] SERVICE ALERT: credr_stage_52.76.16.57;Root Partition;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097832] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Root Partition;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097832] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Root Partition;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097832] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Root Partition;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097832] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Root Partition;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097832] wproc: NOTIFY job 11611 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455097832] wproc:   host=credr_stage_52.76.16.57; service=Root Partition; contact=nagiosinfra
+[1455097832] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097832] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097832] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097836] Warning: Return code of 255 for check of service 'Celery Memory smsserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097836] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory smsserv;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097839] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097839] SERVICE ALERT: credr_stage_52.76.16.57;CPU Usage;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097839] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;CPU Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097839] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;CPU Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097839] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;CPU Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097839] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;CPU Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097839] Warning: Return code of 255 for check of service 'Celery Memory emailserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097839] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory emailserv;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097839] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Memory emailserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097839] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Memory emailserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097839] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Memory emailserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097839] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Memory emailserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097839] wproc: NOTIFY job 11613 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455097839] wproc:   host=credr_stage_52.76.16.57; service=CPU Usage; contact=nagiosinfra
+[1455097839] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097839] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097839] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097839] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1455097839] wproc: NOTIFY job 11614 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455097839] wproc:   host=credr_stage_52.76.16.57; service=Celery Memory emailserv; contact=nagiosinfra
+[1455097839] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097839] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097839] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097839] Warning: Return code of 255 for check of service 'Celery Process credr-core' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097839] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process credr-core;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097839] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Process credr-core;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097839] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Process credr-core;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097839] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Process credr-core;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097839] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Process credr-core;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097839] wproc: NOTIFY job 11616 from worker Core Worker 13161 is a non-check helper but exited with return code 2
+[1455097839] wproc:   host=credr_stage_52.76.16.57; service=Celery Process credr-core; contact=nagiosinfra
+[1455097839] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097839] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097839] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097841] Warning: Return code of 255 for check of service 'Celery Process emailserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097841] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process emailserv;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097844] SERVICE ALERT: credr_stage_52.76.16.57;SSH;CRITICAL;HARD;3;connect to address 52.76.16.57 and port 22: Connection refused
+[1455097844] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;SSH;CRITICAL;notify-service-by-email;connect to address 52.76.16.57 and port 22: Connection refused
+[1455097844] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;SSH;CRITICAL;notify-service-by-email;connect to address 52.76.16.57 and port 22: Connection refused
+[1455097844] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;SSH;CRITICAL;notify-service-by-email;connect to address 52.76.16.57 and port 22: Connection refused
+[1455097844] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;SSH;CRITICAL;notify-service-by-email;connect to address 52.76.16.57 and port 22: Connection refused
+[1455097844] wproc: NOTIFY job 11619 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455097844] wproc:   host=credr_stage_52.76.16.57; service=SSH; contact=nagiosinfra
+[1455097844] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097844] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097844] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097845] Warning: Return code of 255 for check of service 'Redis Memory Usage' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097845] SERVICE ALERT: credr_stage_52.76.16.57;Redis Memory Usage;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097845] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Redis Memory Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097845] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Redis Memory Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097845] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Redis Memory Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097845] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Redis Memory Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097845] wproc: NOTIFY job 11622 from worker Core Worker 13161 is a non-check helper but exited with return code 2
+[1455097845] wproc:   host=credr_stage_52.76.16.57; service=Redis Memory Usage; contact=nagiosinfra
+[1455097845] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097845] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097845] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097854] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097854] SERVICE ALERT: credr_stage_52.76.16.57;Total Processes;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097869] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097869] SERVICE ALERT: credr_stage_52.76.16.57;Zombie Process;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097869] Warning: Return code of 255 for check of service 'Celery Process smsserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097869] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process smsserv;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1455097872] Warning: Return code of 255 for check of service 'Celery Memory credrWebApp' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097872] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory credrWebApp;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097872] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Memory credrWebApp;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097872] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Memory credrWebApp;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097872] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Memory credrWebApp;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097872] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Memory credrWebApp;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097872] wproc: NOTIFY job 11626 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455097872] wproc:   host=credr_stage_52.76.16.57; service=Celery Memory credrWebApp; contact=nagiosinfra
+[1455097872] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097872] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097872] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097889] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097889] SERVICE ALERT: credr_stage_52.76.16.57;Current Users;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097889] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097889] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097889] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097889] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097889] wproc: NOTIFY job 11632 from worker Core Worker 13161 is a non-check helper but exited with return code 2
+[1455097889] wproc:   host=credr_stage_52.76.16.57; service=Current Users; contact=nagiosinfra
+[1455097889] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097889] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097889] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097892] Warning: Return code of 255 for check of service 'Celery Memory crmserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097892] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory crmserv;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097892] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Memory crmserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097892] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Memory crmserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097892] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Memory crmserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097892] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Memory crmserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097892] wproc: NOTIFY job 11633 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455097892] wproc:   host=credr_stage_52.76.16.57; service=Celery Memory crmserv; contact=nagiosinfra
+[1455097892] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097892] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097892] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097892] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1455097896] Warning: Return code of 255 for check of service 'Celery Memory smsserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097896] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory smsserv;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097896] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Memory smsserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097896] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Memory smsserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097896] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Memory smsserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097896] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Memory smsserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097896] wproc: NOTIFY job 11635 from worker Core Worker 13161 is a non-check helper but exited with return code 2
+[1455097896] wproc:   host=credr_stage_52.76.16.57; service=Celery Memory smsserv; contact=nagiosinfra
+[1455097896] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097896] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097896] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097896] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1455097901] Warning: Return code of 255 for check of service 'Celery Process emailserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097901] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process emailserv;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097901] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Process emailserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097901] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Process emailserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097901] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Process emailserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097901] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Process emailserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097901] wproc: NOTIFY job 11636 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455097901] wproc:   host=credr_stage_52.76.16.57; service=Celery Process emailserv; contact=nagiosinfra
+[1455097901] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097901] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097901] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097901] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1455097914] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097914] SERVICE ALERT: credr_stage_52.76.16.57;Total Processes;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097914] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Total Processes;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097914] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Total Processes;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097914] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Total Processes;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097914] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Total Processes;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097914] wproc: NOTIFY job 11640 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455097914] wproc:   host=credr_stage_52.76.16.57; service=Total Processes; contact=nagiosinfra
+[1455097914] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097914] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097914] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097914] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1455097929] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097929] SERVICE ALERT: credr_stage_52.76.16.57;Zombie Process;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097929] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097929] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097929] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097929] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097929] wproc: NOTIFY job 11642 from worker Core Worker 13161 is a non-check helper but exited with return code 2
+[1455097929] wproc:   host=credr_stage_52.76.16.57; service=Zombie Process; contact=nagiosinfra
+[1455097929] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097929] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097929] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097929] Warning: Return code of 255 for check of service 'Celery Process smsserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097929] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process smsserv;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1455097929] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Process smsserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097929] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Process smsserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097929] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Process smsserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097929] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Process smsserv;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1455097929] wproc: NOTIFY job 11644 from worker Core Worker 13162 is a non-check helper but exited with return code 2
+[1455097929] wproc:   host=credr_stage_52.76.16.57; service=Celery Process smsserv; contact=nagiosinfra
+[1455097929] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455097929] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455097929] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455097945] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097959] Warning: Return code of 255 for check of service 'Celery Process credrWebApp' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097962] Warning: Return code of 255 for check of service 'Celery Memory Usage' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097972] Warning: Return code of 255 for check of service 'Redis Service' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097978] Warning: Return code of 255 for check of service 'Memory' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097989] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097994] Warning: Return code of 255 for check of service 'Celery Process crmserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455097995] Warning: Return code of 255 for check of service 'Celery Memory credr-core' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455098010] Warning: Return code of 255 for check of service 'Celery Process Total' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455098012] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455098019] Warning: Return code of 255 for check of service 'Celery Memory emailserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455098019] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455098019] Warning: Return code of 255 for check of service 'Celery Process credr-core' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455098025] Warning: Return code of 255 for check of service 'Redis Memory Usage' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455098052] Warning: Return code of 255 for check of service 'Celery Memory credrWebApp' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455098069] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455098072] Warning: Return code of 255 for check of service 'Celery Memory crmserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455098076] Warning: Return code of 255 for check of service 'Celery Memory smsserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455098081] Warning: Return code of 255 for check of service 'Celery Process emailserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455098094] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455098109] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455098109] Warning: Return code of 255 for check of service 'Celery Process smsserv' on host 'credr_stage_52.76.16.57' was out of bounds.
+[1455098184] HOST ALERT: credr_stage_52.76.16.57;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1455098207] SERVICE ALERT: credr_stage_52.76.16.57;Root Partition;OK;HARD;3;DISK OK - free space: / 25143 MB (87% inode=85%):
+[1455098207] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Root Partition;OK;notify-service-by-email;DISK OK - free space: / 25143 MB (87% inode=85%):
+[1455098207] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Root Partition;OK;notify-service-by-email;DISK OK - free space: / 25143 MB (87% inode=85%):
+[1455098207] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Root Partition;OK;notify-service-by-email;DISK OK - free space: / 25143 MB (87% inode=85%):
+[1455098207] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Root Partition;OK;notify-service-by-email;DISK OK - free space: / 25143 MB (87% inode=85%):
+[1455098207] wproc: NOTIFY job 11694 from worker Core Worker 13162 is a non-check helper but exited with return code 2
+[1455098207] wproc:   host=credr_stage_52.76.16.57; service=Root Partition; contact=nagiosinfra
+[1455098207] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098207] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098207] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098211] HOST ALERT: credr_stage_52.76.16.57;UP;SOFT;2;PING WARNING - Packet loss = 81%, RTA = 0.62 ms
+[1455098214] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory emailserv;OK;HARD;3;Memory used by celery_emailserv process :: 35.0234 MB
+[1455098214] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Memory emailserv;OK;notify-service-by-email;Memory used by celery_emailserv process :: 35.0234 MB
+[1455098214] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Memory emailserv;OK;notify-service-by-email;Memory used by celery_emailserv process :: 35.0234 MB
+[1455098214] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Memory emailserv;OK;notify-service-by-email;Memory used by celery_emailserv process :: 35.0234 MB
+[1455098214] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Memory emailserv;OK;notify-service-by-email;Memory used by celery_emailserv process :: 35.0234 MB
+[1455098214] wproc: NOTIFY job 11695 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455098214] wproc:   host=credr_stage_52.76.16.57; service=Celery Memory emailserv; contact=nagiosinfra
+[1455098214] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098214] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098214] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098214] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1455098214] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process credr-core;OK;HARD;3;celery_credrcore worker process running: 1
+[1455098214] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Process credr-core;OK;notify-service-by-email;celery_credrcore worker process running: 1
+[1455098214] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Process credr-core;OK;notify-service-by-email;celery_credrcore worker process running: 1
+[1455098214] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Process credr-core;OK;notify-service-by-email;celery_credrcore worker process running: 1
+[1455098214] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Process credr-core;OK;notify-service-by-email;celery_credrcore worker process running: 1
+[1455098214] wproc: NOTIFY job 11696 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455098214] wproc:   host=credr_stage_52.76.16.57; service=Celery Process credr-core; contact=nagiosinfra
+[1455098214] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098214] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098214] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098221] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process Total;OK;HARD;3;celery worker process running: 4
+[1455098221] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Process Total;OK;notify-service-by-email;celery worker process running: 4
+[1455098221] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Process Total;OK;notify-service-by-email;celery worker process running: 4
+[1455098221] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Process Total;OK;notify-service-by-email;celery worker process running: 4
+[1455098221] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Process Total;OK;notify-service-by-email;celery worker process running: 4
+[1455098221] wproc: NOTIFY job 11697 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455098221] wproc:   host=credr_stage_52.76.16.57; service=Celery Process Total; contact=nagiosinfra
+[1455098221] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098221] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098221] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098232] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory credrWebApp;OK;HARD;3;Memory used by credrWebApp process :: 67.6758 MB
+[1455098232] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Memory credrWebApp;OK;notify-service-by-email;Memory used by credrWebApp process :: 67.6758 MB
+[1455098232] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Memory credrWebApp;OK;notify-service-by-email;Memory used by credrWebApp process :: 67.6758 MB
+[1455098232] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Memory credrWebApp;OK;notify-service-by-email;Memory used by credrWebApp process :: 67.6758 MB
+[1455098232] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Memory credrWebApp;OK;notify-service-by-email;Memory used by credrWebApp process :: 67.6758 MB
+[1455098232] wproc: NOTIFY job 11700 from worker Core Worker 13162 is a non-check helper but exited with return code 2
+[1455098232] wproc:   host=credr_stage_52.76.16.57; service=Celery Memory credrWebApp; contact=nagiosinfra
+[1455098232] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098232] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098232] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098249] SERVICE ALERT: credr_stage_52.76.16.57;Current Users;OK;HARD;3;USERS OK - 0 users currently logged in
+[1455098249] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Current Users;OK;notify-service-by-email;USERS OK - 0 users currently logged in
+[1455098249] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Current Users;OK;notify-service-by-email;USERS OK - 0 users currently logged in
+[1455098249] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Current Users;OK;notify-service-by-email;USERS OK - 0 users currently logged in
+[1455098249] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Current Users;OK;notify-service-by-email;USERS OK - 0 users currently logged in
+[1455098249] wproc: NOTIFY job 11705 from worker Core Worker 13160 is a non-check helper but exited with return code 2
+[1455098249] wproc:   host=credr_stage_52.76.16.57; service=Current Users; contact=nagiosinfra
+[1455098249] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098249] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098249] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098249] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1455098252] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory crmserv;OK;HARD;3;Memory used by celery_crmserv process :: 3.25 MB
+[1455098252] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Memory crmserv;OK;notify-service-by-email;Memory used by celery_crmserv process :: 3.25 MB
+[1455098252] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Memory crmserv;OK;notify-service-by-email;Memory used by celery_crmserv process :: 3.25 MB
+[1455098252] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Memory crmserv;OK;notify-service-by-email;Memory used by celery_crmserv process :: 3.25 MB
+[1455098252] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Memory crmserv;OK;notify-service-by-email;Memory used by celery_crmserv process :: 3.25 MB
+[1455098252] wproc: NOTIFY job 11707 from worker Core Worker 13162 is a non-check helper but exited with return code 2
+[1455098252] wproc:   host=credr_stage_52.76.16.57; service=Celery Memory crmserv; contact=nagiosinfra
+[1455098252] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098252] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098252] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098256] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory smsserv;OK;HARD;3;Memory used by celery_smsserv process :: 3.26562 MB
+[1455098256] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Memory smsserv;OK;notify-service-by-email;Memory used by celery_smsserv process :: 3.26562 MB
+[1455098256] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Memory smsserv;OK;notify-service-by-email;Memory used by celery_smsserv process :: 3.26562 MB
+[1455098256] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Memory smsserv;OK;notify-service-by-email;Memory used by celery_smsserv process :: 3.26562 MB
+[1455098256] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Memory smsserv;OK;notify-service-by-email;Memory used by celery_smsserv process :: 3.26562 MB
+[1455098256] wproc: NOTIFY job 11708 from worker Core Worker 13160 is a non-check helper but exited with return code 2
+[1455098256] wproc:   host=credr_stage_52.76.16.57; service=Celery Memory smsserv; contact=nagiosinfra
+[1455098256] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098256] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098256] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098261] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process emailserv;OK;HARD;3;emailserv worker process running: 1
+[1455098261] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Process emailserv;OK;notify-service-by-email;emailserv worker process running: 1
+[1455098261] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Process emailserv;OK;notify-service-by-email;emailserv worker process running: 1
+[1455098261] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Process emailserv;OK;notify-service-by-email;emailserv worker process running: 1
+[1455098261] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Process emailserv;OK;notify-service-by-email;emailserv worker process running: 1
+[1455098261] wproc: NOTIFY job 11710 from worker Core Worker 13162 is a non-check helper but exited with return code 2
+[1455098261] wproc:   host=credr_stage_52.76.16.57; service=Celery Process emailserv; contact=nagiosinfra
+[1455098261] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098261] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098261] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098274] SERVICE ALERT: credr_stage_52.76.16.57;Total Processes;OK;HARD;3;PROCS OK: 125 processes
+[1455098274] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Total Processes;OK;notify-service-by-email;PROCS OK: 125 processes
+[1455098274] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Total Processes;OK;notify-service-by-email;PROCS OK: 125 processes
+[1455098274] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Total Processes;OK;notify-service-by-email;PROCS OK: 125 processes
+[1455098274] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Total Processes;OK;notify-service-by-email;PROCS OK: 125 processes
+[1455098274] wproc: NOTIFY job 11714 from worker Core Worker 13162 is a non-check helper but exited with return code 2
+[1455098274] wproc:   host=credr_stage_52.76.16.57; service=Total Processes; contact=nagiosinfra
+[1455098274] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098274] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098274] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098289] SERVICE ALERT: credr_stage_52.76.16.57;Zombie Process;OK;HARD;3;PROCS OK: 0 processes with STATE = Z
+[1455098289] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Zombie Process;OK;notify-service-by-email;PROCS OK: 0 processes with STATE = Z
+[1455098289] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Zombie Process;OK;notify-service-by-email;PROCS OK: 0 processes with STATE = Z
+[1455098289] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Zombie Process;OK;notify-service-by-email;PROCS OK: 0 processes with STATE = Z
+[1455098289] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Zombie Process;OK;notify-service-by-email;PROCS OK: 0 processes with STATE = Z
+[1455098289] wproc: NOTIFY job 11715 from worker Core Worker 13160 is a non-check helper but exited with return code 2
+[1455098289] wproc:   host=credr_stage_52.76.16.57; service=Zombie Process; contact=nagiosinfra
+[1455098289] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098289] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098289] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098289] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process smsserv;OK;HARD;3;smsserv worker process running: 1
+[1455098289] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Process smsserv;OK;notify-service-by-email;smsserv worker process running: 1
+[1455098289] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Process smsserv;OK;notify-service-by-email;smsserv worker process running: 1
+[1455098289] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Process smsserv;OK;notify-service-by-email;smsserv worker process running: 1
+[1455098289] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Process smsserv;OK;notify-service-by-email;smsserv worker process running: 1
+[1455098289] wproc: NOTIFY job 11717 from worker Core Worker 13162 is a non-check helper but exited with return code 2
+[1455098289] wproc:   host=credr_stage_52.76.16.57; service=Celery Process smsserv; contact=nagiosinfra
+[1455098289] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098289] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098289] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098305] SERVICE ALERT: credr_stage_52.76.16.57;Current Load;OK;HARD;3;OK - load average: 1.33, 0.61, 0.23
+[1455098305] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Current Load;OK;notify-service-by-email;OK - load average: 1.33, 0.61, 0.23
+[1455098305] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Current Load;OK;notify-service-by-email;OK - load average: 1.33, 0.61, 0.23
+[1455098305] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Current Load;OK;notify-service-by-email;OK - load average: 1.33, 0.61, 0.23
+[1455098305] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Current Load;OK;notify-service-by-email;OK - load average: 1.33, 0.61, 0.23
+[1455098305] wproc: NOTIFY job 11722 from worker Core Worker 13160 is a non-check helper but exited with return code 2
+[1455098305] wproc:   host=credr_stage_52.76.16.57; service=Current Load; contact=nagiosinfra
+[1455098305] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098305] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098305] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098319] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process credrWebApp;OK;HARD;3;credrWebApp worker process running: 3
+[1455098319] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Process credrWebApp;OK;notify-service-by-email;credrWebApp worker process running: 3
+[1455098319] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Process credrWebApp;OK;notify-service-by-email;credrWebApp worker process running: 3
+[1455098319] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Process credrWebApp;OK;notify-service-by-email;credrWebApp worker process running: 3
+[1455098319] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Process credrWebApp;OK;notify-service-by-email;credrWebApp worker process running: 3
+[1455098319] wproc: NOTIFY job 11724 from worker Core Worker 13162 is a non-check helper but exited with return code 2
+[1455098319] wproc:   host=credr_stage_52.76.16.57; service=Celery Process credrWebApp; contact=nagiosinfra
+[1455098319] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098319] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098319] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098319] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1455098322] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory Usage;OK;HARD;3;Memory used by celery process :: 3.24609 MB
+[1455098322] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Memory Usage;OK;notify-service-by-email;Memory used by celery process :: 3.24609 MB
+[1455098322] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Memory Usage;OK;notify-service-by-email;Memory used by celery process :: 3.24609 MB
+[1455098322] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Memory Usage;OK;notify-service-by-email;Memory used by celery process :: 3.24609 MB
+[1455098322] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Memory Usage;OK;notify-service-by-email;Memory used by celery process :: 3.24609 MB
+[1455098322] wproc: NOTIFY job 11725 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455098322] wproc:   host=credr_stage_52.76.16.57; service=Celery Memory Usage; contact=nagiosinfra
+[1455098322] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098322] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098322] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098324] SERVICE ALERT: credr_stage_52.76.16.57;Nginx http;OK;HARD;3;HTTP OK: HTTP/1.1 200 OK - 1099 bytes in 0.003 second response time
+[1455098324] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Nginx http;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 1099 bytes in 0.003 second response time
+[1455098324] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Nginx http;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 1099 bytes in 0.003 second response time
+[1455098324] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Nginx http;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 1099 bytes in 0.003 second response time
+[1455098324] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Nginx http;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 1099 bytes in 0.003 second response time
+[1455098324] wproc: NOTIFY job 11727 from worker Core Worker 13160 is a non-check helper but exited with return code 2
+[1455098324] wproc:   host=credr_stage_52.76.16.57; service=Nginx http; contact=nagiosinfra
+[1455098324] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098324] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098324] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098324] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1455098333] SERVICE ALERT: credr_stage_52.76.16.57;Redis Service;OK;HARD;3;OK - uptime_in_days: 0
+[1455098333] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Redis Service;OK;notify-service-by-email;OK - uptime_in_days: 0
+[1455098333] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Redis Service;OK;notify-service-by-email;OK - uptime_in_days: 0
+[1455098333] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Redis Service;OK;notify-service-by-email;OK - uptime_in_days: 0
+[1455098333] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Redis Service;OK;notify-service-by-email;OK - uptime_in_days: 0
+[1455098333] wproc: NOTIFY job 11730 from worker Core Worker 13162 is a non-check helper but exited with return code 2
+[1455098333] wproc:   host=credr_stage_52.76.16.57; service=Redis Service; contact=nagiosinfra
+[1455098333] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098333] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098333] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098338] SERVICE ALERT: credr_stage_52.76.16.57;Memory;OK;HARD;3;[MEMORY] Total: 7984 MB - Used: 554 MB - 6% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455098338] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Memory;OK;notify-service-by-email;[MEMORY] Total: 7984 MB - Used: 554 MB - 6% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455098338] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Memory;OK;notify-service-by-email;[MEMORY] Total: 7984 MB - Used: 554 MB - 6% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455098338] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Memory;OK;notify-service-by-email;[MEMORY] Total: 7984 MB - Used: 554 MB - 6% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455098338] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Memory;OK;notify-service-by-email;[MEMORY] Total: 7984 MB - Used: 554 MB - 6% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1455098338] wproc: NOTIFY job 11731 from worker Core Worker 13161 is a non-check helper but exited with return code 2
+[1455098338] wproc:   host=credr_stage_52.76.16.57; service=Memory; contact=nagiosinfra
+[1455098338] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098338] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098338] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098353] SERVICE ALERT: credr_stage_52.76.16.57;Ping Check;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.02 ms
+[1455098353] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Ping Check;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.02 ms
+[1455098353] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Ping Check;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.02 ms
+[1455098353] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Ping Check;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.02 ms
+[1455098353] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Ping Check;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 0.02 ms
+[1455098353] wproc: NOTIFY job 11733 from worker Core Worker 13161 is a non-check helper but exited with return code 2
+[1455098353] wproc:   host=credr_stage_52.76.16.57; service=Ping Check; contact=nagiosinfra
+[1455098353] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098353] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098353] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098354] SERVICE ALERT: credr_stage_52.76.16.57;Celery Process crmserv;OK;HARD;3;crmserv worker process running: 3
+[1455098354] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Process crmserv;OK;notify-service-by-email;crmserv worker process running: 3
+[1455098354] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Process crmserv;OK;notify-service-by-email;crmserv worker process running: 3
+[1455098354] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Process crmserv;OK;notify-service-by-email;crmserv worker process running: 3
+[1455098354] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Process crmserv;OK;notify-service-by-email;crmserv worker process running: 3
+[1455098354] wproc: NOTIFY job 11734 from worker Core Worker 13160 is a non-check helper but exited with return code 2
+[1455098354] wproc:   host=credr_stage_52.76.16.57; service=Celery Process crmserv; contact=nagiosinfra
+[1455098354] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098354] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098354] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098354] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1455098355] SERVICE ALERT: credr_stage_52.76.16.57;Celery Memory credr-core;OK;HARD;3;Memory used by celery_credrcore process :: 3.25 MB
+[1455098355] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Celery Memory credr-core;OK;notify-service-by-email;Memory used by celery_credrcore process :: 3.25 MB
+[1455098355] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Celery Memory credr-core;OK;notify-service-by-email;Memory used by celery_credrcore process :: 3.25 MB
+[1455098355] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Celery Memory credr-core;OK;notify-service-by-email;Memory used by celery_credrcore process :: 3.25 MB
+[1455098355] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Celery Memory credr-core;OK;notify-service-by-email;Memory used by celery_credrcore process :: 3.25 MB
+[1455098355] wproc: NOTIFY job 11735 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455098355] wproc:   host=credr_stage_52.76.16.57; service=Celery Memory credr-core; contact=nagiosinfra
+[1455098355] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098355] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098355] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098381] SERVICE ALERT: credr_stage_52.76.16.57;CPU Usage;OK;HARD;3;CPU STATISTICS OK : user=39.70% system=11.06%, iowait=0.00%, idle=49.25%, nice=0.00%, steal=0.00%
+[1455098381] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=39.70% system=11.06%, iowait=0.00%, idle=49.25%, nice=0.00%, steal=0.00%
+[1455098381] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=39.70% system=11.06%, iowait=0.00%, idle=49.25%, nice=0.00%, steal=0.00%
+[1455098381] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=39.70% system=11.06%, iowait=0.00%, idle=49.25%, nice=0.00%, steal=0.00%
+[1455098381] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=39.70% system=11.06%, iowait=0.00%, idle=49.25%, nice=0.00%, steal=0.00%
+[1455098381] wproc: NOTIFY job 11740 from worker Core Worker 13162 is a non-check helper but exited with return code 2
+[1455098381] wproc:   host=credr_stage_52.76.16.57; service=CPU Usage; contact=nagiosinfra
+[1455098381] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098381] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098381] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098384] SERVICE ALERT: credr_stage_52.76.16.57;SSH;OK;HARD;3;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.6 (protocol 2.0)
+[1455098384] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;SSH;OK;notify-service-by-email;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.6 (protocol 2.0)
+[1455098384] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;SSH;OK;notify-service-by-email;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.6 (protocol 2.0)
+[1455098384] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;SSH;OK;notify-service-by-email;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.6 (protocol 2.0)
+[1455098384] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;SSH;OK;notify-service-by-email;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.6 (protocol 2.0)
+[1455098384] wproc: NOTIFY job 11743 from worker Core Worker 13159 is a non-check helper but exited with return code 2
+[1455098384] wproc:   host=credr_stage_52.76.16.57; service=SSH; contact=nagiosinfra
+[1455098384] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098384] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098384] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098384] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1455098386] SERVICE ALERT: credr_stage_52.76.16.57;Redis Memory Usage;OK;HARD;3;OK - 489.75kB of memory used.
+[1455098386] SERVICE NOTIFICATION: vivek;credr_stage_52.76.16.57;Redis Memory Usage;OK;notify-service-by-email;OK - 489.75kB of memory used.
+[1455098386] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.76.16.57;Redis Memory Usage;OK;notify-service-by-email;OK - 489.75kB of memory used.
+[1455098386] SERVICE NOTIFICATION: mohit;credr_stage_52.76.16.57;Redis Memory Usage;OK;notify-service-by-email;OK - 489.75kB of memory used.
+[1455098386] SERVICE NOTIFICATION: nagiosinfra;credr_stage_52.76.16.57;Redis Memory Usage;OK;notify-service-by-email;OK - 489.75kB of memory used.
+[1455098386] wproc: NOTIFY job 11746 from worker Core Worker 13160 is a non-check helper but exited with return code 2
+[1455098386] wproc:   host=credr_stage_52.76.16.57; service=Redis Memory Usage; contact=nagiosinfra
+[1455098386] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1455098386] wproc:   stderr line 01: Send options without primary recipient specified.
+[1455098386] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1455098386] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1455098439] Auto-save of retention data completed successfully.
+[1455102038] Auto-save of retention data completed successfully.
+[1455102881] SERVICE ALERT: credr_stage_52.76.16.57;CPU Usage;WARNING;SOFT;1;CPU STATISTICS WARNING : user=45.69% system=4.06%, iowait=0.51%, idle=49.24%, nice=0.00%, steal=0.51%
+[1455102941] SERVICE ALERT: credr_stage_52.76.16.57;CPU Usage;OK;SOFT;2;CPU STATISTICS OK : user=1.51% system=0.00%, iowait=0.00%, idle=98.49%, nice=0.00%, steal=0.00%
+[1455104741] SERVICE ALERT: credr_stage_52.76.16.57;CPU Usage;WARNING;SOFT;1;CPU STATISTICS WARNING : user=49.25% system=4.02%, iowait=0.00%, idle=46.73%, nice=0.00%, steal=0.00%
+[1455104801] SERVICE ALERT: credr_stage_52.76.16.57;CPU Usage;OK;SOFT;2;CPU STATISTICS OK : user=1.01% system=0.00%, iowait=0.00%, idle=98.99%, nice=0.00%, steal=0.00%
+[1455105638] Auto-save of retention data completed successfully.
+[1455109239] Auto-save of retention data completed successfully.
+[1455112838] Auto-save of retention data completed successfully.
+[1455115241] SERVICE ALERT: credr_stage_52.76.16.57;CPU Usage;WARNING;SOFT;1;CPU STATISTICS WARNING : user=48.24% system=3.52%, iowait=0.00%, idle=47.74%, nice=0.00%, steal=0.50%
+[1455115301] SERVICE ALERT: credr_stage_52.76.16.57;CPU Usage;OK;SOFT;2;CPU STATISTICS OK : user=1.00% system=0.50%, iowait=0.00%, idle=98.51%, nice=0.00%, steal=0.00%
+[1455116438] Auto-save of retention data completed successfully.
+[1455120038] Auto-save of retention data completed successfully.
+[1455123638] Auto-save of retention data completed successfully.
+[1455127238] Auto-save of retention data completed successfully.

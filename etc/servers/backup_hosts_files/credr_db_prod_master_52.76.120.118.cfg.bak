@@ -1,0 +1,196 @@
+
+# Define a host for the local machine
+
+define host{
+        use                     linux-server            ; Name of host template to use
+        host_name               credr_db_prod_master_52.76.120.118
+        alias                   DB PROD Master 52.76.120.118
+        address                 52.76.120.118
+        }
+
+
+# Define an optional hostgroup for Linux machines
+
+#define hostgroup{
+#        hostgroup_name  linux-servers ; The name of the hostgroup
+#        alias           Linux Servers ; Long name of the group
+#        members         credr_db_prod_master_52.76.120.118     ; Comma separated list of hosts that belong to this group
+#        }
+
+
+# PING Check
+define service{
+        use                             generic-service,nagiosgraph         ; Name of service template to use
+        host_name                       credr_db_prod_master_52.76.120.118
+        service_description             Ping Check
+	check_command			check_nrpe!check_ping
+	contact_groups 			admins
+        }
+
+# Root Partition Check
+define service{
+        use                             generic-service,nagiosgraph         ; Name of service template to use
+        host_name                       credr_db_prod_master_52.76.120.118
+        service_description             Root Partition
+	check_command			check_nrpe!check_disk
+	contact_groups 			admins
+	}
+
+# Users Logged In Check
+define service{
+        use                             generic-service,nagiosgraph         ; Name of service template to use
+        host_name                       credr_db_prod_master_52.76.120.118
+        service_description             Current Users
+	check_command			check_nrpe!check_users
+        contact_groups                  admins
+        }
+
+# Total Running Process Check
+define service{
+        use                             generic-service,nagiosgraph         ; Name of service template to use
+        host_name                       credr_db_prod_master_52.76.120.118
+        service_description             Total Processes
+	check_command			check_nrpe!check_total_procs
+        contact_groups                  admins
+	}
+
+# Zombie Process Check
+define service{
+        use                             generic-service,nagiosgraph         ; Name of service template to use
+        host_name                       credr_db_prod_master_52.76.120.118
+        service_description             Zombie Process
+        check_command                   check_nrpe!check_zombie_procs
+        contact_groups                  admins
+        }
+
+# CPU Load Average Check
+define service{
+        use                             generic-service,nagiosgraph         ; Name of service template to use
+        host_name                       credr_db_prod_master_52.76.120.118
+        service_description             Current Load
+	check_command			check_nrpe!check_load
+        contact_groups                  admins
+	}
+
+# CPU Usage Check
+define service{
+        use                             generic-service,nagiosgraph         ; Name of service template to use
+        host_name                       credr_db_prod_master_52.76.120.118
+        service_description             CPU Usage
+        check_command                   check_nrpe!check_cpu
+        contact_groups                  admins
+        }
+
+# Memory Check
+define service{
+        use                             generic-service,nagiosgraph         ; Name of service template to use
+        host_name                       credr_db_prod_master_52.76.120.118
+        service_description             Memory
+        check_command                   check_nrpe!check_mem
+        contact_groups                  admins
+        }
+
+# SSH Accessibilty Check
+define service{
+        use                             generic-service,nagiosgraph         ; Name of service template to use
+        host_name                       credr_db_prod_master_52.76.120.118
+        service_description             SSH
+	check_command			check_ssh
+        contact_groups                  admins
+        }
+
+##################### POSTGRES DB CHECKS #######################
+
+# DB Connections
+#define service{
+#        use                             generic-service,nagiosgraph         ; Name of service template to use
+#        host_name                       credr_db_prod_master_52.76.120.118
+#        service_description             PG Connections
+#        check_command                   check_nrpe!check_connections
+#        contact_groups                  admins
+#        }
+
+## Ideal Connections
+#define service{
+#        use                             generic-service,nagiosgraph         ; Name of service template to use
+#        host_name                       credr_db_prod_master_52.76.120.118
+#        service_description             PG Ideal Connections
+#        check_command                   check_nrpe!check_ideal_connections
+#        contact_groups                  admins
+#        }
+
+# DB Locks
+#define service{
+#        use                             generic-service,nagiosgraph         ; Name of service template to use
+#        host_name                       credr_db_prod_master_52.76.120.118
+#        service_description             PG Locks
+#        check_command                   check_nrpe!check_locks
+#        contact_groups                  admins
+#        }
+
+# DB Size
+#define service{
+#        use                             generic-service,nagiosgraph         ; Name of service template to use
+#        host_name                       credr_db_prod_master_52.76.120.118
+#        service_description             PG DB Size
+#        check_command                   check_nrpe!check_db_size
+#        contact_groups                  admins
+#        }
+
+# Triggers
+#define service{
+#        use                             generic-service,nagiosgraph         ; Name of service template to use
+#        host_name                       credr_db_prod_master_52.76.120.118
+#        service_description             PG Triggers
+#        check_command                   check_nrpe!check_triggers
+#        contact_groups                  admins
+#        }
+
+# DB Disk Space
+#define service{
+#        use                             generic-service,nagiosgraph         ; Name of service template to use
+#        host_name                       credr_db_prod_master_52.76.120.118
+#        service_description             PG DB Disk Space
+#        check_command                   check_nrpe!check_db_diskspace
+#        contact_groups                  admins
+#       }
+
+
+
+#################### NOT Required ####################
+
+# Nginx Check Port 80
+#define service{
+#        use                             generic-service,nagiosgraph         ; Name of service template to use
+#        host_name                       credr_db_prod_master_52.76.120.118
+#        service_description             Nginx http
+#	check_command			check_http
+#        contact_groups                  admins
+#        }
+
+# Nginx Check Port 443
+#define service{
+#        use                             generic-service,nagiosgraph         ; Name of service template to use
+#        host_name                       credr_db_prod_master_52.76.120.118
+#        service_description             Nginx https
+#	check_command			check_https!stage.credr.in!443
+#        contact_groups                  admins
+#        }
+
+# Supervisorctl WebApp Check
+#define service{
+#        use                             generic-service,nagiosgraph         ; Name of service template to use
+#        host_name                       credr_db_prod_master_52.76.120.118
+#        service_description             Supervisor WebApp
+#	check_command			check_nrpe!check_super
+#        contact_groups                  admins
+#        }
+
+# Supervisorctl Celery Check
+#define service{
+#        use                             generic-service,nagiosgraph         ; Name of service template to use
+#        host_name                       credr_db_prod_master_52.76.120.118
+#        service_description             Supervisor Celery
+#        check_command                   check_nrpe!check_super_cel
+#        contact_groups                  admins
+#       }

@@ -1,0 +1,494 @@
+[1451413800] LOG ROTATION: DAILY
+[1451413800] LOG VERSION: 2.0
+[1451413800] CURRENT HOST STATE: Nagios Server;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451413800] CURRENT HOST STATE: credr_dev_52.74.244.220;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.66 ms
+[1451413800] CURRENT HOST STATE: credr_prod_52.74.247.15;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.50 ms
+[1451413800] CURRENT HOST STATE: credr_prodsolr_52.74.114.132;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.34 ms
+[1451413800] CURRENT HOST STATE: credr_stage_52.74.191.24;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.70 ms
+[1451413800] CURRENT SERVICE STATE: Nagios Server;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1451413800] CURRENT SERVICE STATE: Nagios Server;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451413800] CURRENT SERVICE STATE: Nagios Server;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11783 bytes in 0.000 second response time
+[1451413800] CURRENT SERVICE STATE: Nagios Server;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451413800] CURRENT SERVICE STATE: Nagios Server;Root Partition;OK;HARD;1;DISK OK - free space: / 36986 MB (96% inode=97%):
+[1451413800] CURRENT SERVICE STATE: Nagios Server;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1451413800] CURRENT SERVICE STATE: Nagios Server;Total Processes;OK;HARD;1;PROCS OK: 78 processes with STATE = RSZDT
+[1451413800] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1451413800] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451413800] CURRENT SERVICE STATE: credr_dev_52.74.244.220;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1451413800] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 2196 MB - 55% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451413800] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451413800] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Root Partition;OK;HARD;1;DISK OK - free space: / 1174 MB (15% inode=62%):
+[1451413800] CURRENT SERVICE STATE: credr_dev_52.74.244.220;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1451413800] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Total Processes;OK;HARD;1;PROCS OK: 122 processes
+[1451413800] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1451413800] CURRENT SERVICE STATE: credr_prod_52.74.247.15;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=3.76% system=0.00%, iowait=0.00%, idle=95.99%, nice=0.00%, steal=0.25%
+[1451413800] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Current Load;OK;HARD;1;OK - load average: 0.48, 0.32, 0.26
+[1451413800] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Current Users;OK;HARD;1;USERS OK - 1 users currently logged in
+[1451413800] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Memory;OK;HARD;1;[MEMORY] Total: 16047 MB - Used: 2168 MB - 13% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451413800] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Nginx http;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 392 bytes in 0.001 second response time
+[1451413800] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451413800] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Root Partition;OK;HARD;1;DISK OK - free space: / 85966 MB (89% inode=95%):
+[1451413800] CURRENT SERVICE STATE: credr_prod_52.74.247.15;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1451413800] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Supervisor Celery;OK;HARD;1;celery_smsserv                   RUNNING    pid 9675, uptime 9:47:57
+[1451413800] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Supervisor WebApp;OK;HARD;1;credrWebApp                      RUNNING    pid 8783, uptime 10:10:46
+[1451413800] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Total Processes;OK;HARD;1;PROCS OK: 155 processes
+[1451413800] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1451413800] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.00% system=0.50%, iowait=0.00%, idle=99.50%, nice=0.00%, steal=0.00%
+[1451413800] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Current Load;OK;HARD;1;OK - load average: 0.19, 0.06, 0.06
+[1451413800] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451413800] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Memory;OK;HARD;1;[MEMORY] Total: 7479 MB - Used: 1107 MB - 14% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451413800] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451413800] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Root Partition;OK;HARD;1;DISK OK - free space: / 9024 MB (23% inode=97%):
+[1451413800] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1451413800] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Solr Service;OK;HARD;1;PORT 8983 OK: localhost/8983 is responding
+[1451413800] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Total Processes;OK;HARD;1;PROCS OK: 105 processes
+[1451413800] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1451413800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1451413800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1451413800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451413800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 550 MB - 13% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451413800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Nginx http;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 393 bytes in 0.001 second response time
+[1451413800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Nginx https;CRITICAL;HARD;3;(Service check timed out after 60.02 seconds)
+[1451413800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1451413800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Root Partition;OK;HARD;1;DISK OK - free space: / 51341 MB (88% inode=91%):
+[1451413800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.3 (protocol 2.0)
+[1451413800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Supervisor;OK;HARD;1;credrWebApp                      RUNNING    pid 23696, uptime 8:27:01
+[1451413800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Total Processes;OK;HARD;1;PROCS OK: 127 processes
+[1451413800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1451414757] Auto-save of retention data completed successfully.
+[1451418357] Auto-save of retention data completed successfully.
+[1451421957] Auto-save of retention data completed successfully.
+[1451425557] Auto-save of retention data completed successfully.
+[1451429157] Auto-save of retention data completed successfully.
+[1451432757] Auto-save of retention data completed successfully.
+[1451436357] Auto-save of retention data completed successfully.
+[1451439957] Auto-save of retention data completed successfully.
+[1451443557] Auto-save of retention data completed successfully.
+[1451447157] Auto-save of retention data completed successfully.
+[1451450757] Auto-save of retention data completed successfully.
+[1451453054] SERVICE ALERT: credr_stage_52.74.191.24;CPU Usage;WARNING;SOFT;1;CPU STATISTICS WARNING : user=43.02% system=8.38%, iowait=0.00%, idle=47.49%, nice=0.00%, steal=1.12%
+[1451453174] SERVICE ALERT: credr_stage_52.74.191.24;CPU Usage;OK;SOFT;2;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1451454357] Auto-save of retention data completed successfully.
+[1451454383] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;1;connect to address 52.74.244.220 and port 80: Connection refused
+[1451454383] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;1;check_nrpe!remote_restart
+[1451454383] wproc: SERVICE EVENTHANDLER job 2186 from worker Core Worker 26564 is a non-check helper but exited with return code 2
+[1451454383] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451454383] wproc:   stdout line 01: NRPE: Command 'remote_restart' not defined
+[1451454427] Caught SIGTERM, shutting down...
+[1451454427] Successfully shutdown... (PID=26560)
+[1451454427] Event broker module 'NERD' deinitialized successfully.
+[1451454428] Nagios 4.1.1 starting... (PID=30911)
+[1451454428] Local time is Wed Dec 30 11:17:08 IST 2015
+[1451454428] LOG VERSION: 2.0
+[1451454428] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451454428] qh: core query handler registered
+[1451454428] nerd: Channel hostchecks registered successfully
+[1451454428] nerd: Channel servicechecks registered successfully
+[1451454428] nerd: Channel opathchecks registered successfully
+[1451454428] nerd: Fully initialized and ready to rock!
+[1451454428] wproc: Successfully registered manager as @wproc with query handler
+[1451454428] wproc: Registry request: name=Core Worker 30915;pid=30915
+[1451454428] wproc: Registry request: name=Core Worker 30914;pid=30914
+[1451454428] wproc: Registry request: name=Core Worker 30913;pid=30913
+[1451454428] wproc: Registry request: name=Core Worker 30912;pid=30912
+[1451454428] Successfully launched command file worker with pid 30916
+[1451454503] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;2;connect to address 52.74.244.220 and port 80: Connection refused
+[1451454503] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;2;restart-service!nginx
+[1451454623] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;HARD;3;connect to address 52.74.244.220 and port 80: Connection refused
+[1451454623] SERVICE NOTIFICATION: sajal;credr_dev_52.74.244.220;HTTP;CRITICAL;notify-service-by-email;connect to address 52.74.244.220 and port 80: Connection refused
+[1451454623] SERVICE NOTIFICATION: nagiosadmin;credr_dev_52.74.244.220;HTTP;CRITICAL;notify-service-by-email;connect to address 52.74.244.220 and port 80: Connection refused
+[1451454623] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;HARD;3;restart-service!nginx
+[1451457003] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451457002
+[1451457017] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451457016
+[1451457017] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;OK;HARD;3;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1451457017] SERVICE NOTIFICATION: sajal;credr_dev_52.74.244.220;HTTP;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1451457017] SERVICE NOTIFICATION: nagiosadmin;credr_dev_52.74.244.220;HTTP;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1451457017] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;OK;HARD;3;restart-service!nginx
+[1451457036] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451457031
+[1451457036] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;1;connect to address 52.74.244.220 and port 80: Connection refused
+[1451457036] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;1;restart-service!nginx
+[1451457156] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;2;connect to address 52.74.244.220 and port 80: Connection refused
+[1451457156] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;2;restart-service!nginx
+[1451457276] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;HARD;3;connect to address 52.74.244.220 and port 80: Connection refused
+[1451457276] SERVICE NOTIFICATION: sajal;credr_dev_52.74.244.220;HTTP;CRITICAL;notify-service-by-email;connect to address 52.74.244.220 and port 80: Connection refused
+[1451457276] SERVICE NOTIFICATION: nagiosadmin;credr_dev_52.74.244.220;HTTP;CRITICAL;notify-service-by-email;connect to address 52.74.244.220 and port 80: Connection refused
+[1451457276] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;HARD;3;restart-service!nginx
+[1451458027] Auto-save of retention data completed successfully.
+[1451458292] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451458290
+[1451458292] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;OK;HARD;3;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1451458292] SERVICE FLAPPING ALERT: credr_dev_52.74.244.220;HTTP;STARTED; Service appears to have started flapping (23.3% change >= 20.0% threshold)
+[1451458292] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;OK;HARD;3;restart-service!nginx
+[1451458680] Caught SIGTERM, shutting down...
+[1451458680] Successfully shutdown... (PID=30911)
+[1451458680] Event broker module 'NERD' deinitialized successfully.
+[1451458681] Nagios 4.1.1 starting... (PID=3572)
+[1451458681] Local time is Wed Dec 30 12:28:01 IST 2015
+[1451458681] LOG VERSION: 2.0
+[1451458681] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451458681] qh: core query handler registered
+[1451458681] nerd: Channel hostchecks registered successfully
+[1451458681] nerd: Channel servicechecks registered successfully
+[1451458681] nerd: Channel opathchecks registered successfully
+[1451458681] nerd: Fully initialized and ready to rock!
+[1451458681] wproc: Successfully registered manager as @wproc with query handler
+[1451458681] wproc: Registry request: name=Core Worker 3576;pid=3576
+[1451458681] wproc: Registry request: name=Core Worker 3575;pid=3575
+[1451458681] wproc: Registry request: name=Core Worker 3574;pid=3574
+[1451458681] wproc: Registry request: name=Core Worker 3573;pid=3573
+[1451458681] SERVICE FLAPPING ALERT: credr_dev_52.74.244.220;HTTP;STARTED; Service appears to have started flapping (23.3% change >= 20.0% threshold)
+[1451458681] Successfully launched command file worker with pid 3577
+[1451458723] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451458721
+[1451458723] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;1;connect to address 52.74.244.220 and port 80: Connection refused
+[1451458723] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;1;restart-service!nginx
+[1451458843] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;2;connect to address 52.74.244.220 and port 80: Connection refused
+[1451458843] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;2;restart-service!nginx
+[1451458963] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;HARD;3;connect to address 52.74.244.220 and port 80: Connection refused
+[1451458963] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;HARD;3;restart-service!nginx
+[1451459512] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451459510
+[1451459512] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;OK;HARD;3;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1451459512] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;OK;HARD;3;restart-service!nginx
+[1451461850] SERVICE ALERT: credr_prodsolr_52.74.114.132;CPU Usage;WARNING;SOFT;1;CPU STATISTICS WARNING : user=60.80% system=3.02%, iowait=4.02%, idle=32.16%, nice=0.00%, steal=0.00%
+[1451461970] SERVICE ALERT: credr_prodsolr_52.74.114.132;CPU Usage;OK;SOFT;2;CPU STATISTICS OK : user=0.51% system=0.51%, iowait=0.00%, idle=98.99%, nice=0.00%, steal=0.00%
+[1451462280] Auto-save of retention data completed successfully.
+[1451462892] Caught SIGTERM, shutting down...
+[1451462892] Successfully shutdown... (PID=3572)
+[1451462892] Event broker module 'NERD' deinitialized successfully.
+[1451462893] Nagios 4.1.1 starting... (PID=5223)
+[1451462893] Local time is Wed Dec 30 13:38:13 IST 2015
+[1451462893] LOG VERSION: 2.0
+[1451462893] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451462893] qh: core query handler registered
+[1451462893] nerd: Channel hostchecks registered successfully
+[1451462893] nerd: Channel servicechecks registered successfully
+[1451462893] nerd: Channel opathchecks registered successfully
+[1451462893] nerd: Fully initialized and ready to rock!
+[1451462893] wproc: Successfully registered manager as @wproc with query handler
+[1451462893] wproc: Registry request: name=Core Worker 5224;pid=5224
+[1451462893] wproc: Registry request: name=Core Worker 5225;pid=5225
+[1451462893] wproc: Registry request: name=Core Worker 5226;pid=5226
+[1451462893] wproc: Registry request: name=Core Worker 5227;pid=5227
+[1451462893] SERVICE FLAPPING ALERT: credr_dev_52.74.244.220;HTTP;STARTED; Service appears to have started flapping (30.7% change >= 20.0% threshold)
+[1451462893] Successfully launched command file worker with pid 5228
+[1451462951] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;UNKNOWN;SOFT;1;NRPE: Unable to read output
+[1451463071] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;UNKNOWN;SOFT;2;NRPE: Unable to read output
+[1451463140] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_DW_52.76.17.124;CPU Usage;1451463139
+[1451463141] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;UNKNOWN;HARD;3;NRPE: Unable to read output
+[1451463141] SERVICE NOTIFICATION: sajal;credr_DW_52.76.17.124;CPU Usage;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1451463141] SERVICE NOTIFICATION: nagiosadmin;credr_DW_52.76.17.124;CPU Usage;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1451463171] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_DW_52.76.17.124;CPU Usage;1451463169
+[1451463174] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_DW_52.76.17.124;CPU Usage;1451463173
+[1451466492] Auto-save of retention data completed successfully.
+[1451466774] SERVICE NOTIFICATION: sajal;credr_DW_52.76.17.124;CPU Usage;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1451466774] SERVICE NOTIFICATION: nagiosadmin;credr_DW_52.76.17.124;CPU Usage;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1451466959] SERVICE ALERT: credr_DW_52.76.17.124;Total Processes;WARNING;SOFT;1;PROCS WARNING: 203 processes
+[1451467079] SERVICE ALERT: credr_DW_52.76.17.124;Total Processes;WARNING;SOFT;2;PROCS WARNING: 207 processes
+[1451467199] SERVICE ALERT: credr_DW_52.76.17.124;Total Processes;WARNING;HARD;3;PROCS WARNING: 206 processes
+[1451467199] SERVICE NOTIFICATION: sajal;credr_DW_52.76.17.124;Total Processes;WARNING;notify-service-by-email;PROCS WARNING: 206 processes
+[1451467199] SERVICE NOTIFICATION: nagiosadmin;credr_DW_52.76.17.124;Total Processes;WARNING;notify-service-by-email;PROCS WARNING: 206 processes
+[1451467367] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_DW_52.76.17.124;CPU Usage;1451467366
+[1451467369] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;OK;HARD;3;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1451467369] SERVICE NOTIFICATION: sajal;credr_DW_52.76.17.124;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1451467369] SERVICE NOTIFICATION: nagiosadmin;credr_DW_52.76.17.124;CPU Usage;OK;notify-service-by-email;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1451468851] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451468850
+[1451468851] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;1;connect to address 52.74.244.220 and port 80: Connection refused
+[1451468851] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;1;restart-service!nginx
+[1451468957] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451468956
+[1451468957] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;OK;SOFT;2;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1451468957] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;OK;SOFT;2;restart-service!nginx
+[1451469037] Caught SIGTERM, shutting down...
+[1451469037] Successfully shutdown... (PID=5223)
+[1451469037] Event broker module 'NERD' deinitialized successfully.
+[1451469038] Nagios 4.1.1 starting... (PID=7838)
+[1451469038] Local time is Wed Dec 30 15:20:38 IST 2015
+[1451469038] LOG VERSION: 2.0
+[1451469038] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451469038] qh: core query handler registered
+[1451469038] nerd: Channel hostchecks registered successfully
+[1451469038] nerd: Channel servicechecks registered successfully
+[1451469038] nerd: Channel opathchecks registered successfully
+[1451469038] nerd: Fully initialized and ready to rock!
+[1451469038] wproc: Successfully registered manager as @wproc with query handler
+[1451469038] wproc: Registry request: name=Core Worker 7839;pid=7839
+[1451469038] wproc: Registry request: name=Core Worker 7840;pid=7840
+[1451469038] wproc: Registry request: name=Core Worker 7841;pid=7841
+[1451469038] wproc: Registry request: name=Core Worker 7842;pid=7842
+[1451469038] Successfully launched command file worker with pid 7843
+[1451469074] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451469073
+[1451469074] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;1;connect to address 52.74.244.220 and port 80: Connection refused
+[1451469074] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;1;restart-nginx
+[1451469194] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;2;connect to address 52.74.244.220 and port 80: Connection refused
+[1451469194] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;2;restart-nginx
+[1451469215] Caught SIGTERM, shutting down...
+[1451469215] Successfully shutdown... (PID=7838)
+[1451469215] Event broker module 'NERD' deinitialized successfully.
+[1451469216] Nagios 4.1.1 starting... (PID=7957)
+[1451469216] Local time is Wed Dec 30 15:23:36 IST 2015
+[1451469216] LOG VERSION: 2.0
+[1451469216] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451469216] qh: core query handler registered
+[1451469216] nerd: Channel hostchecks registered successfully
+[1451469216] nerd: Channel servicechecks registered successfully
+[1451469216] nerd: Channel opathchecks registered successfully
+[1451469216] nerd: Fully initialized and ready to rock!
+[1451469216] wproc: Successfully registered manager as @wproc with query handler
+[1451469216] wproc: Registry request: name=Core Worker 7958;pid=7958
+[1451469216] wproc: Registry request: name=Core Worker 7959;pid=7959
+[1451469216] wproc: Registry request: name=Core Worker 7960;pid=7960
+[1451469216] wproc: Registry request: name=Core Worker 7961;pid=7961
+[1451469216] Successfully launched command file worker with pid 7962
+[1451469235] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451469233
+[1451469235] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;HARD;3;connect to address 52.74.244.220 and port 80: Connection refused
+[1451469235] SERVICE NOTIFICATION: sajal;credr_dev_52.74.244.220;HTTP;CRITICAL;notify-service-by-email;connect to address 52.74.244.220 and port 80: Connection refused
+[1451469235] SERVICE NOTIFICATION: nagiosadmin;credr_dev_52.74.244.220;HTTP;CRITICAL;notify-service-by-email;connect to address 52.74.244.220 and port 80: Connection refused
+[1451469235] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;HARD;3;check_nrpe!restart-nginx
+[1451469258] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451469257
+[1451469258] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;OK;HARD;3;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1451469258] SERVICE FLAPPING ALERT: credr_dev_52.74.244.220;HTTP;STARTED; Service appears to have started flapping (20.0% change >= 20.0% threshold)
+[1451469258] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;OK;HARD;3;check_nrpe!restart-nginx
+[1451470458] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;1;connect to address 52.74.244.220 and port 80: Connection refused
+[1451470458] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;1;check_nrpe!restart-nginx
+[1451470578] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;OK;SOFT;2;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1451470578] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;OK;SOFT;2;check_nrpe!restart-nginx
+[1451470799] SERVICE NOTIFICATION: sajal;credr_DW_52.76.17.124;Total Processes;WARNING;notify-service-by-email;PROCS WARNING: 214 processes
+[1451470799] SERVICE NOTIFICATION: nagiosadmin;credr_DW_52.76.17.124;Total Processes;WARNING;notify-service-by-email;PROCS WARNING: 214 processes
+[1451472815] Auto-save of retention data completed successfully.
+[1451473799] SERVICE ALERT: credr_DW_52.76.17.124;Total Processes;OK;HARD;3;PROCS OK: 199 processes
+[1451473799] SERVICE NOTIFICATION: sajal;credr_DW_52.76.17.124;Total Processes;OK;notify-service-by-email;PROCS OK: 199 processes
+[1451473799] SERVICE NOTIFICATION: nagiosadmin;credr_DW_52.76.17.124;Total Processes;OK;notify-service-by-email;PROCS OK: 199 processes
+[1451474569] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;WARNING;SOFT;1;CPU STATISTICS WARNING : user=48.00% system=2.50%, iowait=0.00%, idle=49.50%, nice=0.00%, steal=0.00%
+[1451474689] SERVICE ALERT: credr_DW_52.76.17.124;CPU Usage;OK;SOFT;2;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1451476415] Auto-save of retention data completed successfully.
+[1451476429] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476429] SERVICE ALERT: credr_stage_52.74.191.24;Root Partition;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1451476464] Warning: Return code of 255 for check of service 'Supervisor' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476464] SERVICE ALERT: credr_stage_52.74.191.24;Supervisor;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1451476549] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476549] SERVICE ALERT: credr_stage_52.74.191.24;Root Partition;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1451476572] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476572] SERVICE ALERT: credr_stage_52.74.191.24;Total Processes;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1451476572] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476572] SERVICE ALERT: credr_stage_52.74.191.24;CPU Usage;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1451476584] Warning: Return code of 255 for check of service 'Supervisor' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476584] SERVICE ALERT: credr_stage_52.74.191.24;Supervisor;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1451476639] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476639] SERVICE ALERT: credr_stage_52.74.191.24;Zombie Process;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1451476647] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476647] SERVICE ALERT: credr_stage_52.74.191.24;Current Load;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1451476669] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476669] SERVICE ALERT: credr_stage_52.74.191.24;Root Partition;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1451476669] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Root Partition;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451476669] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Root Partition;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451476692] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476692] SERVICE ALERT: credr_stage_52.74.191.24;Total Processes;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1451476692] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476692] SERVICE ALERT: credr_stage_52.74.191.24;CPU Usage;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1451476704] Warning: Return code of 255 for check of service 'Supervisor' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476704] SERVICE ALERT: credr_stage_52.74.191.24;Supervisor;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1451476704] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Supervisor;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451476704] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Supervisor;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451476708] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476708] SERVICE ALERT: credr_stage_52.74.191.24;Current Users;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1451476710] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476710] SERVICE ALERT: credr_stage_52.74.191.24;Ping Check;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1451476759] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476759] SERVICE ALERT: credr_stage_52.74.191.24;Zombie Process;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1451476767] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476767] SERVICE ALERT: credr_stage_52.74.191.24;Current Load;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1451476801] Warning: Return code of 255 for check of service 'Memory' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476801] SERVICE ALERT: credr_stage_52.74.191.24;Memory;CRITICAL;SOFT;1;(Return code of 255 is out of bounds)
+[1451476812] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476812] SERVICE ALERT: credr_stage_52.74.191.24;Total Processes;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1451476812] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Total Processes;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451476812] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Total Processes;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451476812] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476812] SERVICE ALERT: credr_stage_52.74.191.24;CPU Usage;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1451476812] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;CPU Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451476812] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;CPU Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451476828] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476828] SERVICE ALERT: credr_stage_52.74.191.24;Current Users;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1451476830] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476830] SERVICE ALERT: credr_stage_52.74.191.24;Ping Check;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1451476879] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476879] SERVICE ALERT: credr_stage_52.74.191.24;Zombie Process;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1451476879] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451476879] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451476887] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476887] SERVICE ALERT: credr_stage_52.74.191.24;Current Load;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1451476887] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Current Load;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451476887] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Current Load;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451476921] Warning: Return code of 255 for check of service 'Memory' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476921] SERVICE ALERT: credr_stage_52.74.191.24;Memory;CRITICAL;SOFT;2;(Return code of 255 is out of bounds)
+[1451476948] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476948] SERVICE ALERT: credr_stage_52.74.191.24;Current Users;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1451476948] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451476948] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451476950] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451476950] SERVICE ALERT: credr_stage_52.74.191.24;Ping Check;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1451476950] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Ping Check;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451476950] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Ping Check;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451477041] Warning: Return code of 255 for check of service 'Memory' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451477041] SERVICE ALERT: credr_stage_52.74.191.24;Memory;CRITICAL;HARD;3;(Return code of 255 is out of bounds)
+[1451477041] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451477041] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451477269] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451477304] Warning: Return code of 255 for check of service 'Supervisor' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451477412] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451477412] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451477479] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451477487] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451477548] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451477550] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451477641] Warning: Return code of 255 for check of service 'Memory' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451477869] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451477904] Warning: Return code of 255 for check of service 'Supervisor' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451478012] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451478012] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451478079] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451478087] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451478148] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451478150] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451478241] Warning: Return code of 255 for check of service 'Memory' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451478469] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451478504] Warning: Return code of 255 for check of service 'Supervisor' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451478612] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451478612] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451478679] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451478687] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451478748] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451478750] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451478841] Warning: Return code of 255 for check of service 'Memory' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451479069] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451479104] Warning: Return code of 255 for check of service 'Supervisor' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451479212] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451479212] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451479279] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451479287] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451479348] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451479350] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451479441] Warning: Return code of 255 for check of service 'Memory' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451479669] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451479704] Warning: Return code of 255 for check of service 'Supervisor' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451479720] Caught SIGTERM, shutting down...
+[1451479720] Successfully shutdown... (PID=7957)
+[1451479720] Event broker module 'NERD' deinitialized successfully.
+[1451479721] Nagios 4.1.1 starting... (PID=18478)
+[1451479721] Local time is Wed Dec 30 18:18:41 IST 2015
+[1451479721] LOG VERSION: 2.0
+[1451479721] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451479721] qh: core query handler registered
+[1451479721] nerd: Channel hostchecks registered successfully
+[1451479721] nerd: Channel servicechecks registered successfully
+[1451479721] nerd: Channel opathchecks registered successfully
+[1451479721] nerd: Fully initialized and ready to rock!
+[1451479721] wproc: Successfully registered manager as @wproc with query handler
+[1451479721] wproc: Registry request: name=Core Worker 18482;pid=18482
+[1451479721] wproc: Registry request: name=Core Worker 18481;pid=18481
+[1451479721] wproc: Registry request: name=Core Worker 18480;pid=18480
+[1451479721] wproc: Registry request: name=Core Worker 18479;pid=18479
+[1451479721] Successfully launched command file worker with pid 18483
+[1451479812] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451479812] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451479879] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451479887] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451479948] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451479950] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451480041] Warning: Return code of 255 for check of service 'Memory' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451480269] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451480269] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Root Partition;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451480269] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Root Partition;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451480304] Warning: Return code of 255 for check of service 'Supervisor' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451480304] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Supervisor;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451480304] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Supervisor;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451480412] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451480412] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;CPU Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451480412] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;CPU Usage;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451480412] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451480412] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Total Processes;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451480412] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Total Processes;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451480479] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451480479] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451480479] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Zombie Process;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451480487] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451480487] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Current Load;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451480487] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Current Load;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451480548] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451480548] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451480548] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Current Users;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451480550] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451480550] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Ping Check;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451480550] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Ping Check;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451480641] Warning: Return code of 255 for check of service 'Memory' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451480641] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451480641] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Memory;CRITICAL;notify-service-by-email;(Return code of 255 is out of bounds)
+[1451480869] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451480904] Warning: Return code of 255 for check of service 'Supervisor' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451481012] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451481012] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451481079] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451481087] Warning: Return code of 255 for check of service 'Current Load' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451481148] Warning: Return code of 255 for check of service 'Current Users' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451481150] Warning: Return code of 255 for check of service 'Ping Check' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451481241] Warning: Return code of 255 for check of service 'Memory' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451481469] Warning: Return code of 255 for check of service 'Root Partition' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451481504] Warning: Return code of 255 for check of service 'Supervisor' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451481612] Warning: Return code of 255 for check of service 'Total Processes' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451481612] Warning: Return code of 255 for check of service 'CPU Usage' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451481679] Warning: Return code of 255 for check of service 'Zombie Process' on host 'credr_stage_52.74.191.24' was out of bounds.
+[1451481684] Caught SIGTERM, shutting down...
+[1451481684] Successfully shutdown... (PID=18478)
+[1451481684] Event broker module 'NERD' deinitialized successfully.
+[1451481685] Nagios 4.1.1 starting... (PID=19912)
+[1451481685] Local time is Wed Dec 30 18:51:25 IST 2015
+[1451481685] LOG VERSION: 2.0
+[1451481685] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451481685] qh: core query handler registered
+[1451481685] nerd: Channel hostchecks registered successfully
+[1451481685] nerd: Channel servicechecks registered successfully
+[1451481685] nerd: Channel opathchecks registered successfully
+[1451481685] nerd: Fully initialized and ready to rock!
+[1451481685] wproc: Successfully registered manager as @wproc with query handler
+[1451481685] wproc: Registry request: name=Core Worker 19913;pid=19913
+[1451481685] wproc: Registry request: name=Core Worker 19914;pid=19914
+[1451481685] wproc: Registry request: name=Core Worker 19915;pid=19915
+[1451481685] wproc: Registry request: name=Core Worker 19916;pid=19916
+[1451481685] Successfully launched command file worker with pid 19917
+[1451482336] Caught SIGTERM, shutting down...
+[1451482336] Successfully shutdown... (PID=19912)
+[1451482336] Event broker module 'NERD' deinitialized successfully.
+[1451482337] Nagios 4.1.1 starting... (PID=20295)
+[1451482337] Local time is Wed Dec 30 19:02:17 IST 2015
+[1451482337] LOG VERSION: 2.0
+[1451482337] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451482337] qh: core query handler registered
+[1451482337] nerd: Channel hostchecks registered successfully
+[1451482337] nerd: Channel servicechecks registered successfully
+[1451482337] nerd: Channel opathchecks registered successfully
+[1451482337] nerd: Fully initialized and ready to rock!
+[1451482337] wproc: Successfully registered manager as @wproc with query handler
+[1451482337] wproc: Registry request: name=Core Worker 20299;pid=20299
+[1451482337] wproc: Registry request: name=Core Worker 20298;pid=20298
+[1451482337] wproc: Registry request: name=Core Worker 20297;pid=20297
+[1451482337] wproc: Registry request: name=Core Worker 20296;pid=20296
+[1451482337] Successfully launched command file worker with pid 20300
+[1451482814] Caught SIGTERM, shutting down...
+[1451482814] Successfully shutdown... (PID=20295)
+[1451482814] Event broker module 'NERD' deinitialized successfully.
+[1451482815] Nagios 4.1.1 starting... (PID=20573)
+[1451482815] Local time is Wed Dec 30 19:10:15 IST 2015
+[1451482815] LOG VERSION: 2.0
+[1451482815] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451482815] qh: core query handler registered
+[1451482815] nerd: Channel hostchecks registered successfully
+[1451482815] nerd: Channel servicechecks registered successfully
+[1451482815] nerd: Channel opathchecks registered successfully
+[1451482815] nerd: Fully initialized and ready to rock!
+[1451482815] wproc: Successfully registered manager as @wproc with query handler
+[1451482815] wproc: Registry request: name=Core Worker 20577;pid=20577
+[1451482815] wproc: Registry request: name=Core Worker 20576;pid=20576
+[1451482815] wproc: Registry request: name=Core Worker 20575;pid=20575
+[1451482815] wproc: Registry request: name=Core Worker 20574;pid=20574
+[1451482815] Successfully launched command file worker with pid 20578
+[1451486414] Auto-save of retention data completed successfully.
+[1451490015] Auto-save of retention data completed successfully.
+[1451493614] Auto-save of retention data completed successfully.
+[1451497215] Auto-save of retention data completed successfully.

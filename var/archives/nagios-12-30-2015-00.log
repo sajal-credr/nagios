@@ -1,0 +1,367 @@
+[1451327400] LOG ROTATION: DAILY
+[1451327400] LOG VERSION: 2.0
+[1451327400] CURRENT HOST STATE: Nagios Server;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451327400] CURRENT HOST STATE: credr_dev_52.74.244.220;DOWN;HARD;10;PING CRITICAL - Packet loss = 100%
+[1451327400] CURRENT HOST STATE: credr_prod_52.74.247.15;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.50 ms
+[1451327400] CURRENT HOST STATE: credr_prodsolr_52.74.114.132;DOWN;HARD;10;PING CRITICAL - Packet loss = 100%
+[1451327400] CURRENT HOST STATE: credr_stage_52.74.191.24;DOWN;HARD;10;PING CRITICAL - Packet loss = 100%
+[1451327400] CURRENT SERVICE STATE: Nagios Server;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1451327400] CURRENT SERVICE STATE: Nagios Server;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451327400] CURRENT SERVICE STATE: Nagios Server;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11783 bytes in 0.000 second response time
+[1451327400] CURRENT SERVICE STATE: Nagios Server;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451327400] CURRENT SERVICE STATE: Nagios Server;Root Partition;OK;HARD;1;DISK OK - free space: / 36992 MB (96% inode=97%):
+[1451327400] CURRENT SERVICE STATE: Nagios Server;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1451327400] CURRENT SERVICE STATE: Nagios Server;Total Processes;OK;HARD;1;PROCS OK: 82 processes with STATE = RSZDT
+[1451327400] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1451327400] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451327400] CURRENT SERVICE STATE: credr_dev_52.74.244.220;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1451327400] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 2209 MB - 55% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451327400] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451327400] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Root Partition;OK;HARD;1;DISK OK - free space: / 1180 MB (15% inode=62%):
+[1451327400] CURRENT SERVICE STATE: credr_dev_52.74.244.220;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1451327400] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Total Processes;OK;HARD;1;PROCS OK: 122 processes
+[1451327400] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1451327400] CURRENT SERVICE STATE: credr_prod_52.74.247.15;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.25% system=0.25%, iowait=0.00%, idle=99.50%, nice=0.00%, steal=0.00%
+[1451327400] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Current Load;OK;HARD;1;OK - load average: 0.00, 0.03, 0.05
+[1451327400] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Current Users;OK;HARD;1;USERS OK - 2 users currently logged in
+[1451327400] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Memory;OK;HARD;1;[MEMORY] Total: 16047 MB - Used: 2623 MB - 16% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451327400] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Nginx http;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 392 bytes in 0.001 second response time
+[1451327400] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451327400] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Root Partition;OK;HARD;1;DISK OK - free space: / 86113 MB (89% inode=95%):
+[1451327400] CURRENT SERVICE STATE: credr_prod_52.74.247.15;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1451327400] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Supervisor Celery;OK;HARD;1;celery_smsserv                   RUNNING    pid 30522, uptime 7 days, 5:41:30
+[1451327400] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Supervisor WebApp;OK;HARD;1;credrWebApp                      RUNNING    pid 8702, uptime 8:57:04
+[1451327400] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Total Processes;OK;HARD;1;PROCS OK: 161 processes
+[1451327400] CURRENT SERVICE STATE: credr_prod_52.74.247.15;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1451327400] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1451327400] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1451327400] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451327400] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Memory;OK;HARD;1;[MEMORY] Total: 7479 MB - Used: 1071 MB - 14% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451327400] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451327400] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Root Partition;OK;HARD;1;DISK OK - free space: / 9607 MB (24% inode=97%):
+[1451327400] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1451327400] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Solr Service;OK;HARD;1;PORT 8983 OK: localhost/8983 is responding
+[1451327400] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Total Processes;OK;HARD;1;PROCS OK: 105 processes
+[1451327400] CURRENT SERVICE STATE: credr_prodsolr_52.74.114.132;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1451327400] CURRENT SERVICE STATE: credr_stage_52.74.191.24;CPU Usage;OK;HARD;1;CPU STATISTICS OK : user=0.00% system=0.00%, iowait=0.00%, idle=100.00%, nice=0.00%, steal=0.00%
+[1451327400] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1451327400] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451327400] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 508 MB - 12% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451327400] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Nginx http;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 393 bytes in 0.001 second response time
+[1451327400] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Nginx https;OK;HARD;1;HTTP/1.1 200 OK
+[1451327400] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1451327400] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Root Partition;OK;HARD;1;DISK OK - free space: / 51700 MB (89% inode=92%):
+[1451327400] CURRENT SERVICE STATE: credr_stage_52.74.191.24;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.3 (protocol 2.0)
+[1451327400] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Supervisor;OK;HARD;1;credrWebApp                      RUNNING    pid 27979, uptime 2 days, 10:24:30
+[1451327400] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Total Processes;OK;HARD;1;PROCS OK: 127 processes
+[1451327400] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1451329604] Auto-save of retention data completed successfully.
+[1451333204] Auto-save of retention data completed successfully.
+[1451336804] Auto-save of retention data completed successfully.
+[1451340404] Auto-save of retention data completed successfully.
+[1451344004] Auto-save of retention data completed successfully.
+[1451347604] Auto-save of retention data completed successfully.
+[1451351204] Auto-save of retention data completed successfully.
+[1451354339] wproc: Core Worker 4658: job 1688 (pid=17774) timed out. Killing it
+[1451354339] wproc: CHECK job 1688 from worker Core Worker 4658 timed out after 30.01s
+[1451354339] wproc:   host=credr_prodsolr_52.74.114.132; service=(null);
+[1451354339] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451354339] Warning: Check of host 'credr_prodsolr_52.74.114.132' timed out after 30.01 seconds
+[1451354339] wproc: Core Worker 4658: job 1688 (pid=17774): Dormant child reaped
+[1451354804] Auto-save of retention data completed successfully.
+[1451356885] wproc: Core Worker 4660: job 1775 (pid=18357) timed out. Killing it
+[1451356885] wproc: CHECK job 1775 from worker Core Worker 4660 timed out after 30.02s
+[1451356885] wproc:   host=credr_prodsolr_52.74.114.132; service=(null);
+[1451356885] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451356885] Warning: Check of host 'credr_prodsolr_52.74.114.132' timed out after 30.02 seconds
+[1451356885] wproc: Core Worker 4660: job 1775 (pid=18357): Dormant child reaped
+[1451358404] Auto-save of retention data completed successfully.
+[1451359805] HOST NOTIFICATION: sajal;credr_dev_52.74.244.220;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451359805] HOST NOTIFICATION: nagiosadmin;credr_dev_52.74.244.220;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451359805] wproc: NOTIFY job 1873 from worker Core Worker 4658 is a non-check helper but exited with return code 2
+[1451359805] wproc:   host=credr_dev_52.74.244.220; service=(none); contact=nagiosadmin
+[1451359805] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451359805] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451359805] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451359836] HOST NOTIFICATION: sajal;credr_stage_52.74.191.24;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451359836] HOST NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451359836] wproc: NOTIFY job 1876 from worker Core Worker 4661 is a non-check helper but exited with return code 2
+[1451359836] wproc:   host=credr_stage_52.74.191.24; service=(none); contact=nagiosadmin
+[1451359836] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451359836] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451359836] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451359885] HOST NOTIFICATION: sajal;credr_prodsolr_52.74.114.132;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451359885] HOST NOTIFICATION: nagiosadmin;credr_prodsolr_52.74.114.132;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451359885] wproc: NOTIFY job 1879 from worker Core Worker 4659 is a non-check helper but exited with return code 2
+[1451359885] wproc:   host=credr_prodsolr_52.74.114.132; service=(none); contact=nagiosadmin
+[1451359885] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451359885] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451359885] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451359885] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1451362004] Auto-save of retention data completed successfully.
+[1451364389] wproc: Core Worker 4661: job 2028 (pid=20587) timed out. Killing it
+[1451364389] wproc: CHECK job 2028 from worker Core Worker 4661 timed out after 30.01s
+[1451364389] wproc:   host=credr_dev_52.74.244.220; service=(null);
+[1451364389] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451364389] Warning: Check of host 'credr_dev_52.74.244.220' timed out after 30.01 seconds
+[1451364389] wproc: Core Worker 4661: job 2028 (pid=20587): Dormant child reaped
+[1451365604] Auto-save of retention data completed successfully.
+[1451367005] HOST NOTIFICATION: sajal;credr_dev_52.74.244.220;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451367005] HOST NOTIFICATION: nagiosadmin;credr_dev_52.74.244.220;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451367005] wproc: NOTIFY job 2118 from worker Core Worker 4660 is a non-check helper but exited with return code 2
+[1451367005] wproc:   host=credr_dev_52.74.244.220; service=(none); contact=nagiosadmin
+[1451367005] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451367005] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451367005] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451367036] HOST NOTIFICATION: sajal;credr_stage_52.74.191.24;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451367036] HOST NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451367036] wproc: NOTIFY job 2120 from worker Core Worker 4658 is a non-check helper but exited with return code 2
+[1451367036] wproc:   host=credr_stage_52.74.191.24; service=(none); contact=nagiosadmin
+[1451367036] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451367036] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451367036] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451367085] HOST NOTIFICATION: sajal;credr_prodsolr_52.74.114.132;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451367085] HOST NOTIFICATION: nagiosadmin;credr_prodsolr_52.74.114.132;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451367085] wproc: NOTIFY job 2123 from worker Core Worker 4661 is a non-check helper but exited with return code 2
+[1451367085] wproc:   host=credr_prodsolr_52.74.114.132; service=(none); contact=nagiosadmin
+[1451367085] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451367085] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451367085] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451369204] Auto-save of retention data completed successfully.
+[1451369626] SERVICE ALERT: credr_prod_52.74.247.15;Total Processes;WARNING;SOFT;1;PROCS WARNING: 201 processes
+[1451369746] SERVICE ALERT: credr_prod_52.74.247.15;Total Processes;WARNING;SOFT;2;PROCS WARNING: 210 processes
+[1451369866] SERVICE ALERT: credr_prod_52.74.247.15;Total Processes;WARNING;HARD;3;PROCS WARNING: 203 processes
+[1451369866] SERVICE NOTIFICATION: sajal;credr_prod_52.74.247.15;Total Processes;WARNING;notify-service-by-email;PROCS WARNING: 203 processes
+[1451369866] SERVICE NOTIFICATION: nagiosadmin;credr_prod_52.74.247.15;Total Processes;WARNING;notify-service-by-email;PROCS WARNING: 203 processes
+[1451369866] wproc: NOTIFY job 2217 from worker Core Worker 4658 is a non-check helper but exited with return code 2
+[1451369866] wproc:   host=credr_prod_52.74.247.15; service=Total Processes; contact=nagiosadmin
+[1451369866] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451369866] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451369866] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451370071] SERVICE ALERT: credr_prod_52.74.247.15;Current Users;WARNING;SOFT;1;USERS WARNING - 6 users currently logged in
+[1451370190] SERVICE ALERT: credr_prod_52.74.247.15;Current Users;WARNING;SOFT;2;USERS WARNING - 6 users currently logged in
+[1451370310] SERVICE ALERT: credr_prod_52.74.247.15;Current Users;WARNING;HARD;3;USERS WARNING - 6 users currently logged in
+[1451370310] SERVICE NOTIFICATION: sajal;credr_prod_52.74.247.15;Current Users;WARNING;notify-service-by-email;USERS WARNING - 6 users currently logged in
+[1451370310] SERVICE NOTIFICATION: nagiosadmin;credr_prod_52.74.247.15;Current Users;WARNING;notify-service-by-email;USERS WARNING - 6 users currently logged in
+[1451370310] wproc: NOTIFY job 2233 from worker Core Worker 4660 is a non-check helper but exited with return code 2
+[1451370310] wproc:   host=credr_prod_52.74.247.15; service=Current Users; contact=nagiosadmin
+[1451370310] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451370310] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451370310] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451372804] Auto-save of retention data completed successfully.
+[1451372820] wproc: Core Worker 4658: job 2318 (pid=24751) timed out. Killing it
+[1451372820] wproc: CHECK job 2318 from worker Core Worker 4658 timed out after 30.02s
+[1451372820] wproc:   host=credr_prodsolr_52.74.114.132; service=(null);
+[1451372820] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451372820] Warning: Check of host 'credr_prodsolr_52.74.114.132' timed out after 30.02 seconds
+[1451372820] wproc: Core Worker 4658: job 2318 (pid=24751): Dormant child reaped
+[1451373466] SERVICE NOTIFICATION: sajal;credr_prod_52.74.247.15;Total Processes;WARNING;notify-service-by-email;PROCS WARNING: 273 processes
+[1451373466] SERVICE NOTIFICATION: nagiosadmin;credr_prod_52.74.247.15;Total Processes;WARNING;notify-service-by-email;PROCS WARNING: 273 processes
+[1451373466] wproc: NOTIFY job 2342 from worker Core Worker 4661 is a non-check helper but exited with return code 2
+[1451373466] wproc:   host=credr_prod_52.74.247.15; service=Total Processes; contact=nagiosadmin
+[1451373466] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451373466] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451373466] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451373466] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1451373910] SERVICE NOTIFICATION: sajal;credr_prod_52.74.247.15;Current Users;WARNING;notify-service-by-email;USERS WARNING - 7 users currently logged in
+[1451373910] SERVICE NOTIFICATION: nagiosadmin;credr_prod_52.74.247.15;Current Users;WARNING;notify-service-by-email;USERS WARNING - 7 users currently logged in
+[1451373910] wproc: NOTIFY job 2357 from worker Core Worker 4660 is a non-check helper but exited with return code 2
+[1451373910] wproc:   host=credr_prod_52.74.247.15; service=Current Users; contact=nagiosadmin
+[1451373910] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451373910] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451373910] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451374205] HOST NOTIFICATION: sajal;credr_dev_52.74.244.220;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451374205] HOST NOTIFICATION: nagiosadmin;credr_dev_52.74.244.220;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451374205] wproc: NOTIFY job 2368 from worker Core Worker 4660 is a non-check helper but exited with return code 2
+[1451374205] wproc:   host=credr_dev_52.74.244.220; service=(none); contact=nagiosadmin
+[1451374205] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451374205] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451374205] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451374236] HOST NOTIFICATION: sajal;credr_stage_52.74.191.24;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451374236] HOST NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451374236] wproc: NOTIFY job 2370 from worker Core Worker 4658 is a non-check helper but exited with return code 2
+[1451374236] wproc:   host=credr_stage_52.74.191.24; service=(none); contact=nagiosadmin
+[1451374236] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451374236] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451374236] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451374285] HOST NOTIFICATION: sajal;credr_prodsolr_52.74.114.132;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451374285] HOST NOTIFICATION: nagiosadmin;credr_prodsolr_52.74.114.132;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1451374285] wproc: NOTIFY job 2373 from worker Core Worker 4660 is a non-check helper but exited with return code 2
+[1451374285] wproc:   host=credr_prodsolr_52.74.114.132; service=(none); contact=nagiosadmin
+[1451374285] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451374285] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451374285] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451374836] HOST ALERT: credr_stage_52.74.191.24;UP;HARD;10;PING WARNING - Packet loss = 90%, RTA = 0.60 ms
+[1451374836] HOST NOTIFICATION: sajal;credr_stage_52.74.191.24;UP;notify-host-by-email;PING WARNING - Packet loss = 90%, RTA = 0.60 ms
+[1451374836] HOST NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;UP;notify-host-by-email;PING WARNING - Packet loss = 90%, RTA = 0.60 ms
+[1451374836] wproc: NOTIFY job 2392 from worker Core Worker 4659 is a non-check helper but exited with return code 2
+[1451374836] wproc:   host=credr_stage_52.74.191.24; service=(none); contact=nagiosadmin
+[1451374836] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451374836] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451374836] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451374837] HOST ALERT: credr_dev_52.74.244.220;UP;HARD;10;PING OK - Packet loss = 75%, RTA = 0.67 ms
+[1451374837] HOST NOTIFICATION: sajal;credr_dev_52.74.244.220;UP;notify-host-by-email;PING OK - Packet loss = 75%, RTA = 0.67 ms
+[1451374837] HOST NOTIFICATION: nagiosadmin;credr_dev_52.74.244.220;UP;notify-host-by-email;PING OK - Packet loss = 75%, RTA = 0.67 ms
+[1451374837] wproc: NOTIFY job 2392 from worker Core Worker 4658 is a non-check helper but exited with return code 2
+[1451374837] wproc:   host=credr_dev_52.74.244.220; service=(none); contact=nagiosadmin
+[1451374837] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451374837] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451374837] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451374859] HOST ALERT: credr_prodsolr_52.74.114.132;UP;HARD;10;PING OK - Packet loss = 0%, RTA = 1.32 ms
+[1451374859] HOST NOTIFICATION: sajal;credr_prodsolr_52.74.114.132;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 1.32 ms
+[1451374859] HOST NOTIFICATION: nagiosadmin;credr_prodsolr_52.74.114.132;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 1.32 ms
+[1451374859] wproc: NOTIFY job 2394 from worker Core Worker 4660 is a non-check helper but exited with return code 2
+[1451374859] wproc:   host=credr_prodsolr_52.74.114.132; service=(none); contact=nagiosadmin
+[1451374859] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451374859] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451374859] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451375108] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;credr_stage_52.74.191.24;1451375106
+[1451375112] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;credr_stage_52.74.191.24;1451375111
+[1451375157] Caught SIGTERM, shutting down...
+[1451375157] Successfully shutdown... (PID=4657)
+[1451375157] Event broker module 'NERD' deinitialized successfully.
+[1451375158] Nagios 4.1.1 starting... (PID=26560)
+[1451375158] Local time is Tue Dec 29 13:15:58 IST 2015
+[1451375158] LOG VERSION: 2.0
+[1451375158] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451375158] qh: core query handler registered
+[1451375158] nerd: Channel hostchecks registered successfully
+[1451375158] nerd: Channel servicechecks registered successfully
+[1451375158] nerd: Channel opathchecks registered successfully
+[1451375158] nerd: Fully initialized and ready to rock!
+[1451375158] wproc: Successfully registered manager as @wproc with query handler
+[1451375158] wproc: Registry request: name=Core Worker 26561;pid=26561
+[1451375158] wproc: Registry request: name=Core Worker 26562;pid=26562
+[1451375158] wproc: Registry request: name=Core Worker 26563;pid=26563
+[1451375158] wproc: Registry request: name=Core Worker 26564;pid=26564
+[1451375158] Successfully launched command file worker with pid 26565
+[1451376310] SERVICE ALERT: credr_prod_52.74.247.15;Current Users;OK;HARD;3;USERS OK - 4 users currently logged in
+[1451376310] SERVICE NOTIFICATION: sajal;credr_prod_52.74.247.15;Current Users;OK;notify-service-by-email;USERS OK - 4 users currently logged in
+[1451376310] SERVICE NOTIFICATION: nagiosadmin;credr_prod_52.74.247.15;Current Users;OK;notify-service-by-email;USERS OK - 4 users currently logged in
+[1451376466] SERVICE ALERT: credr_prod_52.74.247.15;Total Processes;OK;HARD;3;PROCS OK: 169 processes
+[1451376466] SERVICE NOTIFICATION: sajal;credr_prod_52.74.247.15;Total Processes;OK;notify-service-by-email;PROCS OK: 169 processes
+[1451376466] SERVICE NOTIFICATION: nagiosadmin;credr_prod_52.74.247.15;Total Processes;OK;notify-service-by-email;PROCS OK: 169 processes
+[1451376546] SERVICE ALERT: credr_prod_52.74.247.15;Supervisor WebApp;CRITICAL;SOFT;1;credrWebApp                      FATAL      Exited too quickly (process log may have details)
+[1451376666] SERVICE ALERT: credr_prod_52.74.247.15;Supervisor WebApp;OK;SOFT;2;credrWebApp                      RUNNING    pid 8783, uptime 0:00:48
+[1451378757] Auto-save of retention data completed successfully.
+[1451382357] Auto-save of retention data completed successfully.
+[1451383645] wproc: Core Worker 26563: job 236 (pid=29160) timed out. Killing it
+[1451383645] wproc: CHECK job 236 from worker Core Worker 26563 timed out after 60.03s
+[1451383645] wproc:   host=credr_stage_52.74.191.24; service=Nginx https;
+[1451383645] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451383645] Warning: Check of service 'Nginx https' on host 'credr_stage_52.74.191.24' timed out after 60.026s!
+[1451383645] SERVICE ALERT: credr_stage_52.74.191.24;Nginx https;CRITICAL;SOFT;1;(Service check timed out after 60.03 seconds)
+[1451383645] wproc: Core Worker 26563: job 236 (pid=29160): Dormant child reaped
+[1451383765] wproc: Core Worker 26561: job 241 (pid=29187) timed out. Killing it
+[1451383765] wproc: CHECK job 241 from worker Core Worker 26561 timed out after 60.04s
+[1451383765] wproc:   host=credr_stage_52.74.191.24; service=Nginx https;
+[1451383765] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451383765] Warning: Check of service 'Nginx https' on host 'credr_stage_52.74.191.24' timed out after 60.040s!
+[1451383765] SERVICE ALERT: credr_stage_52.74.191.24;Nginx https;CRITICAL;SOFT;2;(Service check timed out after 60.04 seconds)
+[1451383765] wproc: Core Worker 26561: job 241 (pid=29187): Dormant child reaped
+[1451383885] wproc: Core Worker 26564: job 244 (pid=29219) timed out. Killing it
+[1451383885] wproc: CHECK job 244 from worker Core Worker 26564 timed out after 60.03s
+[1451383885] wproc:   host=credr_stage_52.74.191.24; service=Nginx https;
+[1451383885] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451383885] Warning: Check of service 'Nginx https' on host 'credr_stage_52.74.191.24' timed out after 60.025s!
+[1451383885] SERVICE ALERT: credr_stage_52.74.191.24;Nginx https;CRITICAL;HARD;3;(Service check timed out after 60.03 seconds)
+[1451383885] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Nginx https;CRITICAL;notify-service-by-email;(Service check timed out after 60.03 seconds)
+[1451383885] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Nginx https;CRITICAL;notify-service-by-email;(Service check timed out after 60.03 seconds)
+[1451383885] wproc: Core Worker 26564: job 244 (pid=29219): Dormant child reaped
+[1451384485] wproc: Core Worker 26561: job 262 (pid=29328) timed out. Killing it
+[1451384485] wproc: CHECK job 262 from worker Core Worker 26561 timed out after 60.02s
+[1451384485] wproc:   host=credr_stage_52.74.191.24; service=Nginx https;
+[1451384485] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451384485] Warning: Check of service 'Nginx https' on host 'credr_stage_52.74.191.24' timed out after 60.017s!
+[1451384485] wproc: Core Worker 26561: job 262 (pid=29328): Dormant child reaped
+[1451385085] wproc: Core Worker 26564: job 278 (pid=29433) timed out. Killing it
+[1451385085] wproc: CHECK job 278 from worker Core Worker 26564 timed out after 60.03s
+[1451385085] wproc:   host=credr_stage_52.74.191.24; service=Nginx https;
+[1451385085] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451385085] Warning: Check of service 'Nginx https' on host 'credr_stage_52.74.191.24' timed out after 60.025s!
+[1451385085] wproc: Core Worker 26564: job 278 (pid=29433): Dormant child reaped
+[1451385685] wproc: Core Worker 26563: job 295 (pid=29537) timed out. Killing it
+[1451385685] wproc: CHECK job 295 from worker Core Worker 26563 timed out after 60.03s
+[1451385685] wproc:   host=credr_stage_52.74.191.24; service=Nginx https;
+[1451385685] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451385685] Warning: Check of service 'Nginx https' on host 'credr_stage_52.74.191.24' timed out after 60.025s!
+[1451385685] wproc: Core Worker 26563: job 295 (pid=29537): Dormant child reaped
+[1451385957] Auto-save of retention data completed successfully.
+[1451386285] wproc: Core Worker 26562: job 312 (pid=29643) timed out. Killing it
+[1451386285] wproc: CHECK job 312 from worker Core Worker 26562 timed out after 60.02s
+[1451386285] wproc:   host=credr_stage_52.74.191.24; service=Nginx https;
+[1451386285] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451386285] Warning: Check of service 'Nginx https' on host 'credr_stage_52.74.191.24' timed out after 60.021s!
+[1451386285] wproc: Core Worker 26562: job 312 (pid=29643): Dormant child reaped
+[1451386885] wproc: Core Worker 26564: job 328 (pid=29801) timed out. Killing it
+[1451386885] wproc: CHECK job 328 from worker Core Worker 26564 timed out after 60.03s
+[1451386885] wproc:   host=credr_stage_52.74.191.24; service=Nginx https;
+[1451386885] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451386885] Warning: Check of service 'Nginx https' on host 'credr_stage_52.74.191.24' timed out after 60.025s!
+[1451386885] wproc: Core Worker 26564: job 328 (pid=29801): Dormant child reaped
+[1451387485] wproc: Core Worker 26563: job 345 (pid=29960) timed out. Killing it
+[1451387485] wproc: CHECK job 345 from worker Core Worker 26563 timed out after 60.02s
+[1451387485] wproc:   host=credr_stage_52.74.191.24; service=Nginx https;
+[1451387485] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451387485] Warning: Check of service 'Nginx https' on host 'credr_stage_52.74.191.24' timed out after 60.025s!
+[1451387485] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Nginx https;CRITICAL;notify-service-by-email;(Service check timed out after 60.02 seconds)
+[1451387485] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Nginx https;CRITICAL;notify-service-by-email;(Service check timed out after 60.02 seconds)
+[1451387485] wproc: Core Worker 26563: job 345 (pid=29960): Dormant child reaped
+[1451388085] wproc: Core Worker 26564: job 362 (pid=30154) timed out. Killing it
+[1451388085] wproc: CHECK job 362 from worker Core Worker 26564 timed out after 60.02s
+[1451388085] wproc:   host=credr_stage_52.74.191.24; service=Nginx https;
+[1451388085] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451388085] Warning: Check of service 'Nginx https' on host 'credr_stage_52.74.191.24' timed out after 60.024s!
+[1451388085] wproc: Core Worker 26564: job 362 (pid=30154): Dormant child reaped
+[1451388685] wproc: Core Worker 26563: job 379 (pid=30302) timed out. Killing it
+[1451388685] wproc: CHECK job 379 from worker Core Worker 26563 timed out after 60.02s
+[1451388685] wproc:   host=credr_stage_52.74.191.24; service=Nginx https;
+[1451388685] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451388685] Warning: Check of service 'Nginx https' on host 'credr_stage_52.74.191.24' timed out after 60.025s!
+[1451388685] wproc: Core Worker 26563: job 379 (pid=30302): Dormant child reaped
+[1451389285] wproc: Core Worker 26562: job 396 (pid=30454) timed out. Killing it
+[1451389285] wproc: CHECK job 396 from worker Core Worker 26562 timed out after 60.02s
+[1451389285] wproc:   host=credr_stage_52.74.191.24; service=Nginx https;
+[1451389285] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451389285] Warning: Check of service 'Nginx https' on host 'credr_stage_52.74.191.24' timed out after 60.023s!
+[1451389285] wproc: Core Worker 26562: job 396 (pid=30454): Dormant child reaped
+[1451389557] Auto-save of retention data completed successfully.
+[1451389885] wproc: Core Worker 26561: job 413 (pid=30603) timed out. Killing it
+[1451389885] wproc: CHECK job 413 from worker Core Worker 26561 timed out after 60.01s
+[1451389885] wproc:   host=credr_stage_52.74.191.24; service=Nginx https;
+[1451389885] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451389885] Warning: Check of service 'Nginx https' on host 'credr_stage_52.74.191.24' timed out after 60.011s!
+[1451389885] wproc: Core Worker 26561: job 413 (pid=30603): Dormant child reaped
+[1451390485] wproc: Core Worker 26564: job 429 (pid=30742) timed out. Killing it
+[1451390485] wproc: CHECK job 429 from worker Core Worker 26564 timed out after 60.02s
+[1451390485] wproc:   host=credr_stage_52.74.191.24; service=Nginx https;
+[1451390485] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451390485] Warning: Check of service 'Nginx https' on host 'credr_stage_52.74.191.24' timed out after 60.021s!
+[1451390485] wproc: Core Worker 26564: job 429 (pid=30742): Dormant child reaped
+[1451391085] wproc: Core Worker 26563: job 446 (pid=30887) timed out. Killing it
+[1451391085] wproc: CHECK job 446 from worker Core Worker 26563 timed out after 60.02s
+[1451391085] wproc:   host=credr_stage_52.74.191.24; service=Nginx https;
+[1451391085] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451391085] Warning: Check of service 'Nginx https' on host 'credr_stage_52.74.191.24' timed out after 60.021s!
+[1451391085] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Nginx https;CRITICAL;notify-service-by-email;(Service check timed out after 60.02 seconds)
+[1451391085] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Nginx https;CRITICAL;notify-service-by-email;(Service check timed out after 60.02 seconds)
+[1451391085] wproc: Core Worker 26563: job 446 (pid=30887): Dormant child reaped
+[1451391685] wproc: Core Worker 26564: job 463 (pid=31058) timed out. Killing it
+[1451391685] wproc: CHECK job 463 from worker Core Worker 26564 timed out after 60.02s
+[1451391685] wproc:   host=credr_stage_52.74.191.24; service=Nginx https;
+[1451391685] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451391685] Warning: Check of service 'Nginx https' on host 'credr_stage_52.74.191.24' timed out after 60.021s!
+[1451391685] wproc: Core Worker 26564: job 463 (pid=31058): Dormant child reaped
+[1451392285] wproc: Core Worker 26563: job 480 (pid=31204) timed out. Killing it
+[1451392285] wproc: CHECK job 480 from worker Core Worker 26563 timed out after 60.02s
+[1451392285] wproc:   host=credr_stage_52.74.191.24; service=Nginx https;
+[1451392285] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1451392285] Warning: Check of service 'Nginx https' on host 'credr_stage_52.74.191.24' timed out after 60.021s!
+[1451392285] wproc: Core Worker 26563: job 480 (pid=31204): Dormant child reaped
+[1451392789] EXTERNAL COMMAND: DISABLE_SVC_CHECK;credr_stage_52.74.191.24;Nginx https
+[1451393157] Auto-save of retention data completed successfully.
+[1451396757] Auto-save of retention data completed successfully.
+[1451400357] Auto-save of retention data completed successfully.
+[1451403957] Auto-save of retention data completed successfully.
+[1451407557] Auto-save of retention data completed successfully.
+[1451411157] Auto-save of retention data completed successfully.

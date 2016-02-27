@@ -1,0 +1,54 @@
+[1450981800] LOG ROTATION: DAILY
+[1450981800] LOG VERSION: 2.0
+[1450981800] CURRENT HOST STATE: Nagios Server;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1450981800] CURRENT HOST STATE: credr_dev_52.74.244.220;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.68 ms
+[1450981800] CURRENT HOST STATE: credr_stage_52.74.191.24;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.64 ms
+[1450981800] CURRENT SERVICE STATE: Nagios Server;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1450981800] CURRENT SERVICE STATE: Nagios Server;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1450981800] CURRENT SERVICE STATE: Nagios Server;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11783 bytes in 0.000 second response time
+[1450981800] CURRENT SERVICE STATE: Nagios Server;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1450981800] CURRENT SERVICE STATE: Nagios Server;Root Partition;OK;HARD;1;DISK OK - free space: / 37004 MB (96% inode=97%):
+[1450981800] CURRENT SERVICE STATE: Nagios Server;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1450981800] CURRENT SERVICE STATE: Nagios Server;Total Processes;OK;HARD;1;PROCS OK: 78 processes with STATE = RSZDT
+[1450981800] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1450981800] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1450981800] CURRENT SERVICE STATE: credr_dev_52.74.244.220;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1450981800] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 2489 MB - 62% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1450981800] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1450981800] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Root Partition;OK;HARD;1;DISK OK - free space: / 1161 MB (15% inode=62%):
+[1450981800] CURRENT SERVICE STATE: credr_dev_52.74.244.220;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1450981800] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Total Processes;OK;HARD;1;PROCS OK: 122 processes
+[1450981800] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1450981800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1450981800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1450981800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 393 bytes in 0.001 second response time
+[1450981800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 404 MB - 10% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1450981800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1450981800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Root Partition;OK;HARD;1;DISK OK - free space: / 51715 MB (89% inode=92%):
+[1450981800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.3 (protocol 2.0)
+[1450981800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Total Processes;OK;HARD;1;PROCS OK: 127 processes
+[1450981800] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1450985063] Auto-save of retention data completed successfully.
+[1450988663] Auto-save of retention data completed successfully.
+[1450992263] Auto-save of retention data completed successfully.
+[1450995863] Auto-save of retention data completed successfully.
+[1450999463] Auto-save of retention data completed successfully.
+[1451003063] Auto-save of retention data completed successfully.
+[1451006663] Auto-save of retention data completed successfully.
+[1451010263] Auto-save of retention data completed successfully.
+[1451013863] Auto-save of retention data completed successfully.
+[1451017463] Auto-save of retention data completed successfully.
+[1451021063] Auto-save of retention data completed successfully.
+[1451024663] Auto-save of retention data completed successfully.
+[1451028263] Auto-save of retention data completed successfully.
+[1451031863] Auto-save of retention data completed successfully.
+[1451035463] Auto-save of retention data completed successfully.
+[1451039063] Auto-save of retention data completed successfully.
+[1451042663] Auto-save of retention data completed successfully.
+[1451046263] Auto-save of retention data completed successfully.
+[1451049863] Auto-save of retention data completed successfully.
+[1451053463] Auto-save of retention data completed successfully.
+[1451057063] Auto-save of retention data completed successfully.
+[1451060663] Auto-save of retention data completed successfully.
+[1451064263] Auto-save of retention data completed successfully.
+[1451067863] Auto-save of retention data completed successfully.

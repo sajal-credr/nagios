@@ -1,0 +1,674 @@
+[1451068200] LOG ROTATION: DAILY
+[1451068200] LOG VERSION: 2.0
+[1451068200] CURRENT HOST STATE: Nagios Server;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1451068200] CURRENT HOST STATE: credr_dev_52.74.244.220;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.66 ms
+[1451068200] CURRENT HOST STATE: credr_stage_52.74.191.24;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.64 ms
+[1451068200] CURRENT SERVICE STATE: Nagios Server;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1451068200] CURRENT SERVICE STATE: Nagios Server;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451068200] CURRENT SERVICE STATE: Nagios Server;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11783 bytes in 0.000 second response time
+[1451068200] CURRENT SERVICE STATE: Nagios Server;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1451068200] CURRENT SERVICE STATE: Nagios Server;Root Partition;OK;HARD;1;DISK OK - free space: / 37004 MB (96% inode=97%):
+[1451068200] CURRENT SERVICE STATE: Nagios Server;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1451068200] CURRENT SERVICE STATE: Nagios Server;Total Processes;OK;HARD;1;PROCS OK: 78 processes with STATE = RSZDT
+[1451068200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1451068200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451068200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1451068200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 2694 MB - 68% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451068200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451068200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Root Partition;OK;HARD;1;DISK OK - free space: / 1155 MB (15% inode=62%):
+[1451068200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 (protocol 2.0)
+[1451068200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Total Processes;OK;HARD;1;PROCS OK: 122 processes
+[1451068200] CURRENT SERVICE STATE: credr_dev_52.74.244.220;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1451068200] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1451068200] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1451068200] CURRENT SERVICE STATE: credr_stage_52.74.191.24;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 393 bytes in 0.001 second response time
+[1451068200] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Memory;OK;HARD;1;[MEMORY] Total: 3951 MB - Used: 456 MB - 11% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451068200] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Ping Check;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1451068200] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Root Partition;OK;HARD;1;DISK OK - free space: / 51711 MB (89% inode=92%):
+[1451068200] CURRENT SERVICE STATE: credr_stage_52.74.191.24;SSH;OK;HARD;1;SSH OK - OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.3 (protocol 2.0)
+[1451068200] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Total Processes;OK;HARD;1;PROCS OK: 127 processes
+[1451068200] CURRENT SERVICE STATE: credr_stage_52.74.191.24;Zombie Process;OK;HARD;1;PROCS OK: 0 processes with STATE = Z
+[1451071463] Auto-save of retention data completed successfully.
+[1451075063] Auto-save of retention data completed successfully.
+[1451078663] Auto-save of retention data completed successfully.
+[1451082263] Auto-save of retention data completed successfully.
+[1451085863] Auto-save of retention data completed successfully.
+[1451089463] Auto-save of retention data completed successfully.
+[1451093063] Auto-save of retention data completed successfully.
+[1451096663] Auto-save of retention data completed successfully.
+[1451100263] Auto-save of retention data completed successfully.
+[1451103863] Auto-save of retention data completed successfully.
+[1451107463] Auto-save of retention data completed successfully.
+[1451109837] Caught SIGTERM, shutting down...
+[1451109837] Successfully shutdown... (PID=4195)
+[1451109837] Event broker module 'NERD' deinitialized successfully.
+[1451109838] Nagios 4.1.1 starting... (PID=21928)
+[1451109838] Local time is Sat Dec 26 11:33:58 IST 2015
+[1451109838] LOG VERSION: 2.0
+[1451109838] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451109838] qh: core query handler registered
+[1451109838] nerd: Channel hostchecks registered successfully
+[1451109838] nerd: Channel servicechecks registered successfully
+[1451109838] nerd: Channel opathchecks registered successfully
+[1451109838] nerd: Fully initialized and ready to rock!
+[1451109838] wproc: Successfully registered manager as @wproc with query handler
+[1451109838] wproc: Registry request: name=Core Worker 21932;pid=21932
+[1451109838] wproc: Registry request: name=Core Worker 21931;pid=21931
+[1451109838] wproc: Registry request: name=Core Worker 21930;pid=21930
+[1451109838] wproc: Registry request: name=Core Worker 21929;pid=21929
+[1451109838] Successfully launched command file worker with pid 21933
+[1451110087] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Nginx 80;1451110086
+[1451110087] SERVICE ALERT: credr_stage_52.74.191.24;Nginx 80;CRITICAL;SOFT;1;connect to address 52.74.191.24 and port 80: Connection refused
+[1451110107] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Nginx 80;1451110105
+[1451110107] SERVICE ALERT: credr_stage_52.74.191.24;Nginx 80;OK;SOFT;2;HTTP OK: HTTP/1.1 301 Moved Permanently - 393 bytes in 0.001 second response time
+[1451110726] Caught SIGTERM, shutting down...
+[1451110726] Successfully shutdown... (PID=21928)
+[1451110726] Event broker module 'NERD' deinitialized successfully.
+[1451110727] Nagios 4.1.1 starting... (PID=22393)
+[1451110727] Local time is Sat Dec 26 11:48:47 IST 2015
+[1451110727] LOG VERSION: 2.0
+[1451110727] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451110727] qh: core query handler registered
+[1451110727] nerd: Channel hostchecks registered successfully
+[1451110727] nerd: Channel servicechecks registered successfully
+[1451110727] nerd: Channel opathchecks registered successfully
+[1451110727] nerd: Fully initialized and ready to rock!
+[1451110727] wproc: Successfully registered manager as @wproc with query handler
+[1451110727] wproc: Registry request: name=Core Worker 22396;pid=22396
+[1451110727] wproc: Registry request: name=Core Worker 22394;pid=22394
+[1451110727] wproc: Registry request: name=Core Worker 22395;pid=22395
+[1451110727] wproc: Registry request: name=Core Worker 22397;pid=22397
+[1451110727] Successfully launched command file worker with pid 22398
+[1451110745] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Nginx 443;1451110744
+[1451110745] SERVICE ALERT: credr_stage_52.74.191.24;Nginx 443;WARNING;SOFT;1;Generic error code.
+[1451110810] Caught SIGTERM, shutting down...
+[1451110810] Successfully shutdown... (PID=22393)
+[1451110810] Event broker module 'NERD' deinitialized successfully.
+[1451110811] Nagios 4.1.1 starting... (PID=22468)
+[1451110811] Local time is Sat Dec 26 11:50:11 IST 2015
+[1451110811] LOG VERSION: 2.0
+[1451110811] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451110811] qh: core query handler registered
+[1451110811] nerd: Channel hostchecks registered successfully
+[1451110811] nerd: Channel servicechecks registered successfully
+[1451110811] nerd: Channel opathchecks registered successfully
+[1451110811] nerd: Fully initialized and ready to rock!
+[1451110811] wproc: Successfully registered manager as @wproc with query handler
+[1451110811] wproc: Registry request: name=Core Worker 22472;pid=22472
+[1451110811] wproc: Registry request: name=Core Worker 22471;pid=22471
+[1451110811] wproc: Registry request: name=Core Worker 22470;pid=22470
+[1451110811] wproc: Registry request: name=Core Worker 22469;pid=22469
+[1451110811] Successfully launched command file worker with pid 22473
+[1451110820] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Nginx 443;1451110818
+[1451110820] SERVICE ALERT: credr_stage_52.74.191.24;Nginx 443;WARNING;SOFT;2;Generic error code.
+[1451110826] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Nginx 443;1451110825
+[1451110826] SERVICE ALERT: credr_stage_52.74.191.24;Nginx 443;WARNING;HARD;3;Generic error code.
+[1451110826] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Nginx 443;WARNING;notify-service-by-email;Generic error code.
+[1451110826] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Nginx 443;WARNING;notify-service-by-email;Generic error code.
+[1451110826] wproc: NOTIFY job 1 from worker Core Worker 22471 is a non-check helper but exited with return code 2
+[1451110826] wproc:   host=credr_stage_52.74.191.24; service=Nginx 443; contact=nagiosadmin
+[1451110826] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451110826] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451110826] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451111027] Caught SIGTERM, shutting down...
+[1451111027] Successfully shutdown... (PID=22468)
+[1451111027] Event broker module 'NERD' deinitialized successfully.
+[1451111028] Nagios 4.1.1 starting... (PID=22579)
+[1451111028] Local time is Sat Dec 26 11:53:48 IST 2015
+[1451111028] LOG VERSION: 2.0
+[1451111028] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451111028] qh: core query handler registered
+[1451111028] nerd: Channel hostchecks registered successfully
+[1451111028] nerd: Channel servicechecks registered successfully
+[1451111028] nerd: Channel opathchecks registered successfully
+[1451111028] nerd: Fully initialized and ready to rock!
+[1451111028] wproc: Successfully registered manager as @wproc with query handler
+[1451111028] wproc: Registry request: name=Core Worker 22583;pid=22583
+[1451111028] wproc: Registry request: name=Core Worker 22582;pid=22582
+[1451111028] wproc: Registry request: name=Core Worker 22581;pid=22581
+[1451111028] wproc: Registry request: name=Core Worker 22580;pid=22580
+[1451111028] Successfully launched command file worker with pid 22584
+[1451111035] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Nginx 443;1451111034
+[1451111035] SERVICE ALERT: credr_stage_52.74.191.24;Nginx 443;OK;HARD;3;HTTP/1.1 200 OK
+[1451111035] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Nginx 443;OK;notify-service-by-email;HTTP/1.1 200 OK
+[1451111035] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Nginx 443;OK;notify-service-by-email;HTTP/1.1 200 OK
+[1451111035] wproc: NOTIFY job 0 from worker Core Worker 22581 is a non-check helper but exited with return code 2
+[1451111035] wproc:   host=credr_stage_52.74.191.24; service=Nginx 443; contact=nagiosadmin
+[1451111035] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451111035] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451111035] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451111040] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Nginx 443;1451111039
+[1451111096] Caught SIGTERM, shutting down...
+[1451111096] Successfully shutdown... (PID=22579)
+[1451111096] Event broker module 'NERD' deinitialized successfully.
+[1451111097] Nagios 4.1.1 starting... (PID=22669)
+[1451111097] Local time is Sat Dec 26 11:54:57 IST 2015
+[1451111097] LOG VERSION: 2.0
+[1451111097] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451111097] qh: core query handler registered
+[1451111097] nerd: Channel hostchecks registered successfully
+[1451111097] nerd: Channel servicechecks registered successfully
+[1451111097] nerd: Channel opathchecks registered successfully
+[1451111097] nerd: Fully initialized and ready to rock!
+[1451111097] wproc: Successfully registered manager as @wproc with query handler
+[1451111097] wproc: Registry request: name=Core Worker 22673;pid=22673
+[1451111097] wproc: Registry request: name=Core Worker 22672;pid=22672
+[1451111097] wproc: Registry request: name=Core Worker 22671;pid=22671
+[1451111097] wproc: Registry request: name=Core Worker 22670;pid=22670
+[1451111097] Successfully launched command file worker with pid 22674
+[1451113880] Caught SIGTERM, shutting down...
+[1451113880] Successfully shutdown... (PID=22669)
+[1451113880] Event broker module 'NERD' deinitialized successfully.
+[1451113881] Nagios 4.1.1 starting... (PID=23366)
+[1451113881] Local time is Sat Dec 26 12:41:21 IST 2015
+[1451113881] LOG VERSION: 2.0
+[1451113881] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451113881] qh: core query handler registered
+[1451113881] nerd: Channel hostchecks registered successfully
+[1451113881] nerd: Channel servicechecks registered successfully
+[1451113881] nerd: Channel opathchecks registered successfully
+[1451113881] nerd: Fully initialized and ready to rock!
+[1451113881] wproc: Successfully registered manager as @wproc with query handler
+[1451113881] wproc: Registry request: name=Core Worker 23370;pid=23370
+[1451113881] wproc: Registry request: name=Core Worker 23368;pid=23368
+[1451113881] wproc: Registry request: name=Core Worker 23369;pid=23369
+[1451113881] wproc: Registry request: name=Core Worker 23367;pid=23367
+[1451113881] Successfully launched command file worker with pid 23371
+[1451113897] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;CPU Usage;1451113895
+[1451113901] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;CPU Usage;1451113900
+[1451116983] Caught SIGTERM, shutting down...
+[1451116983] Successfully shutdown... (PID=23366)
+[1451116983] Event broker module 'NERD' deinitialized successfully.
+[1451116984] Nagios 4.1.1 starting... (PID=23866)
+[1451116984] Local time is Sat Dec 26 13:33:04 IST 2015
+[1451116984] LOG VERSION: 2.0
+[1451116984] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451116984] qh: core query handler registered
+[1451116984] nerd: Channel hostchecks registered successfully
+[1451116984] nerd: Channel servicechecks registered successfully
+[1451116984] nerd: Channel opathchecks registered successfully
+[1451116984] nerd: Fully initialized and ready to rock!
+[1451116984] wproc: Successfully registered manager as @wproc with query handler
+[1451116984] wproc: Registry request: name=Core Worker 23867;pid=23867
+[1451116984] wproc: Registry request: name=Core Worker 23868;pid=23868
+[1451116984] wproc: Registry request: name=Core Worker 23869;pid=23869
+[1451116984] wproc: Registry request: name=Core Worker 23870;pid=23870
+[1451116985] Successfully launched command file worker with pid 23871
+[1451116998] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451116997
+[1451116998] SERVICE ALERT: credr_stage_52.74.191.24;Supervisor;UNKNOWN;SOFT;1;NRPE: Unable to read output
+[1451117002] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451117001
+[1451117002] SERVICE ALERT: credr_stage_52.74.191.24;Supervisor;UNKNOWN;SOFT;2;NRPE: Unable to read output
+[1451117122] SERVICE ALERT: credr_stage_52.74.191.24;Supervisor;UNKNOWN;HARD;3;NRPE: Unable to read output
+[1451117122] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Supervisor;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1451117122] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Supervisor;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1451117122] wproc: NOTIFY job 3 from worker Core Worker 23867 is a non-check helper but exited with return code 2
+[1451117122] wproc:   host=credr_stage_52.74.191.24; service=Supervisor; contact=nagiosadmin
+[1451117122] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451117122] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451117122] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451117122] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1451117314] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451117313
+[1451117314] SERVICE ALERT: credr_stage_52.74.191.24;Supervisor;CRITICAL;HARD;3;CRITICAL: Could not get status of credrWebApp
+[1451117314] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Supervisor;CRITICAL;notify-service-by-email;CRITICAL: Could not get status of credrWebApp
+[1451117314] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Supervisor;CRITICAL;notify-service-by-email;CRITICAL: Could not get status of credrWebApp
+[1451117314] wproc: NOTIFY job 7 from worker Core Worker 23870 is a non-check helper but exited with return code 2
+[1451117314] wproc:   host=credr_stage_52.74.191.24; service=Supervisor; contact=nagiosadmin
+[1451117314] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451117314] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451117314] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451117314] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1451117319] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451117318
+[1451117327] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451117326
+[1451117395] Caught SIGTERM, shutting down...
+[1451117395] Successfully shutdown... (PID=23866)
+[1451117395] Event broker module 'NERD' deinitialized successfully.
+[1451117396] Nagios 4.1.1 starting... (PID=24089)
+[1451117396] Local time is Sat Dec 26 13:39:56 IST 2015
+[1451117396] LOG VERSION: 2.0
+[1451117396] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451117396] qh: core query handler registered
+[1451117396] nerd: Channel hostchecks registered successfully
+[1451117396] nerd: Channel servicechecks registered successfully
+[1451117396] nerd: Channel opathchecks registered successfully
+[1451117396] nerd: Fully initialized and ready to rock!
+[1451117396] wproc: Successfully registered manager as @wproc with query handler
+[1451117396] wproc: Registry request: name=Core Worker 24090;pid=24090
+[1451117396] wproc: Registry request: name=Core Worker 24091;pid=24091
+[1451117396] wproc: Registry request: name=Core Worker 24092;pid=24092
+[1451117396] wproc: Registry request: name=Core Worker 24093;pid=24093
+[1451117396] Successfully launched command file worker with pid 24094
+[1451117402] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451117401
+[1451117407] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451117406
+[1451117413] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451117412
+[1451118107] Caught SIGTERM, shutting down...
+[1451118107] Successfully shutdown... (PID=24089)
+[1451118107] Event broker module 'NERD' deinitialized successfully.
+[1451118108] Nagios 4.1.1 starting... (PID=24284)
+[1451118108] Local time is Sat Dec 26 13:51:48 IST 2015
+[1451118108] LOG VERSION: 2.0
+[1451118108] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451118108] qh: core query handler registered
+[1451118108] nerd: Channel hostchecks registered successfully
+[1451118108] nerd: Channel servicechecks registered successfully
+[1451118108] nerd: Channel opathchecks registered successfully
+[1451118108] nerd: Fully initialized and ready to rock!
+[1451118108] wproc: Successfully registered manager as @wproc with query handler
+[1451118108] wproc: Registry request: name=Core Worker 24288;pid=24288
+[1451118108] wproc: Registry request: name=Core Worker 24287;pid=24287
+[1451118108] wproc: Registry request: name=Core Worker 24286;pid=24286
+[1451118108] wproc: Registry request: name=Core Worker 24285;pid=24285
+[1451118108] Successfully launched command file worker with pid 24289
+[1451118120] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451118119
+[1451118126] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451118125
+[1451118133] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451118132
+[1451118247] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451118246
+[1451118259] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_stage_52.74.191.24;Supervisor;1451118257
+[1451118859] SERVICE ALERT: credr_stage_52.74.191.24;Supervisor;OK;HARD;3;credrWebApp                      RUNNING    pid 27979, uptime 0:34:17
+[1451118859] SERVICE NOTIFICATION: sajal;credr_stage_52.74.191.24;Supervisor;OK;notify-service-by-email;credrWebApp                      RUNNING    pid 27979, uptime 0:34:17
+[1451118859] SERVICE NOTIFICATION: nagiosadmin;credr_stage_52.74.191.24;Supervisor;OK;notify-service-by-email;credrWebApp                      RUNNING    pid 27979, uptime 0:34:17
+[1451118859] wproc: NOTIFY job 14 from worker Core Worker 24286 is a non-check helper but exited with return code 2
+[1451118859] wproc:   host=credr_stage_52.74.191.24; service=Supervisor; contact=nagiosadmin
+[1451118859] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451118859] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451118859] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451121707] Auto-save of retention data completed successfully.
+[1451124665] Caught SIGTERM, shutting down...
+[1451124665] Successfully shutdown... (PID=24284)
+[1451124665] Event broker module 'NERD' deinitialized successfully.
+[1451124666] Nagios 4.1.1 starting... (PID=25708)
+[1451124666] Local time is Sat Dec 26 15:41:06 IST 2015
+[1451124666] LOG VERSION: 2.0
+[1451124666] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451124666] qh: core query handler registered
+[1451124666] nerd: Channel hostchecks registered successfully
+[1451124666] nerd: Channel servicechecks registered successfully
+[1451124666] nerd: Channel opathchecks registered successfully
+[1451124666] nerd: Fully initialized and ready to rock!
+[1451124666] wproc: Successfully registered manager as @wproc with query handler
+[1451124666] wproc: Registry request: name=Core Worker 25709;pid=25709
+[1451124666] wproc: Registry request: name=Core Worker 25710;pid=25710
+[1451124666] wproc: Registry request: name=Core Worker 25711;pid=25711
+[1451124666] wproc: Registry request: name=Core Worker 25712;pid=25712
+[1451124666] Successfully launched command file worker with pid 25713
+[1451124700] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451124698
+[1451124700] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;1;connect to address 52.74.244.220 and port 80: Connection refused
+[1451124705] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451124704
+[1451124705] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;2;connect to address 52.74.244.220 and port 80: Connection refused
+[1451124825] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;HARD;3;connect to address 52.74.244.220 and port 80: Connection refused
+[1451124825] SERVICE NOTIFICATION: sajal;credr_dev_52.74.244.220;HTTP;CRITICAL;notify-service-by-email;connect to address 52.74.244.220 and port 80: Connection refused
+[1451124825] SERVICE NOTIFICATION: nagiosadmin;credr_dev_52.74.244.220;HTTP;CRITICAL;notify-service-by-email;connect to address 52.74.244.220 and port 80: Connection refused
+[1451124825] wproc: NOTIFY job 4 from worker Core Worker 25709 is a non-check helper but exited with return code 2
+[1451124825] wproc:   host=credr_dev_52.74.244.220; service=HTTP; contact=nagiosadmin
+[1451124825] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451124825] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451124825] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451124825] wproc:   stderr line 03: /usr/bin/printf: write error: Broken pipe
+[1451124866] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451124865
+[1451124866] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;OK;HARD;3;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1451124866] SERVICE NOTIFICATION: sajal;credr_dev_52.74.244.220;HTTP;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1451124866] SERVICE NOTIFICATION: nagiosadmin;credr_dev_52.74.244.220;HTTP;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1451124866] wproc: NOTIFY job 5 from worker Core Worker 25711 is a non-check helper but exited with return code 2
+[1451124866] wproc:   host=credr_dev_52.74.244.220; service=HTTP; contact=nagiosadmin
+[1451124866] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451124866] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451124866] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451124871] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451124870
+[1451124880] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451124878
+[1451124937] Caught SIGTERM, shutting down...
+[1451124937] Successfully shutdown... (PID=25708)
+[1451124937] Event broker module 'NERD' deinitialized successfully.
+[1451124938] Nagios 4.1.1 starting... (PID=25931)
+[1451124938] Local time is Sat Dec 26 15:45:38 IST 2015
+[1451124938] LOG VERSION: 2.0
+[1451124938] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451124938] qh: core query handler registered
+[1451124938] nerd: Channel hostchecks registered successfully
+[1451124938] nerd: Channel servicechecks registered successfully
+[1451124938] nerd: Channel opathchecks registered successfully
+[1451124938] nerd: Fully initialized and ready to rock!
+[1451124938] wproc: Successfully registered manager as @wproc with query handler
+[1451124938] wproc: Registry request: name=Core Worker 25935;pid=25935
+[1451124938] wproc: Registry request: name=Core Worker 25934;pid=25934
+[1451124938] wproc: Registry request: name=Core Worker 25933;pid=25933
+[1451124938] wproc: Registry request: name=Core Worker 25932;pid=25932
+[1451124938] Successfully launched command file worker with pid 25936
+[1451124973] Caught SIGTERM, shutting down...
+[1451124973] Successfully shutdown... (PID=25931)
+[1451124973] Event broker module 'NERD' deinitialized successfully.
+[1451124974] Nagios 4.1.1 starting... (PID=25989)
+[1451124974] Local time is Sat Dec 26 15:46:14 IST 2015
+[1451124974] LOG VERSION: 2.0
+[1451124974] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451124974] qh: core query handler registered
+[1451124974] nerd: Channel hostchecks registered successfully
+[1451124974] nerd: Channel servicechecks registered successfully
+[1451124974] nerd: Channel opathchecks registered successfully
+[1451124974] nerd: Fully initialized and ready to rock!
+[1451124974] wproc: Successfully registered manager as @wproc with query handler
+[1451124974] wproc: Registry request: name=Core Worker 25993;pid=25993
+[1451124974] wproc: Registry request: name=Core Worker 25992;pid=25992
+[1451124974] wproc: Registry request: name=Core Worker 25991;pid=25991
+[1451124974] wproc: Registry request: name=Core Worker 25990;pid=25990
+[1451124974] Successfully launched command file worker with pid 25994
+[1451124985] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451124984
+[1451124985] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;1;connect to address 52.74.244.220 and port 80: Connection refused
+[1451124985] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;1;check_nrpe!restart-remote-services
+[1451124985] wproc: SERVICE EVENTHANDLER job 0 from worker Core Worker 25991 is a non-check helper but exited with return code 2
+[1451124985] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451124985] wproc:   stdout line 01: NRPE: Command 'restart-remote-services' not defined
+[1451124991] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451124989
+[1451124991] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;2;connect to address 52.74.244.220 and port 80: Connection refused
+[1451124991] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;2;check_nrpe!restart-remote-services
+[1451124991] wproc: SERVICE EVENTHANDLER job 1 from worker Core Worker 25992 is a non-check helper but exited with return code 2
+[1451124991] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451124991] wproc:   stdout line 01: NRPE: Command 'restart-remote-services' not defined
+[1451125101] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451125100
+[1451125101] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;HARD;3;connect to address 52.74.244.220 and port 80: Connection refused
+[1451125101] SERVICE NOTIFICATION: sajal;credr_dev_52.74.244.220;HTTP;CRITICAL;notify-service-by-email;connect to address 52.74.244.220 and port 80: Connection refused
+[1451125101] SERVICE NOTIFICATION: nagiosadmin;credr_dev_52.74.244.220;HTTP;CRITICAL;notify-service-by-email;connect to address 52.74.244.220 and port 80: Connection refused
+[1451125101] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;HARD;3;check_nrpe!restart-remote-services
+[1451125101] wproc: NOTIFY job 4 from worker Core Worker 25993 is a non-check helper but exited with return code 2
+[1451125101] wproc:   host=credr_dev_52.74.244.220; service=HTTP; contact=nagiosadmin
+[1451125101] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451125101] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451125101] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451125101] wproc: SERVICE EVENTHANDLER job 4 from worker Core Worker 25992 is a non-check helper but exited with return code 2
+[1451125101] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451125101] wproc:   stdout line 01: NRPE: Command 'restart-remote-services' not defined
+[1451125109] Caught SIGTERM, shutting down...
+[1451125109] Successfully shutdown... (PID=25989)
+[1451125109] Event broker module 'NERD' deinitialized successfully.
+[1451125110] Nagios 4.1.1 starting... (PID=26117)
+[1451125110] Local time is Sat Dec 26 15:48:30 IST 2015
+[1451125110] LOG VERSION: 2.0
+[1451125110] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451125110] qh: core query handler registered
+[1451125110] nerd: Channel hostchecks registered successfully
+[1451125110] nerd: Channel servicechecks registered successfully
+[1451125110] nerd: Channel opathchecks registered successfully
+[1451125110] nerd: Fully initialized and ready to rock!
+[1451125110] wproc: Successfully registered manager as @wproc with query handler
+[1451125110] wproc: Registry request: name=Core Worker 26121;pid=26121
+[1451125110] wproc: Registry request: name=Core Worker 26120;pid=26120
+[1451125110] wproc: Registry request: name=Core Worker 26119;pid=26119
+[1451125110] wproc: Registry request: name=Core Worker 26118;pid=26118
+[1451125110] Successfully launched command file worker with pid 26122
+[1451125113] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451125112
+[1451125118] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451125117
+[1451125128] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451125131
+[1451125464] Caught SIGTERM, shutting down...
+[1451125464] Successfully shutdown... (PID=26117)
+[1451125464] Event broker module 'NERD' deinitialized successfully.
+[1451125465] Nagios 4.1.1 starting... (PID=26311)
+[1451125465] Local time is Sat Dec 26 15:54:25 IST 2015
+[1451125465] LOG VERSION: 2.0
+[1451125465] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451125465] qh: core query handler registered
+[1451125465] nerd: Channel hostchecks registered successfully
+[1451125465] nerd: Channel servicechecks registered successfully
+[1451125465] nerd: Channel opathchecks registered successfully
+[1451125465] nerd: Fully initialized and ready to rock!
+[1451125465] wproc: Successfully registered manager as @wproc with query handler
+[1451125465] wproc: Registry request: name=Core Worker 26315;pid=26315
+[1451125465] wproc: Registry request: name=Core Worker 26314;pid=26314
+[1451125465] wproc: Registry request: name=Core Worker 26313;pid=26313
+[1451125465] wproc: Registry request: name=Core Worker 26312;pid=26312
+[1451125465] Successfully launched command file worker with pid 26316
+[1451125539] Caught SIGTERM, shutting down...
+[1451125539] Successfully shutdown... (PID=26311)
+[1451125539] Event broker module 'NERD' deinitialized successfully.
+[1451125540] Nagios 4.1.1 starting... (PID=26372)
+[1451125540] Local time is Sat Dec 26 15:55:40 IST 2015
+[1451125540] LOG VERSION: 2.0
+[1451125540] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451125540] qh: core query handler registered
+[1451125540] nerd: Channel hostchecks registered successfully
+[1451125540] nerd: Channel servicechecks registered successfully
+[1451125540] nerd: Channel opathchecks registered successfully
+[1451125540] nerd: Fully initialized and ready to rock!
+[1451125540] wproc: Successfully registered manager as @wproc with query handler
+[1451125540] wproc: Registry request: name=Core Worker 26376;pid=26376
+[1451125540] wproc: Registry request: name=Core Worker 26375;pid=26375
+[1451125540] wproc: Registry request: name=Core Worker 26374;pid=26374
+[1451125540] wproc: Registry request: name=Core Worker 26373;pid=26373
+[1451125540] Successfully launched command file worker with pid 26377
+[1451125775] Caught SIGTERM, shutting down...
+[1451125775] Successfully shutdown... (PID=26372)
+[1451125775] Event broker module 'NERD' deinitialized successfully.
+[1451125776] Nagios 4.1.1 starting... (PID=26503)
+[1451125776] Local time is Sat Dec 26 15:59:36 IST 2015
+[1451125776] LOG VERSION: 2.0
+[1451125776] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451125776] qh: core query handler registered
+[1451125776] nerd: Channel hostchecks registered successfully
+[1451125776] nerd: Channel servicechecks registered successfully
+[1451125776] nerd: Channel opathchecks registered successfully
+[1451125776] nerd: Fully initialized and ready to rock!
+[1451125776] wproc: Successfully registered manager as @wproc with query handler
+[1451125776] wproc: Registry request: name=Core Worker 26507;pid=26507
+[1451125776] wproc: Registry request: name=Core Worker 26506;pid=26506
+[1451125776] wproc: Registry request: name=Core Worker 26505;pid=26505
+[1451125776] wproc: Registry request: name=Core Worker 26504;pid=26504
+[1451125776] Successfully launched command file worker with pid 26508
+[1451125930] Caught SIGTERM, shutting down...
+[1451125930] Successfully shutdown... (PID=26503)
+[1451125930] Event broker module 'NERD' deinitialized successfully.
+[1451125931] Nagios 4.1.1 starting... (PID=26633)
+[1451125931] Local time is Sat Dec 26 16:02:11 IST 2015
+[1451125931] LOG VERSION: 2.0
+[1451125931] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451125931] qh: core query handler registered
+[1451125931] nerd: Channel hostchecks registered successfully
+[1451125931] nerd: Channel servicechecks registered successfully
+[1451125931] nerd: Channel opathchecks registered successfully
+[1451125931] nerd: Fully initialized and ready to rock!
+[1451125931] wproc: Successfully registered manager as @wproc with query handler
+[1451125931] wproc: Registry request: name=Core Worker 26637;pid=26637
+[1451125931] wproc: Registry request: name=Core Worker 26636;pid=26636
+[1451125931] wproc: Registry request: name=Core Worker 26635;pid=26635
+[1451125931] wproc: Registry request: name=Core Worker 26634;pid=26634
+[1451125931] Successfully launched command file worker with pid 26638
+[1451126115] Caught SIGTERM, shutting down...
+[1451126115] Successfully shutdown... (PID=26633)
+[1451126115] Event broker module 'NERD' deinitialized successfully.
+[1451126116] Nagios 4.1.1 starting... (PID=26754)
+[1451126116] Local time is Sat Dec 26 16:05:16 IST 2015
+[1451126116] LOG VERSION: 2.0
+[1451126116] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451126116] qh: core query handler registered
+[1451126116] nerd: Channel hostchecks registered successfully
+[1451126116] nerd: Channel servicechecks registered successfully
+[1451126116] nerd: Channel opathchecks registered successfully
+[1451126116] nerd: Fully initialized and ready to rock!
+[1451126116] wproc: Successfully registered manager as @wproc with query handler
+[1451126116] wproc: Registry request: name=Core Worker 26755;pid=26755
+[1451126116] wproc: Registry request: name=Core Worker 26756;pid=26756
+[1451126116] wproc: Registry request: name=Core Worker 26757;pid=26757
+[1451126116] wproc: Registry request: name=Core Worker 26758;pid=26758
+[1451126116] Successfully launched command file worker with pid 26759
+[1451126301] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451126299
+[1451126305] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451126304
+[1451126310] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451126309
+[1451126317] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451126316
+[1451126321] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451126320
+[1451126324] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451126323
+[1451126328] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451126327
+[1451127072] Caught SIGTERM, shutting down...
+[1451127072] Successfully shutdown... (PID=26754)
+[1451127072] Event broker module 'NERD' deinitialized successfully.
+[1451127073] Nagios 4.1.1 starting... (PID=27145)
+[1451127073] Local time is Sat Dec 26 16:21:13 IST 2015
+[1451127073] LOG VERSION: 2.0
+[1451127073] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451127073] qh: core query handler registered
+[1451127073] nerd: Channel hostchecks registered successfully
+[1451127073] nerd: Channel servicechecks registered successfully
+[1451127073] nerd: Channel opathchecks registered successfully
+[1451127073] nerd: Fully initialized and ready to rock!
+[1451127073] wproc: Successfully registered manager as @wproc with query handler
+[1451127073] wproc: Registry request: name=Core Worker 27149;pid=27149
+[1451127073] wproc: Registry request: name=Core Worker 27148;pid=27148
+[1451127073] wproc: Registry request: name=Core Worker 27147;pid=27147
+[1451127073] wproc: Registry request: name=Core Worker 27146;pid=27146
+[1451127073] Successfully launched command file worker with pid 27150
+[1451127100] Caught SIGTERM, shutting down...
+[1451127100] Successfully shutdown... (PID=27145)
+[1451127100] Event broker module 'NERD' deinitialized successfully.
+[1451127101] Nagios 4.1.1 starting... (PID=27200)
+[1451127101] Local time is Sat Dec 26 16:21:41 IST 2015
+[1451127101] LOG VERSION: 2.0
+[1451127101] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451127101] qh: core query handler registered
+[1451127101] nerd: Channel hostchecks registered successfully
+[1451127101] nerd: Channel servicechecks registered successfully
+[1451127101] nerd: Channel opathchecks registered successfully
+[1451127101] nerd: Fully initialized and ready to rock!
+[1451127101] wproc: Successfully registered manager as @wproc with query handler
+[1451127101] wproc: Registry request: name=Core Worker 27201;pid=27201
+[1451127101] wproc: Registry request: name=Core Worker 27202;pid=27202
+[1451127101] wproc: Registry request: name=Core Worker 27203;pid=27203
+[1451127101] wproc: Registry request: name=Core Worker 27204;pid=27204
+[1451127101] Successfully launched command file worker with pid 27205
+[1451127427] Caught SIGTERM, shutting down...
+[1451127427] Successfully shutdown... (PID=27200)
+[1451127427] Event broker module 'NERD' deinitialized successfully.
+[1451127429] Nagios 4.1.1 starting... (PID=27453)
+[1451127429] Local time is Sat Dec 26 16:27:09 IST 2015
+[1451127429] LOG VERSION: 2.0
+[1451127429] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451127429] qh: core query handler registered
+[1451127429] nerd: Channel hostchecks registered successfully
+[1451127429] nerd: Channel servicechecks registered successfully
+[1451127429] nerd: Channel opathchecks registered successfully
+[1451127429] nerd: Fully initialized and ready to rock!
+[1451127429] wproc: Successfully registered manager as @wproc with query handler
+[1451127429] wproc: Registry request: name=Core Worker 27457;pid=27457
+[1451127429] wproc: Registry request: name=Core Worker 27456;pid=27456
+[1451127429] wproc: Registry request: name=Core Worker 27455;pid=27455
+[1451127429] wproc: Registry request: name=Core Worker 27454;pid=27454
+[1451127429] Successfully launched command file worker with pid 27458
+[1451127527] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;OK;HARD;3;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1451127527] SERVICE NOTIFICATION: sajal;credr_dev_52.74.244.220;HTTP;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1451127527] SERVICE NOTIFICATION: nagiosadmin;credr_dev_52.74.244.220;HTTP;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.004 second response time
+[1451127527] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;OK;HARD;3;check_nrpe!remote_restart
+[1451127527] wproc: NOTIFY job 1 from worker Core Worker 27454 is a non-check helper but exited with return code 2
+[1451127527] wproc:   host=credr_dev_52.74.244.220; service=HTTP; contact=nagiosadmin
+[1451127527] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1451127527] wproc:   stderr line 01: Send options without primary recipient specified.
+[1451127527] wproc:   stderr line 02: Usage: mail -eiIUdEFntBDNHRV~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+[1451127758] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_dev_52.74.244.220;HTTP;1451127757
+[1451127758] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;1;connect to address 52.74.244.220 and port 80: Connection refused
+[1451127758] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;1;check_nrpe!remote_restart
+[1451127878] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;2;connect to address 52.74.244.220 and port 80: Connection refused
+[1451127878] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;SOFT;2;check_nrpe!remote_restart
+[1451127998] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;CRITICAL;HARD;3;connect to address 52.74.244.220 and port 80: Connection refused
+[1451127998] SERVICE FLAPPING ALERT: credr_dev_52.74.244.220;HTTP;STARTED; Service appears to have started flapping (24.7% change >= 20.0% threshold)
+[1451127998] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;CRITICAL;HARD;3;check_nrpe!remote_restart
+[1451129198] SERVICE ALERT: credr_dev_52.74.244.220;HTTP;OK;HARD;3;HTTP OK: HTTP/1.1 200 OK - 5800 bytes in 0.005 second response time
+[1451129198] SERVICE EVENT HANDLER: credr_dev_52.74.244.220;HTTP;OK;HARD;3;check_nrpe!remote_restart
+[1451131028] Auto-save of retention data completed successfully.
+[1451133277] Caught SIGTERM, shutting down...
+[1451133277] Successfully shutdown... (PID=27453)
+[1451133277] Event broker module 'NERD' deinitialized successfully.
+[1451133278] Nagios 4.1.1 starting... (PID=29419)
+[1451133278] Local time is Sat Dec 26 18:04:38 IST 2015
+[1451133278] LOG VERSION: 2.0
+[1451133278] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451133278] qh: core query handler registered
+[1451133278] nerd: Channel hostchecks registered successfully
+[1451133278] nerd: Channel servicechecks registered successfully
+[1451133278] nerd: Channel opathchecks registered successfully
+[1451133278] nerd: Fully initialized and ready to rock!
+[1451133278] wproc: Successfully registered manager as @wproc with query handler
+[1451133278] wproc: Registry request: name=Core Worker 29423;pid=29423
+[1451133278] wproc: Registry request: name=Core Worker 29422;pid=29422
+[1451133278] wproc: Registry request: name=Core Worker 29421;pid=29421
+[1451133278] wproc: Registry request: name=Core Worker 29420;pid=29420
+[1451133278] Successfully launched command file worker with pid 29424
+[1451133308] HOST ALERT: credr_prod_52.74.247.15;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1451133334] SERVICE ALERT: credr_prod_52.74.247.15;CPU Usage;CRITICAL;SOFT;1;NRPE: Command 'check_cpu' not defined
+[1451133348] SERVICE ALERT: credr_prod_52.74.247.15;Zombie Process;CRITICAL;SOFT;1;NRPE: Command 'check_zombie_procs' not defined
+[1451133364] HOST ALERT: credr_prod_52.74.247.15;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1451133390] SERVICE ALERT: credr_prod_52.74.247.15;Current Load;CRITICAL;SOFT;1;NRPE: Command 'check_load' not defined
+[1451133420] HOST ALERT: credr_prod_52.74.247.15;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1451133446] SERVICE ALERT: credr_prod_52.74.247.15;Current Users;CRITICAL;SOFT;1;NRPE: Command 'check_users' not defined
+[1451133454] SERVICE ALERT: credr_prod_52.74.247.15;CPU Usage;CRITICAL;SOFT;2;NRPE: Command 'check_cpu' not defined
+[1451133468] SERVICE ALERT: credr_prod_52.74.247.15;Zombie Process;CRITICAL;SOFT;2;NRPE: Command 'check_zombie_procs' not defined
+[1451133476] HOST ALERT: credr_prod_52.74.247.15;DOWN;SOFT;4;PING CRITICAL - Packet loss = 100%
+[1451133502] SERVICE ALERT: credr_prod_52.74.247.15;Memory;CRITICAL;SOFT;1;NRPE: Command 'check_mem' not defined
+[1451133510] SERVICE ALERT: credr_prod_52.74.247.15;Current Load;CRITICAL;SOFT;2;NRPE: Command 'check_load' not defined
+[1451133532] HOST ALERT: credr_prod_52.74.247.15;DOWN;SOFT;5;PING CRITICAL - Packet loss = 100%
+[1451133566] SERVICE ALERT: credr_prod_52.74.247.15;Current Users;CRITICAL;SOFT;2;NRPE: Command 'check_users' not defined
+[1451133574] SERVICE ALERT: credr_prod_52.74.247.15;CPU Usage;CRITICAL;HARD;3;NRPE: Command 'check_cpu' not defined
+[1451133588] SERVICE ALERT: credr_prod_52.74.247.15;Zombie Process;CRITICAL;HARD;3;NRPE: Command 'check_zombie_procs' not defined
+[1451133588] HOST ALERT: credr_prod_52.74.247.15;DOWN;SOFT;6;PING CRITICAL - Packet loss = 100%
+[1451133614] SERVICE ALERT: credr_prod_52.74.247.15;Ping Check;CRITICAL;SOFT;1;NRPE: Command 'check_ping' not defined
+[1451133622] SERVICE ALERT: credr_prod_52.74.247.15;Memory;CRITICAL;SOFT;2;NRPE: Command 'check_mem' not defined
+[1451133630] SERVICE ALERT: credr_prod_52.74.247.15;Current Load;CRITICAL;HARD;3;NRPE: Command 'check_load' not defined
+[1451133644] HOST ALERT: credr_prod_52.74.247.15;DOWN;SOFT;7;PING CRITICAL - Packet loss = 100%
+[1451133670] SERVICE ALERT: credr_prod_52.74.247.15;Root Partition;CRITICAL;SOFT;1;NRPE: Command 'check_disk' not defined
+[1451133686] SERVICE ALERT: credr_prod_52.74.247.15;Current Users;CRITICAL;HARD;3;NRPE: Command 'check_users' not defined
+[1451133700] HOST ALERT: credr_prod_52.74.247.15;DOWN;SOFT;8;PING CRITICAL - Packet loss = 100%
+[1451133738] SERVICE ALERT: credr_prod_52.74.247.15;Ping Check;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1451133742] SERVICE ALERT: credr_prod_52.74.247.15;Memory;UNKNOWN;HARD;3;NRPE: Unable to read output
+[1451133756] HOST ALERT: credr_prod_52.74.247.15;DOWN;SOFT;9;PING CRITICAL - Packet loss = 100%
+[1451133782] SERVICE ALERT: credr_prod_52.74.247.15;Supervisor;UNKNOWN;SOFT;1;NRPE: Unable to read output
+[1451133790] SERVICE ALERT: credr_prod_52.74.247.15;Root Partition;OK;SOFT;2;DISK OK - free space: / 86340 MB (89% inode=95%):
+[1451133812] HOST ALERT: credr_prod_52.74.247.15;DOWN;HARD;10;PING CRITICAL - Packet loss = 100%
+[1451133902] SERVICE ALERT: credr_prod_52.74.247.15;Supervisor;UNKNOWN;SOFT;2;NRPE: Unable to read output
+[1451134022] SERVICE ALERT: credr_prod_52.74.247.15;Supervisor;UNKNOWN;HARD;3;NRPE: Unable to read output
+[1451134174] SERVICE ALERT: credr_prod_52.74.247.15;CPU Usage;UNKNOWN;HARD;3;NRPE: Unable to read output
+[1451134188] SERVICE ALERT: credr_prod_52.74.247.15;Zombie Process;OK;HARD;3;PROCS OK: 0 processes with STATE = Z
+[1451134230] SERVICE ALERT: credr_prod_52.74.247.15;Current Load;OK;HARD;3;OK - load average: 1.52, 1.16, 1.02
+[1451134286] SERVICE ALERT: credr_prod_52.74.247.15;Current Users;OK;HARD;3;USERS OK - 4 users currently logged in
+[1451135412] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;CPU Usage;1451135410
+[1451135415] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;CPU Usage;1451135414
+[1451135419] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;CPU Usage;1451135418
+[1451135542] SERVICE ALERT: credr_prod_52.74.247.15;Memory;OK;HARD;3;[MEMORY] Total: 16047 MB - Used: 13887 MB - 86% [SWAP] Total: 0 MB - Used: 0 MB - 0%
+[1451135822] SERVICE ALERT: credr_prod_52.74.247.15;Supervisor;CRITICAL;HARD;3;NRPE: Command 'check_super' not defined
+[1451136048] Caught SIGTERM, shutting down...
+[1451136048] Successfully shutdown... (PID=29419)
+[1451136048] Event broker module 'NERD' deinitialized successfully.
+[1451136049] Nagios 4.1.1 starting... (PID=30257)
+[1451136049] Local time is Sat Dec 26 18:50:49 IST 2015
+[1451136049] LOG VERSION: 2.0
+[1451136049] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451136049] qh: core query handler registered
+[1451136049] nerd: Channel hostchecks registered successfully
+[1451136049] nerd: Channel servicechecks registered successfully
+[1451136049] nerd: Channel opathchecks registered successfully
+[1451136049] nerd: Fully initialized and ready to rock!
+[1451136049] wproc: Successfully registered manager as @wproc with query handler
+[1451136049] wproc: Registry request: name=Core Worker 30261;pid=30261
+[1451136049] wproc: Registry request: name=Core Worker 30260;pid=30260
+[1451136049] wproc: Registry request: name=Core Worker 30259;pid=30259
+[1451136049] wproc: Registry request: name=Core Worker 30258;pid=30258
+[1451136049] Successfully launched command file worker with pid 30262
+[1451136080] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;credr_prod_52.74.247.15;CPU Usage;1451136079
+[1451136082] SERVICE ALERT: credr_prod_52.74.247.15;CPU Usage;WARNING;HARD;3;CPU STATISTICS WARNING : user=46.19% system=1.05%, iowait=0.00%, idle=52.49%, nice=0.00%, steal=0.26%
+[1451136682] SERVICE ALERT: credr_prod_52.74.247.15;CPU Usage;OK;HARD;3;CPU STATISTICS OK : user=26.80% system=1.24%, iowait=0.00%, idle=71.96%, nice=0.00%, steal=0.00%
+[1451136682] SERVICE FLAPPING ALERT: credr_prod_52.74.247.15;CPU Usage;STARTED; Service appears to have started flapping (22.6% change >= 20.0% threshold)
+[1451138105] Caught SIGTERM, shutting down...
+[1451138105] Successfully shutdown... (PID=30257)
+[1451138105] Event broker module 'NERD' deinitialized successfully.
+[1451138106] Nagios 4.1.1 starting... (PID=30921)
+[1451138106] Local time is Sat Dec 26 19:25:06 IST 2015
+[1451138106] LOG VERSION: 2.0
+[1451138106] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1451138106] qh: core query handler registered
+[1451138106] nerd: Channel hostchecks registered successfully
+[1451138106] nerd: Channel servicechecks registered successfully
+[1451138106] nerd: Channel opathchecks registered successfully
+[1451138106] nerd: Fully initialized and ready to rock!
+[1451138106] wproc: Successfully registered manager as @wproc with query handler
+[1451138106] wproc: Registry request: name=Core Worker 30925;pid=30925
+[1451138106] wproc: Registry request: name=Core Worker 30924;pid=30924
+[1451138106] wproc: Registry request: name=Core Worker 30923;pid=30923
+[1451138106] wproc: Registry request: name=Core Worker 30922;pid=30922
+[1451138107] SERVICE FLAPPING ALERT: credr_prod_52.74.247.15;CPU Usage;STARTED; Service appears to have started flapping (21.6% change >= 20.0% threshold)
+[1451138107] Successfully launched command file worker with pid 30926
+[1451141706] Auto-save of retention data completed successfully.
+[1451145306] Auto-save of retention data completed successfully.
+[1451148079] SERVICE FLAPPING ALERT: credr_prod_52.74.247.15;CPU Usage;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)
+[1451148906] Auto-save of retention data completed successfully.
+[1451152506] Auto-save of retention data completed successfully.
